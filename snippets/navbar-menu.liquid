@@ -2,24 +2,20 @@
     {% for link in linklists[section.settings.menu_desktop].links %}
         {% if link.links == blank %}
         <li class="nav-item">
-            <a
-                class="nav-link {% if link.active %}active{% endif %}" 
-                href="{{ link.url }}"
-                aria-current="{% if link.active %}page{% endif %}">
+            <a href="{{ link.url }}" 
+               class="mx-2 nav-link" 
+               target="{% if link.type == 'http_link'%}_black {% endif %}"
+            >
                 {{ link.title }}
             </a>
         </li>
         {% else %}
-            <li class="nav-item dropdown">
-                <a 
-                    class="nav-link dropdown-toggle {% if link.child_active %}active{% endif %}" 
-                    href="#"
-                    data-bs-toggle="dropdown" 
-                    aria-expanded="false"
-                    role="button">
+        <li class="nav-item">
+            <div class="d-inline-block dropdown nav-link">
+                <button class="dropdown-toggle navbar-toggler" type="button" id="custom-id-5lpdcv4k" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                     {{ link.title }}
-                </a>
-                <ul class="dropdown-menu">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="custom-id-5lpdcv4k" id="navbarNavDarkDropdown">
                     {% for child_link in link.links %}
                         <li>
                             <a 
@@ -32,7 +28,8 @@
                         </li>
                     {% endfor %}
                 </ul>
-            </li>
+            </div>
+        </li>
         {% endif %}
     {% endfor %}
 </ul>

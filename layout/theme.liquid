@@ -8,6 +8,13 @@
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    
+	
+
+    {% if request.design_mode != true %}
+        <!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    {% endif %}
 
     {%- unless settings.favicon == blank -%}
         <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: '32', height: '32' }}">
@@ -28,6 +35,7 @@
 
     {{ content_for_header }}
 
+    <link href="{{ 'styles.min.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'vendor-bootstrap.min.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'variables.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'base.css' | asset_url }}" rel="stylesheet">
@@ -37,6 +45,7 @@
     <link href="{{ 'product.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'cart.css' | asset_url }}" rel="stylesheet">
     <link href="{{ 'custom.css' | asset_url }}" rel="stylesheet">
+ 
 
     <script>
         Shopify.money_format = "{{ shop.money_format }}"
@@ -53,8 +62,8 @@
             }
         }
     </script>
-
-    <script src="{{ 'vendor-bootstrap.bundle.min.js' | asset_url }}" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="{{ 'base.js' | asset_url }}" defer></script>
     <script src="{{ 'general.js' | asset_url }}" defer></script>
     <script src="{{ 'search.js' | asset_url }}" defer></script>
@@ -63,6 +72,13 @@
     <script src="{{ 'product.js' | asset_url }}" defer></script>
     <script src="{{ 'cart.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
+    <script src="{{ 'scripts.min.js' | asset_url }}" defer></script>
+
+    {% if request.design_mode == true %}
+        <script>
+            AOS.init({disable: true})
+        </script>
+    {% endif %}
 
 </head>
 
@@ -72,7 +88,6 @@
     </a>
     
     {% liquid 
-        section 'announcement-bar' 
         section 'navbar' 
     %}
 
@@ -81,7 +96,6 @@
     </main>
 
     {% liquid
-        section 'newsletter'
         section 'footer'
     %}
 

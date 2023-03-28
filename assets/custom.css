@@ -1,3 +1,83 @@
 /* 
     Add here your own custom css styles
 */
+
+h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, display-6 {
+    font-stretch: 62%;
+    letter-spacing: 0.1rem !important;
+    font-family: 'ABC Gravity Variable';
+    line-height: 80% !important;
+    font-weight: 300 !important;
+}
+
+
+.text-dark {
+    color:black;
+}
+
+.text-light {
+    color: white;
+}
+
+
+@media (min-width: 768px) {  
+    .w-lg-auto {
+        width: auto;
+    }
+
+    .w-lg-100 {
+        width: 100%;
+
+    }
+    
+    .w-lg-75 {
+
+
+        width: 75%;
+
+    }
+
+    .w-lg-50 {
+            width: 50%;
+    }
+
+    .w-lg-25 {
+        width: 25%;
+    }
+
+}
+
+.btn.rounded-white, .btn.rounded-black, .btn.rounded-gray, .btn.rounded-orange {
+    border-radius: 2.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0 2.5rem;
+    line-height: 2.5rem;
+}
+
+.btn.rounded-white {
+    color: black;
+    background-color: white;
+}
+
+.btn.rounded-orange {
+    color: black;
+    background-color: #FF7300;
+}
+
+.btn.rounded-black {
+    color: white;
+    background-color: black;
+}
+
+.btn.rounded-white.btn-border {
+    border: 1px solid black;
+}
+
+.btn.rounded-orange.btn-border {
+    border: 1px solid black;
+}
+
+.btn.rounded-black.btn-border {
+    border: 1px solid white;
+}

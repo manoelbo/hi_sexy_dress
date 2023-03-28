@@ -1,11 +1,11 @@
 {
   "current": {
-    "color_primary": "#0d6efd",
+    "color_primary": "#000000",
     "color_light": "#f8f9fa",
     "color_body_bg": "#ffffff",
     "color_body_text": "#212529",
     "font_headings": "roboto_n5",
-    "font_body": "sans-serif",
+    "font_body": "montserrat_n4",
     "social_facebook": "#",
     "social_twitter": "#",
     "social_instagram": "#",
@@ -36,14 +36,15 @@
         "type": "navbar",
         "settings": {
           "bg_color": "bg-white text-dark",
-          "shadow": "shadow-sm",
-          "menu_desktop": "dropdown-menu",
-          "logo_height_mobile": 40,
-          "logo_height_desktop": 40,
+          "shadow": "shadow-none",
+          "menu_desktop": "main-menu",
+          "logo": "shopify:\/\/shop_images\/HI_Primary_Logotype_Black_cedf3a6e-c199-4b9a-a71b-75d1a8f47ee0.png",
+          "logo_height_mobile": 32,
+          "logo_height_desktop": 20,
           "offcanvas_menu_header_bg": "bg-dark text-white",
-          "menu_mobile": "dropdown-menu",
-          "utilities_menu": "utilities-menu",
-          "offcanvas_menu_show_social_icons": true,
+          "menu_mobile": "menu-mobile",
+          "utilities_menu": "",
+          "offcanvas_menu_show_social_icons": false,
           "pt": 3,
           "pb": 3
         }
@@ -54,7 +55,7 @@
           "738cdbe4-d453-45ea-8940-aed81d08bf3b": {
             "type": "menu",
             "settings": {
-              "menu": "shop",
+              "menu": "",
               "title": "Shop",
               "title_size": "h6"
             }
@@ -62,7 +63,7 @@
           "ac3b4c00-f362-4697-b848-3957315b3c61": {
             "type": "menu",
             "settings": {
-              "menu": "company",
+              "menu": "",
               "title": "Company",
               "title_size": "h6"
             }
@@ -144,6 +145,8 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   }
 }

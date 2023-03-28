@@ -3,7 +3,85 @@
     assign pb = section.settings.pb | prepend: 'pb-'
 %}
 
-<nav 
+
+<nav class="bg-bg-3 sticky-top py-4 py-lg-7">
+    <div class="d-block d-lg-none">
+    	<div class="container">
+           
+            <div class="row align-items-center">
+               
+                <div class="col-3 align-items-center">
+                    
+                    <a class="btn menu-svg align-items-center  d-lg-none rounded-circle custom-mobile-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#custom-id-6bpgnnnz">
+                        <svg width="20" height="20" viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
+                            </path>
+                        </svg>
+            
+                    </a>
+                </div>
+                <div class="col-6 text-center menu-img">
+                    <a href="#">
+                        {% if section.settings.logo %}
+                            <img
+                                class="img-fluid"
+                                src="{{ section.settings.logo | image_url }}" 
+                                alt="{{ shop.name }}"
+                                loading="lazy">
+                        {% else %}
+                            <span class="fs-3">
+                                {{ shop.name }}
+                            </span>
+                        {% endif %}						
+                    </a>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+        </div>
+    </div>
+    {% render 'offcanvas-menu' %}
+
+    <div class="d-none d-lg-block">
+        <div class="container-xxl">
+            <div class="row justify-content-start align-items-center">
+                <div class="col-12  d-flex justify-content-between align-items-center">
+                    <div class="d-flex justify-content-start align-items-center">
+                    
+                        <a href="#">
+                            {% if section.settings.logo %}
+                                <img
+                                    class="img-fluid"
+                                    src="{{ section.settings.logo | image_url }}" 
+                                    alt="{{ shop.name }}"
+                                    loading="lazy">
+                            {% else %}
+                                <span class="fs-3">
+                                    {{ shop.name }}
+                                </span>
+                            {% endif %}						
+                        </a>
+                        <div class="ps-12">
+                        {% render 'navbar-menu' %}
+                        </div>
+                    </div>
+                    <a href="#" class="float-end">
+                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1">
+                            <path d="M21.0733 6.71L18.2096 3.88C17.6409 3.31723 16.8692 3.0007 16.0644 3H9.64892C8.84407 3.0007 8.07244 3.31723 7.50368 3.88L4.63999 6.71C4.07052 7.27207 3.75022 8.03462 3.74951 8.83V18C3.74951 18.7956 4.06935 19.5587 4.63865 20.1213C5.20796 20.6839 5.9801 21 6.78523 21H18.9281C19.7332 21 20.5054 20.6839 21.0747 20.1213C21.644 19.5587 21.9638 18.7956 21.9638 18V8.83C21.9631 8.03462 21.6428 7.27207 21.0733 6.71ZM8.93046 5.29C9.12438 5.10727 9.381 5.00368 9.64892 5H16.0644C16.3323 5.00368 16.5889 5.10727 16.7828 5.29L18.5132 7H7.20011L8.93046 5.29ZM18.9281 19H6.78523C6.51685 19 6.25947 18.8946 6.0697 18.7071C5.87993 18.5196 5.77332 18.2652 5.77332 18V9H19.94V18C19.94 18.2652 19.8334 18.5196 19.6436 18.7071C19.4538 18.8946 19.1965 19 18.9281 19Z" fill="#231F20">
+                            </path>
+                            <path d="M15.8919 11C15.6236 11 15.3662 11.1054 15.1764 11.2929C14.9866 11.4804 14.88 11.7348 14.88 12C14.88 12.5304 14.6668 13.0391 14.2873 13.4142C13.9077 13.7893 13.393 14 12.8562 14C12.3195 14 11.8047 13.7893 11.4252 13.4142C11.0456 13.0391 10.8324 12.5304 10.8324 12C10.8324 11.7348 10.7258 11.4804 10.536 11.2929C10.3463 11.1054 10.0889 11 9.8205 11C9.55212 11 9.29474 11.1054 9.10497 11.2929C8.91521 11.4804 8.80859 11.7348 8.80859 12C8.80859 13.0609 9.23504 14.0783 9.99411 14.8284C10.7532 15.5786 11.7827 16 12.8562 16C13.9297 16 14.9592 15.5786 15.7183 14.8284C16.4774 14.0783 16.9038 13.0609 16.9038 12C16.9038 11.7348 16.7972 11.4804 16.6075 11.2929C16.4177 11.1054 16.1603 11 15.8919 11Z" fill="#231F20">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+{% comment %} <nav 
     id="navbar-mobile" 
     class="navbar d-lg-none {{ section.settings.bg_color }} {{ section.settings.shadow }} {{ pt }} {{ pb }}">
     <div class="container">
@@ -129,11 +207,11 @@
             </div>
         </div>
     </div>
-</nav>
+</nav> {% endcomment %}
 
-{% render 'offcanvas-menu' %}
+{% comment %} {% render 'offcanvas-menu' %} {% endcomment %}
 
-<script type="application/ld+json">
+{% comment %} <script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "Organization",
@@ -154,9 +232,9 @@
         ],
         "url": {{ request.origin | append: page.url | json }}
     }
-</script>
+</script> {% endcomment %}
   
-{%- if request.page_type == 'index' -%}
+{% comment %} {%- if request.page_type == 'index' -%}
     {% assign potential_action_target = request.origin | append: routes.search_url | append: "?q={search_term_string}" %}
     <script type="application/ld+json">
         {
@@ -171,7 +249,7 @@
             "url": {{ request.origin | append: page.url | json }}
         }
     </script>
-{%- endif -%}
+{%- endif -%} {% endcomment %}
 
 {% schema %}
 {
