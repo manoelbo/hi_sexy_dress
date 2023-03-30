@@ -1,59 +1,44 @@
-<header 
-    class="bg-size-cover bg-position-center position-relative" 
-    
-    {% if section.settings.bg_gradient != blank %} 
-    style="background: {{ section.settings.bg_gradient }}"
-    {% else %}
-    style="background-color: {{section.settings.bg_color }}"
-    {% endif %}
-    
->
-    {% comment %} <div class="top-0 start-0 bottom-0 end-0 zi-0 opacity-{{ section.settings.overlay_opacity }} bg-bg-1 w-100 h-100 position-absolute mw-100 mh-100">
-    </div> {% endcomment %}
-    <div class="position-relative zi-1 text-xl-start container-fluid">
-        <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
-            <div class="col-lg-12">
-                <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}} ">
-                    {% if section.settings.layout-align == 'left' %}
-                        <div class="col-lg-6 bg-size-cover bg-position-center d-none  d-lg-block" data-aos="fade-down" data-aos-delay="250" {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}" {% else %%} data-bg-src="https://cdn.shopify.com/s/files/1/0729/7944/8111/files/R0004196.jpg?v=1679864058"{% endif %}>
-                        </div>
+<section>
+    <div class="container-fluid">
+        <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
+            {% for block in section.blocks %}
+            <div 
+                class="d-flex g-0 {{ section.settings.layout }}  bg-size-cover card-fluid" 
+                data-aos="fade-down" 
+                {% if block.settings.bg_gradient != blank %} style="background: {{ block.settings.bg_gradient }}"{% else %}style="background-color: {{ block.settings.bg_color }}"{% endif %}
+                {% if block.settings.bg_image != blank %} data-bg-src="{{ block.settings.bg_image | image_url }}" {% endif %}
+                data-aos-delay="{{ 100 | times: forloop.index | plus: 250 }}">
+                {% if block.settings.bg_image == blank %}
+                                       
+             
+                <a  href="{{ block.settings.url }}"
+                    target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
+                    class="w-100 px-lg-12 px-md-4 px-4 mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
+                    
+                    {% if block.settings.header != blank %}
+                        <p class="text-decoration-underline text-uppercase fw-bold {{block.settings.font_color}} {{section.settings.font_color}}text-uppercase {{section.settings.header_size}}">
+                            {{ block.settings.header }}
+                        </p>
                     {% endif %}
-                    <div class="col-lg-6">
-                        <div class="{% if section.settings.default_spacing != true %} py-12 py-md-14 py-lg-16 py-xl-18 py-xxl-20 {% endif %} px-lg-12 px-md-4">
-                            <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
-                                {% if section.settings.title != blank %}
-                                    <h1 class="mb-6 {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
-                                        {{ section.settings.title }}
-                                    </h1>
-                                {% endif %}
-                                {% if section.settings.text != blank %}
-                                <p class="mb-8 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
-                                    {{ section.settings.text }}                            
-                                </p>
-                                {% endif %}
-                                {% for block in section.blocks %}
-                                <a href="{{ block.settings.url }}" 
-                                    class="btn {{ block.settings.style }} btn-border me-2 mb-3" 
-                                    data-aos="fade-down" 
-                                    target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
-                                    data-aos-delay="{{ 100 | times: forloop.index | plus: 350 }}" >
-                                    
-                                    {{ block.settings.text }} 
-                                </a>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                    {% if section.settings.layout-align == 'right' %}
-                        <div class="col-lg-6 bg-size-cover bg-position-center d-none  d-lg-block" data-aos="fade-down" data-aos-delay="250" {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}" {% else %%} data-bg-src="https://cdn.shopify.com/s/files/1/0729/7944/8111/files/R0004196.jpg?v=1679864058"{% endif %}>
-                        </div>
+
+                    {% if block.settings.title != blank %}
+                        <h2 class="mb-4 text-uppercase {{block.settings.font_color}} {{section.settings.title_size}}">
+                            {{ block.settings.title }}
+                        </h2>
                     {% endif %}
-                    </div>
-                </div>
+                    {% if block.settings.text != blank %}
+                        <p class="mb-0 remove-br-lg  {{block.settings.font_color}} {{section.settings.text_size}}">
+                            {{ block.settings.text }}
+                        </p>
+                    {% endif %}
+
+                </a>
+                {% endif %}
             </div>
+            {% endfor %}
         </div>
     </div>
-</header>
+</section>
 
 {% schema %}
 {
@@ -61,59 +46,40 @@
   "settings": [
     {
         "type": "header",
-        "content": "Content"
-    },
-    {
-        "type": "textarea",
-        "id": "title",
-        "label": "Title",
-        "default": "COCRIANDO FUTUROS 2"
-    },
-    {
-        "type": "textarea",
-        "id": "text",
-        "label": "Text",
-        "default": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis."
-    },
-    {
-        "type": "header",
-        "content": "Background Style"
-    },
-    {
-        "type": "color",
-        "id": "bg_color",
-        "label": "Backgorund Color",
-        "default": "#E3DFD3"
-    },
-    {
-        "type": "color_background",
-        "id": "bg_gradient",
-        "label": "Backgorund Gradient"
-    },
-    {
-        "type": "image_picker",
-        "id": "bg_image",
-        "label": "Backgorund Image"
-    },
-    {
-        "type": "header",
         "content": "Typography Style"
     },
     {
         "type": "select",
-        "id": "font_color",
-        "label": "Font Color Options",
+        "id": "header_size",
+        "label": "Header Font Size",
         "options": [
             {
-                "value": "text-dark",
-                "label": "Dark"
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
               },
             {
-                "value": "text-light",
-                "label": "White"
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
             }
+
         ],
-        "default": "text-dark"
+        "default": "fs-6"
     },
     {
         "type": "select",
@@ -146,7 +112,7 @@
             }
 
         ],
-        "default": "display-1"
+        "default": "display-4"
     },
     {
         "type": "select",
@@ -179,7 +145,7 @@
             }
 
         ],
-        "default": "fs-4"
+        "default": "fs-5"
     },
     {
         "type": "header",
@@ -187,20 +153,19 @@
     },
     {
         "type": "select",
-        "id": "layout-align",
-        "label": "Image Position",
+        "id": "layout",
+        "label": "Columns Layout (Desktop)",
         "options": [
             {
-                "value": "left",
-                "label": "Left"
+                "value": "col-lg-6",
+                "label": "2 Columns"
                 },
             {
-                "value": "right",
-                "label": "Right"
+                "value": "col-lg-4",
+                "label": "3 Columns"
             }
-
         ],
-        "default": "right"
+        "default": "col-lg-6"
     },
     {
         "type": "select",
@@ -214,10 +179,6 @@
             {
                 "value": "text-lg-center",
                 "label": "Center"
-            },
-            {
-                "value": "text-lg-right",
-                "label": "Right"
             }
         ],
         "default": "text-lg-left"
@@ -234,50 +195,13 @@
             {
                 "value": "text-xs-center",
                 "label": "Center"
-            },
-            {
-                "value": "text-xs-right",
-                "label": "Right"
             }
         ],
         "default": "text-xs-left"
     },
     {
-        "type": "select",
-        "id": "content_width",
-        "label": "Content Width (Desktop)",
-        "options": [
-            {
-                "value": "w-lg-auto",
-                "label": "auto"
-            },
-            {
-                "value": "w-lg-100",
-                "label": "100%"
-            },
-            {
-                "value": "w-lg-75",
-                "label": "75%"
-            },
-            {
-                "value": "w-lg-50",
-                "label": "50%"
-            },
-            {
-                "value": "w-lg-25",
-                "label": "25%"
-            }
-        ],
-        "default": "w-lg-auto"
-    },
-    {
         "type": "header",
         "content": "Spacing (General)"
-    },
-    {
-        "type": "checkbox",
-        "id": "default_spacing",
-        "label": "Remove Default Spacing"
     },
     {
         "type": "header",
@@ -290,7 +214,7 @@
         "min": 0,
         "max": 20,
         "step": 1,
-        "default": 0
+        "default": 18
     },
     {
         "type": "range",
@@ -299,7 +223,7 @@
         "min": 0,
         "max": 20,
         "step": 1,
-        "default": 0
+        "default": 17
     },
     {
         "type": "range",
@@ -330,7 +254,7 @@
         "min": 0,
         "max": 20,
         "step": 1,
-        "default": 0
+        "default": 14
     },
     {
         "type": "range",
@@ -339,7 +263,7 @@
         "min": 0,
         "max": 20,
         "step": 1,
-        "default": 0
+        "default": 12
     },
     {
         "type": "range",
@@ -370,7 +294,7 @@
         "min": 0,
         "max": 20,
         "step": 1,
-        "default": 0
+        "default": 8
     },
     {
         "type": "range",
@@ -379,7 +303,7 @@
         "min": 0,
         "max": 20,
         "step": 1,
-        "default": 0
+        "default": 8
     },
     {
         "type": "range",
@@ -403,14 +327,26 @@
   ],
   "blocks": [
     {
-        "type": "button",
-        "name": "Button",
+        "type": "card",
+        "name": "Card",
         "settings": [
             {
                 "type": "text",
+                "id": "header",
+                "label": "Card Header",
+                "default": "Para Empresas"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "title",
+                "label": "Card Title",
+                "default": "Nossos Cursos"
+            },
+            {
+                "type": "inline_richtext",
                 "id": "text",
-                "label": "Button Text",
-                "default": "Call to Action"
+                "label": "Card Text",
+                "default": "Para Empresas"
             },
             {
                 "type": "url",
@@ -424,43 +360,67 @@
                 "label": "Open In a New Tab"
             },
             {
+                "type": "header",
+                "content": "Card Style"
+            },
+            {
                 "type": "select",
-                "id": "style",
-                "label": "Button Style",
+                "id": "font_color",
+                "label": "Font Color Options",
                 "options": [
                     {
-                        "value": "rounded-orange",
-                        "label": "Rounded Orange"
+                        "value": "text-dark",
+                        "label": "Dark"
                       },
                     {
-                        "value": "rounded-black",
-                        "label": "Rounded Black"
-                    },
-                    {
-                        "value": "rounded-white",
-                        "label": "Rounded White"
-                    },
-                    {
-                        "value": "rounded-orange btn-border",
-                        "label": "Rounded Orange Border"
-                      },
-                    {
-                        "value": "rounded-black btn-border",
-                        "label": "Rounded Black Border"
-                    },
-                    {
-                        "value": "rounded-white btn-border",
-                        "label": "Rounded White Border"
+                        "value": "text-light",
+                        "label": "White"
                     }
-
                 ],
-                "default": "rounded-white"
+                "default": "text-dark"
+            },
+            {
+                "type": "color",
+                "id": "bg_color",
+                "label": "Backgorund Color",
+                "default": "#E3DFD3"
+            },
+            {
+                "type": "color_background",
+                "id": "bg_gradient",
+                "label": "Backgorund Gradient"
+            },
+            {
+                "type": "image_picker",
+                "id": "bg_image",
+                "label": "Backgorund Image"
             }
         ]
     }
     ],
-  "presets": [{
-    "name": "Cards Fluid"
+    "presets": [{
+        "name": "Cards Fluid",
+        "blocks": [
+            {
+                "type": "card",
+                "settings": {
+                    "header": "PARA A SUA EMPRESA",
+                    "title": "BUSINESS TRANSFORMATION",
+                    "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+                    "bg_color": "#F3F0ED"
+                }
+            },
+            {
+                "type": "card",
+                "settings": {
+                    "header": "PARA VOCÊ",
+                    "title": "NOSSOS CURSOS",
+                    "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+                    "bg_color": "#E3DFD3"
+                    
+                }
+            }
+        ]
   }]
 }
 {% endschema %} 

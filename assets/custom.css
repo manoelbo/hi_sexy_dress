@@ -4,12 +4,25 @@
 
 h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, display-6 {
     font-stretch: 62%;
-    letter-spacing: 0.1rem !important;
+    letter-spacing: 1px !important;
     font-family: 'ABC Gravity Variable';
     line-height: 80% !important;
     font-weight: 300 !important;
+    
 }
 
+.content-container {
+    height: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.card-fluid:hover h2, .card:hover p {
+    zoom: 1.2;
+}
 
 .text-dark {
     color:black;
@@ -21,27 +34,39 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
 
 
 @media (min-width: 768px) {  
-    .w-lg-auto {
+    .text-lg-center .w-lg-auto {
         width: auto;
     }
 
-    .w-lg-100 {
+    .text-lg-center .w-lg-100 {
         width: 100%;
 
     }
     
-    .w-lg-75 {
+    .text-lg-center .w-lg-75 {
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+    }
 
+    .text-lg-center .w-lg-50 {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
 
+    .text-lg-center .w-lg-25 {
+        padding-left: 37.5%;
+        padding-right: 37.5%;
+    }
+
+    .text-lg-left .w-lg-75 {
         width: 75%;
-
     }
 
-    .w-lg-50 {
-            width: 50%;
+    .text-lg-left .w-lg-50 {
+        width: 50%;
     }
 
-    .w-lg-25 {
+    .text-lg-left .w-lg-25 {
         width: 25%;
     }
 

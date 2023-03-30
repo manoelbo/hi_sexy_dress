@@ -21,8 +21,9 @@
                     <div class="col-lg-6">
                         <div class="{% if section.settings.default_spacing != true %} py-12 py-md-14 py-lg-16 py-xl-18 py-xxl-20 {% endif %} px-lg-12 px-md-4">
                             <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
+
                                 {% if section.settings.title != blank %}
-                                    <h1 class="mb-6 {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
+                                    <h1 class="mb-6 text-uppercase {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
                                         {{ section.settings.title }}
                                     </h1>
                                 {% endif %}
@@ -64,13 +65,13 @@
         "content": "Content"
     },
     {
-        "type": "textarea",
+        "type": "inline_richtext",
         "id": "title",
         "label": "Title",
         "default": "COCRIANDO FUTUROS 2"
     },
     {
-        "type": "textarea",
+        "type": "inline_richtext",
         "id": "text",
         "label": "Text",
         "default": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis."
@@ -214,10 +215,6 @@
             {
                 "value": "text-lg-center",
                 "label": "Center"
-            },
-            {
-                "value": "text-lg-right",
-                "label": "Right"
             }
         ],
         "default": "text-lg-left"
@@ -234,10 +231,6 @@
             {
                 "value": "text-xs-center",
                 "label": "Center"
-            },
-            {
-                "value": "text-xs-right",
-                "label": "Right"
             }
         ],
         "default": "text-xs-left"
