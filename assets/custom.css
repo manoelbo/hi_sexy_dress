@@ -11,6 +11,45 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
     
 }
 
+a.click-card:hover {
+    opacity: 1 !important;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+a.click-card {
+    transition-delay: 1s;
+}
+
+.hyper-card image {
+    max-width: 100%;
+}
+
+.card-top, .click-card {
+    height: 100%;
+}
+.hyper-card {
+    border: 1px solid black;
+}
+
+.hyper-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hyper-card-content {
+    padding: 1.25rem 2rem;
+}
+
+.display-8 {
+    font-size: 1.875rem;
+}
+
+.fs-7 {
+    font-size: .75rem;
+}
+
 .content-container {
     height: 100%;
 }
@@ -90,7 +129,7 @@ a {
     background-color: #FF7300;
 }
 
-.btn.rounded-black {
+.btn.rounded-black, .btn.rounded-white.active {
     color: white;
     background-color: black;
 }

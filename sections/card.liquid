@@ -5,7 +5,6 @@
     {% else %}
     style="background-color: {{section.settings.bg_color }}"
     {% endif %}
-    
 >
 
     <div class="position-relative zi-1 text-xl-start container">
@@ -24,12 +23,12 @@
                                     </p>
                                 {% endif %}
                                 {% if section.settings.title != blank %}
-                                    <h1 class="mb-6 {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
+                                    <h3 class="mb-6 {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
                                         {{ section.settings.title }}
-                                    </h1>
+                                    </h3>
                                 {% endif %}
                                 {% if section.settings.text != blank %}
-                                <p class="pb-0 mb-0 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
+                            <p class="pb-0 mb-0 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
                                     {{ section.settings.text }}                            
                                 </p>
                             {% endif %}
@@ -39,49 +38,75 @@
                 </div>
             </div>
         {% endif %}
-        <div class="row my-lg-{{ section.settings.my_lg }} my-{{ section.settings.my_xs }}">
+        <div class=row>
+            <div class="col-12 text-center">
             {% for block in section.blocks %}
-            <div class="{{ section.settings.layout }} {{section.settings.content_align_desktop}} {{section.settings.content_align_mobile}} mb-4 mb-lg-8">               
-                <div 
-                    class="content-container mx-lg-{{ section.settings.mx_lg }}  px-lg-{{ section.settings.px_lg }} py-lg-{{ section.settings.py_lg }} mx-{{ section.settings.mx_xs }}  px-{{ section.settings.px_xs }} py-{{ section.settings.py_xs }}"
-                    {% if block.settings.bg_color != blank or block.settings.bg_gradient != blank %}
-                    style="background: {{ block.settings.bg_gradient }}; background-color: {{ block.settings.bg_color }}"
-                    {% else %}
-                    style="background: {{ section.settings.c_bg_gradient }}; background-color: {{ section.settings.c_bg_color }}"
-                    {% endif %}my-lg-{{ section.settings.my_lg }}
-                    data-aos="fade-down" data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}"
-                >     
-                    {% if block.settings.svg != blank %}
-                        {{ block.settings.svg }}
-                    {% endif %}
-                    {% if block.settings.header != blank %}
-                        <p class="text-decoration-underline text-uppercase fw-bold  {{section.settings.c_font_color}}  text-uppercase {{ section.settings.c_header_size}}">
-                            {{ block.settings.header }}
-                        </p>
-                    {% endif %}
-                    {% if block.settings.title != blank %}
-                        <h1 class="mb-6 {{section.settings.c_font_color}} {{section.settings.c_title_size}}">
-                            {{ block.settings.title }}
-                        </h1>
-                    {% endif %}
-                    {% if block.settings.text != blank %}
-                    <p class="pb-0 mb-0 {{section.settings.c_text_size}} {{section.settings.c_font_color}}">
-                        {{ block.settings.text }}                            
-                    </p>
-                    {% endif %}    
-                </div>
+                {% if block.type == "category" %}
+                    <a href=""  onclick="return false;"
+                        id="{{ block.settings.id }}"
+                        class="btn-category btn rounded-white btn-border btn-border me-2 mb-10 {% if block.settings.active == true %}active{% endif %}" 
+                        data-aos="fade-down" 
+                        target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
+                        data-aos-delay="{{ 100 | times: forloop.index | plus: 100 }}" >
+                        
+                         {{ block.settings.category }} 
+                     </a>
+                {% endif %}
+            {% endfor %}
             </div>
+        </div>
+        <div class="row justify-content-md-center">
+            {% for block in section.blocks %}
+            {% if block.type == "card" %}
+            <div id="{{ block.settings.category_id }}"class="{{ section.settings.layout }} category-card" data-aos="fade-down" data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}">
+                {% if block.settings.url != blank %}    
+                <a  href="{{ block.settings.url }} "
+                    target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
+                    class="click-card text-center pb-4 pb-lg-8">
+                {% else %}
+                <div class="text-center card-top pb-4 pb-lg-8">
+                {% endif %}
+                    <div 
+                        class="content-container  hyper-card "
+                        
+                    >    
+                        {% if block.settings.img != blank %}
+                            {{ block.settings.img | image_url: width: 600 | image_tag }}
+                            {% comment %} <img src="{{ block.settings.img | image_url }}" width="600" height="350" loading="lazy"/> {% endcomment %}
+                        {% endif %}
+
+                        <div class="hyper-card-content"> 
+                            {% if block.settings.title != blank %}
+                                <h1 class="mb-6 display-8">
+                                    {{ block.settings.title }}
+                                </h1>
+                            {% endif %}
+                            {% if block.settings.text != blank %}
+                            <p class="pb-0 fs-7 mb-0">
+                                {{ block.settings.text }}                            
+                            </p>
+                        
+                            {% endif %}    
+                        </div>
+                    </div>
+                {% if block.settings.url != blank %}   
+                </a>
+                {% else %}
+                </div>
+                {% endif %}
+            </div>
+        {% endif %}
         {% endfor %}
     </div>
 </section>
 
 {% schema %}
 {
-  "name": "Content Section",
+  "name": "Card Section",
   "settings": [
     {
         "type": "header",
-        "content": "Content Header"
+        "content": "Section Header"
     },
     {
         "type": "checkbox",
@@ -314,143 +339,9 @@
         "default": "w-lg-auto"
     },
     {
-        "type": "header",
-        "content": "Content Typography Style"
-    },
-   
-    {
-        "type": "select",
-        "id": "c_font_color",
-        "label": "Font Color Options",
-        "options": [
-            {
-                "value": "text-dark",
-                "label": "Dark"
-              },
-            {
-                "value": "text-light",
-                "label": "White"
-            }
-        ],
-        "default": "text-dark"
-    },
-    {
-        "type": "select",
-        "id": "c_title_size",
-        "label": "Title Font Size",
-        "options": [
-            {
-                "value": "display-1",
-                "label": "5.5 rem (88px)"
-              },
-            {
-                "value": "display-2",
-                "label": "5 rem (80px)"
-            },
-            {
-                "value": "display-3",
-                "label": "4.5 rem (72px)"
-            },
-            {
-                "value": "display-4",
-                "label": "3.75 rem (60px)"
-            },
-            {
-                "value": "display-5",
-                "label": "3 rem (48px)"
-            },
-            {
-                "value": "display-6",
-                "label": "2.5 rem (40px)"
-            }
-
-        ],
-        "default": "display-4"
-    },
-    {
-        "type": "select",
-        "id": "c_text_size",
-        "label": "Text Font Size",
-        "options": [
-            {
-                "value": "fs-1",
-                "label": "1.5 rem (24px)"
-              },
-            {
-                "value": "fs-2",
-                "label": "1.375 rem (22px)"
-            },
-            {
-                "value": "fs-3",
-                "label": "1.25 rem (20px)"
-            },
-            {
-                "value": "fs-4",
-                "label": "1.125 rem (18px)"
-            },
-            {
-                "value": "fs-5",
-                "label": "0.875 rem (14px)"
-            },
-            {
-                "value": "fs-6",
-                "label": "0.75 rem (12px)"
-            }
-
-        ],
-        "default": "fs-4"
-    },
-    {
-        "type": "select",
-        "id": "c_header_size",
-        "label": "Subtitle Size",
-        "options": [
-            {
-                "value": "fs-1",
-                "label": "1.5 rem (24px)"
-              },
-            {
-                "value": "fs-2",
-                "label": "1.375 rem (22px)"
-            },
-            {
-                "value": "fs-3",
-                "label": "1.25 rem (20px)"
-            },
-            {
-                "value": "fs-4",
-                "label": "1.125 rem (18px)"
-            },
-            {
-                "value": "fs-5",
-                "label": "0.875 rem (14px)"
-            },
-            {
-                "value": "fs-6",
-                "label": "0.75 rem (12px)"
-            }
-
-        ],
-        "default": "fs-6"
-    },
-    {
-        "type": "header",
-        "content": "Content Layout Settings"
-    },
-    {
-        "type": "color",
-        "id": "c_bg_color",
-        "label": "Content Background Color"
-    },
-    {
-        "type": "color_background",
-        "id": "c_bg_gradient",
-        "label": "Contnet Backgorund Gradient"
-    },
-    {
         "type": "select",
         "id": "layout",
-        "label": "Content Columns Layout (Desktop)",
+        "label": "Card Columns Layout (Desktop)",
         "options": [
             {
                 "value": "col-md-12",
@@ -465,43 +356,11 @@
                 "label": "Three Columns"
             },
             {
-                "value": "col-lg-3",
+                "value": "col-lg-3 col-md-6",
                 "label": "Four Columns"
             }
         ],
-        "default": "col-md-6"
-    },
-    {
-        "type": "select",
-        "id": "content_align_desktop",
-        "label": "Content Align (Desktop)",
-        "options": [
-            {
-                "value": "text-lg-left",
-                "label": "Left"
-                },
-            {
-                "value": "text-lg-center",
-                "label": "Center"
-            }
-        ],
-        "default": "text-lg-center"
-    },
-    {
-        "type": "select",
-        "id": "content_align_mobile",
-        "label": "Content Align (Mobile)",
-        "options": [
-            {
-                "value": "text-left",
-                "label": "Left"
-                },
-            {
-                "value": "text-center",
-                "label": "Center"
-            }
-        ],
-        "default": "text-left"
+        "default": "col-lg-3 col-md-6"
     },
     {
         "type": "header",
@@ -631,142 +490,79 @@
         "max": 20,
         "step": 1,
         "default": 0
-    },
-    {
-        "type": "header",
-        "content": "Spacing Content (Desktop)"
-    },
-    {
-        "type": "range",
-        "id": "py_lg",
-        "label": "Extra Padding Top Bottom",
-        "min": 0,
-        "max": 20,
-        "step": 1,
-        "default": 0
-    },
-    {
-        "type": "range",
-        "id": "px_lg",
-        "label": "Extra Padding Left Right",
-        "min": 0,
-        "max": 20,
-        "step": 1,
-        "default": 0
-    },
-    {
-        "type": "range",
-        "id": "my_lg",
-        "label": "Extra Margin Top Bottom",
-        "min": 0,
-        "max": 20,
-        "step": 1,
-        "default": 0
-    },
-    {
-        "type": "range",
-        "id": "mx_lg",
-        "label": "Extra Margin Left Right",
-        "min": 0,
-        "max": 20,
-        "step": 1,
-        "default": 0
-    },
-    {
-        "type": "header",
-        "content": "Spacing Content (Mobile)"
-    },
-    {
-        "type": "range",
-        "id": "py_xs",
-        "label": "Extra Padding Top Bottom",
-        "min": 0,
-        "max": 20,
-        "step": 1,
-        "default": 0
-    },
-    {
-        "type": "range",
-        "id": "px_xs",
-        "label": "Extra Padding Left Right",
-        "min": 0,
-        "max": 20,
-        "step": 1,
-        "default": 0
-    },
-    {
-        "type": "range",
-        "id": "my_xs",
-        "label": "Extra Margin Top Bottom",
-        "min": 0,
-        "max": 20,
-        "step": 1,
-        "default": 0
-    },
-    {
-        "type": "range",
-        "id": "mx_xs",
-        "label": "Extra Margin Left Right",
-        "min": 0,
-        "max": 20,
-        "step": 1,
-        "default": 0
     }
   ],
   "blocks": [
     {
-        "type": "content",
-        "name": "Content",
+        "type": "category",
+        "name": "Category",
+        "settings": [
+            {
+                "type": "checkbox",
+                "label": "Active Category", 
+                "id": "active"
+            },
+            {
+                "type": "text",
+                "label": "Category Text", 
+                "id": "category",
+                "default": "Liderança e Cultura"
+            },
+            {
+                "type": "text",
+                "label": "Category ID", 
+                "id": "id",
+                "default": "leadership"
+            }
+        ]
+
+    },
+    {
+        "type": "card",
+        "name": "Card",
         "settings": [
             {
                 "type": "header",
-                "content": "Content"
+                "content": "Card Content"
+            },
+            {
+                "type": "image_picker",
+                "label": "Card Image", 
+                "id": "img"
+            },
+            {
+                "type": "text",
+                "label": "Category Id", 
+                "id": "category_id"
             },
             {
                 "type": "inline_richtext",
                 "id": "title",
                 "label": "Title",
-                "default": "About Hyper with numbers"
+                "default": "Criatividade Aplicada"
             },
             {
                 "type": "inline_richtext",
                 "id": "text",
                 "label": "Text",
-                "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla."
-            },     
+                "default": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo."
+            }, 
             {
-                "type": "header",
-                "content": "Content Options"
+                "type": "url",
+                "id": "url",
+                "label": "Buttom Link"
+
             },
             {
-                "type": "text",
-                "id": "header",
-                "label": "Subtitle"
-            },
-            {
-                "type": "html",
-                "id": "svg",
-                "label": "SVG Icon"
-            },
-            {
-                "type": "header",
-                "content": "Background Style"
-            },
-            {
-                "type": "color",
-                "id": "bg_color",
-                "label": "Backgorund Color"
-            },
-            {
-                "type": "color_background",
-                "id": "bg_gradient",
-                "label": "Backgorund Gradient"
+                "type": "checkbox",
+                "id": "target",
+                "label": "Open In a New Tab"
             }
         ]
     }
     ],
   "presets": [{
-    "name": "Content Section"
+    "name": "Card Section"
   }]
 }
 {% endschema %} 

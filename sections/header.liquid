@@ -14,7 +14,7 @@
         <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
             <div class="col-12">
                 <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
-                    <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
+                    <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}} ">
                         <div class="g-0 col-lg-12">
                             {% if section.settings.title != blank %}
                                 <h1 class="mb-6 text-uppercase {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
@@ -207,15 +207,15 @@
         "label": "Content Align (Mobile)",
         "options": [
             {
-                "value": "text-xs-left",
+                "value": "text-left",
                 "label": "Left"
                 },
             {
-                "value": "text-xs-center",
+                "value": "text-center",
                 "label": "Center"
             }
         ],
-        "default": "text-xs-left"
+        "default": "text-left"
     },
     {
         "type": "select",

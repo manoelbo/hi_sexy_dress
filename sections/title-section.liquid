@@ -1,4 +1,15 @@
-<header 
+{% if section.settings.layout_align == 'five' %}
+    {%- assign col1 = "col-lg-5" -%}
+    {%- assign col2 = "col-lg-7" -%}
+{% elsif section.settings.layout_align == 'one' %}
+    {%- assign col1 = "col-lg-6" -%}
+    {%- assign col2 = "col-lg-6" -%}
+{% else %}
+    {%- assign col1 = "col-lg-4" -%}
+    {%- assign col2 = "col-lg-8" -%}
+{% endif %}
+
+<section 
     class="bg-size-cover bg-position-center position-relative" 
     
     {% if section.settings.bg_gradient != blank %} 
@@ -8,27 +19,24 @@
     {% endif %}
     
 >
-    {% comment %} <div class="top-0 start-0 bottom-0 end-0 zi-0 opacity-{{ section.settings.overlay_opacity }} bg-bg-1 w-100 h-100 position-absolute mw-100 mh-100">
-    </div> {% endcomment %}
     <div class="position-relative zi-1 text-xl-start container-fluid">
-        <div class="row align-items-center  d-flex align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
+        <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
             <div class="col-lg-12">
-                <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}} ">
-                    {% if section.settings.layout-align == 'left' %}
-                        <div class="col-lg-6 bg-size-cover bg-position-center d-none  d-lg-block" data-aos="fade-down" data-aos-delay="250" {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}" {% else %%} data-bg-src="https://cdn.shopify.com/s/files/1/0729/7944/8111/files/R0004196.jpg?v=1679864058"{% endif %}>
+                <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}  d-flex align-items-center">
+                    <div class="{{ col1 }} bg-size-cover bg-position-center" data-aos="fade-down" data-aos-delay="250" {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}"{% endif %}>
+                        {% if section.settings.title != blank %}
+                        <div class="{% if section.settings.default_spacing != true %} py-6 py-md-8 py-lg-10 py-xl-12 py-xxl-14 {% endif %} px-lg-12 px-md-4">
+                            <h1 class="mb-6 text-uppercase {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
+                                {{ section.settings.title }}
+                            </h1>
+                        {% endif %}
                         </div>
-                    {% endif %}
-                    <div class="col-lg-6">
-                        <div class="{% if section.settings.default_spacing != true %} py-12 py-md-14 py-lg-16 py-xl-18 py-xxl-20 {% endif %} px-lg-12 px-md-4">
+                    </div>
+                    <div class="{{ col2 }}">
+                        <div class="{% if section.settings.default_spacing != true %} py-6 py-md-8 py-lg-10 py-xl-12 py-xxl-14 {% endif %} px-lg-12 px-md-4">
                             <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
-
-                                {% if section.settings.title != blank %}
-                                    <h1 class="mb-6 text-uppercase {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
-                                        {{ section.settings.title }}
-                                    </h1>
-                                {% endif %}
                                 {% if section.settings.text != blank %}
-                                <p class="mb-8 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
+                                <p class="mb-6 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
                                     {{ section.settings.text }}                            
                                 </p>
                                 {% endif %}
@@ -44,21 +52,19 @@
                                 {% endfor %}
                             </div>
                         </div>
-                    </div>
-                    {% if section.settings.layout-align == 'right' %}
-                        <div class="col-lg-6 bg-size-cover bg-position-center d-none  d-lg-block" data-aos="fade-down" data-aos-delay="250" {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}" {% else %%} data-bg-src="https://cdn.shopify.com/s/files/1/0729/7944/8111/files/R0004196.jpg?v=1679864058"{% endif %}>
-                        </div>
-                    {% endif %}
+          
+           
+              
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</header>
+</section>
 
 {% schema %}
 {
-  "name": "Header Hero Half",
+  "name": "Title Section",
   "settings": [
     {
         "type": "header",
@@ -188,20 +194,24 @@
     },
     {
         "type": "select",
-        "id": "layout-align",
-        "label": "Image Position",
+        "id": "layout_align",
+        "label": "Layout Proportion",
         "options": [
             {
-                "value": "left",
-                "label": "Left"
+                "value": "one",
+                "label": "1/1"
                 },
             {
-                "value": "right",
-                "label": "Right"
+                "value": "two",
+                "label": "1/2"
+            },
+            {
+                "value": "five",
+                "label": "5/7"
             }
 
         ],
-        "default": "right"
+        "default": "five"
     },
     {
         "type": "select",
@@ -453,7 +463,7 @@
     }
     ],
   "presets": [{
-    "name": "Header Hero Half"
+    "name": "Title Section"
   }]
 }
 {% endschema %} 
