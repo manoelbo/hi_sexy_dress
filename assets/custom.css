@@ -11,6 +11,80 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
     
 }
 
+#hubspot-form input, #hubspot-form textarea {
+    height: 50px;
+    border: solid 1px black;
+    padding: 0 20px;
+    width: 100%;
+}
+
+#hubspot-form textarea {
+    padding-top: 12px;
+    height: 100px;
+}
+
+#hubspot-form .hs-form-field label span {
+    font-family: "ABC Gravity Variable";
+}
+
+#hubspot-form .hs-form-field label {
+    margin-top: 20px;
+}
+
+#hubspot-form .hs-form-field label.hs-error-msg {
+    margin-top: 0px;
+}
+
+
+
+#hubspot-form .hs-button {
+    width: auto;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0 2.5rem;
+    line-height: 2.5rem;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+#hubspot-form select {
+    height: 50px;
+    border: solid 1px black;
+    padding: 0 20px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right 1.1875rem center;
+    background-size: 16px 12px;
+    appearance: none;
+}
+
+#hubspot-form input:focus, #hubspot-form textarea:focus, #hubspot-form input:focus-visible, #hubspot-form textarea:focus-visible {
+    border: 2px solid black;
+    outline: none;
+}
+
+#hubspot-form input::placeholder, #hubspot-form textarea::placeholder {
+    color: black;
+}
+
+#hubspot-form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+#hubspot-form .hs-error-msgs {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+}
+
+#hubspot-form .hs-error-msgs li {
+    line-height: 16px;
+    font-size: 12px;
+}
+
+
 a.click-card:hover {
     opacity: 1 !important;
     position: relative;
