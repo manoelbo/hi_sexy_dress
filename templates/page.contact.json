@@ -3,16 +3,18 @@
     "23e845c6-1e65-48b9-b6fb-62265282463d": {
       "type": "contact-form",
       "settings": {
-        "bg_color": "bg-light text-dark",
+        "bg_color": "",
         "max_width": "992",
-        "title": "Contact us",
+        "title": "Contato",
         "title_size": "h1",
-        "description": "<p>Add on optional description to this section.<br\/>Want to call? <a href=\"tel:+1-555-555-1234\" title=\"tel:+1-555-555-1234\">(555) 555-1234<\/a><\/p>",
+        "description": "<p>Quer saber mais sobre os nossos cursos, workshops e consultorias?<br\/>Nos envie uma mensagem e nós agendaremos um encontro com você ou sua equipe!<\/p>",
         "description_size": "fs-6",
-        "pt": 11,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 0,
+        "pb": 0,
+        "mt": 12,
+        "mb": 16
       }
     }
   },

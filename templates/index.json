@@ -3,8 +3,8 @@
     "9f283b33-429f-4be2-9686-34bba2bf65cb": {
       "type": "header",
       "settings": {
-        "title": "COCRIANDO FUTUROS",
-        "text": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis.",
+        "title": "Reconhecer o desconhecido",
+        "text": "como um caminho extraordinário para o futuro.",
         "bg_color": "#212529",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/R0004196.jpg",
@@ -38,7 +38,7 @@
           "settings": {
             "header": "PARA A SUA EMPRESA",
             "title": "BUSINESS TRANSFORMATION",
-            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+            "text": "Revolucione a maneira como você agrega valor às pessoas da sua equipe ou organização. Descubra o jeito Hyper Island Way™ de ser e transformar realidades a partir de uma metodologia exclusiva!",
             "url": "",
             "target": false,
             "font_color": "text-dark",
@@ -51,7 +51,7 @@
           "settings": {
             "header": "PARA VOCÊ",
             "title": "NOSSOS CURSOS",
-            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+            "text": "Embarque em uma jornada de aprendizagem ao lado de pessoas incríveis, de diferentes lugares do Brasil e do mundo. Explore novas ideias e conceitos, expanda seus horizontes e descubra o universo da Hyper.",
             "url": "",
             "target": false,
             "font_color": "text-dark",
@@ -67,7 +67,7 @@
       "settings": {
         "header_size": "fs-6",
         "title_size": "display-4",
-        "text_size": "fs-5",
+        "text_size": "fs-6",
         "layout": "col-lg-6",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
@@ -91,8 +91,8 @@
         "11b53441-cfc7-44fb-860f-f67e0c204a1e": {
           "type": "content",
           "settings": {
-            "title": "25",
-            "text": "25 anos desenvolvendo e cocriando jornadas centradas na experiência das pessoas, entre as pessoas e para as pessoas.",
+            "title": "25y",
+            "text": "Por mais de duas décadas desenvolvemos jornadas inovadoras que colocam pessoas no centro de experiências de aprendizagem, organização e transformação.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -103,7 +103,7 @@
           "type": "content",
           "settings": {
             "title": "10m",
-            "text": "A partir da colaboração, já são mais de 10 milhões de pessoas impactadas pela Hyper Island e mais de 500 facilitadores ao redor do mundo.",
+            "text": "A partir da colaboração de mais de 500 facilitadores ao redor do mundo, já contabilizamos mais de 10 milhões de pessoas impactadas pela Hyper Island.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -114,7 +114,7 @@
           "type": "content",
           "settings": {
             "title": "1870",
-            "text": "Mais de 1.870 organizações que transformaram seus negócios a partir da prática da reflexão e da cocriação do novos futuros.",
+            "text": "Atualmente, contabilizamos pelo menos 1.870 organizações que transformaram seus negócios a partir da prática da reflexão e cocriação. Empresas que descobriram novas maneiras de pensar, agir e inovar.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -129,8 +129,8 @@
       ],
       "settings": {
         "hidden": false,
-        "title": "Para além dos números",
-        "text": "Para além dos números, estão as pessoas, as organizações, parcerias, tempo investido, geografia e objetivos. Todas essas coisas juntas transformam realidades e nos mantêm preparados para aquilo que acreditamos.",
+        "title": "Nosso alcance",
+        "text": "Provocações que geram mudanças transformadoras em diferentes contextos - capazes de impactar empresas, pessoas e lugares ao redor do mundo. Saiba o que temos feito em 26 anos de Hyper Island.",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -187,7 +187,7 @@
       "type": "title-section",
       "settings": {
         "title": "INTERAÇÃO E IMERSÃO",
-        "text": "A partir de uma metodologia completamente centrada na experiência, nossas jornadas de aprendizagem são marcadas pela interação e imersão. Provocações direcionadas às pessoas que, a partir da cocriação e colaboração, aprendem a construir futuros possíveis e se desenvolvem para alcançar o desconhecido.",
+        "text": "Utilizamos uma metodologia completamente centrada na experiência, dentro dos processos de aprendizagem e consultorias. Em cada jornada, provocações que levam as pessoas a um movimento de imersão e interação, onde começam a se desenvolver para o Futuro. Saiba mais sobre o Hyper Island Way™.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/BG2.png",
@@ -254,7 +254,7 @@
             "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
             "category_id": "experience",
             "title": "Criatividade Aplicada",
-            "text": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo.",
+            "text": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo. ",
             "url": "",
             "target": false
           }
@@ -343,36 +343,6 @@
         "mb": 13
       }
     },
-    "ba0d43fd-c8dc-41bc-981a-55badfb10fee": {
-      "type": "header_half",
-      "settings": {
-        "title": "",
-        "text": "",
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/R0004196.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-6",
-        "text_size": "fs-6",
-        "layout-align": "right",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-100",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 13,
-        "mb_xl": 10,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 13,
-        "mb_lg": 10,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 10,
-        "mb_sm": 7
-      }
-    },
     "4e41194f-fd9b-4c9e-8166-1426ddc34160": {
       "type": "title-section",
       "blocks": {
@@ -391,7 +361,7 @@
       ],
       "settings": {
         "title": "VAMOS CONVERSAR?",
-        "text": "Nossos facilitadores estão prontos para conversar com você e entender as suas demandas. Conversaremos sobre as necessidades da sua empresa e iniciaremos a nossa jornada de cocriação para futuros possíveis.",
+        "text": "Nossos facilitadores estão prontos para receber a sua mensagem! Agende um horário com a gente e descubra como a Hyper Island pode ajudar você e sua organização.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/BG2.png",
@@ -426,7 +396,6 @@
     "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5",
     "0f7af1c6-0934-448d-be82-e0755c5a4502",
     "31524baf-3a3c-4284-9f0b-2058f23ab947",
-    "ba0d43fd-c8dc-41bc-981a-55badfb10fee",
     "4e41194f-fd9b-4c9e-8166-1426ddc34160"
   ]
 }
