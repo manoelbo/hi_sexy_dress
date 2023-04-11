@@ -6,15 +6,15 @@
     "color_body_text": "#212529",
     "font_headings": "roboto_n5",
     "font_body": "montserrat_n4",
-    "social_facebook": "#",
-    "social_twitter": "#",
-    "social_instagram": "#",
+    "social_facebook": "",
+    "social_twitter": "",
+    "social_instagram": "https:\/\/www.instagram.com\/hyperisland.br\/",
     "social_pinterest": "",
-    "social_tiktok": "#",
+    "social_tiktok": "",
     "social_snapchat": "",
-    "social_youtube": "#",
-    "social_linkedin": "",
-    "social_whatsapp": "#",
+    "social_youtube": "",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/hyperislandbrasil\/",
+    "social_whatsapp": "",
     "buttons_border_radius": "0.25rem",
     "cart_goal_enable": true,
     "cart_goal_value": 300,
@@ -56,7 +56,7 @@
             "type": "menu",
             "settings": {
               "menu": "",
-              "title": "Shop",
+              "title": "Cursos",
               "title_size": "h6"
             }
           },
@@ -64,7 +64,7 @@
             "type": "menu",
             "settings": {
               "menu": "",
-              "title": "Company",
+              "title": "Para empresas",
               "title_size": "h6"
             }
           },
@@ -72,7 +72,7 @@
             "type": "menu",
             "settings": {
               "menu": "footer",
-              "title": "Legal",
+              "title": "Sobre nós",
               "title_size": "h6"
             }
           },
@@ -99,7 +99,7 @@
           "bg_color": "bg-dark text-white",
           "show_payment_icons": false,
           "show_social_icons": true,
-          "show_powered_by": true,
+          "show_powered_by": false,
           "pt": 10,
           "pb": 6
         }

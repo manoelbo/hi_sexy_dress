@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
 }
 
 #hubspot-form .hs-form-field label span {
-    font-family: "ABC Gravity Variable";
+    font-weight: bold;
 }
 
 #hubspot-form .hs-form-field label {
@@ -37,6 +37,47 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
 
 
 
+#hubspot-form .input ul {
+    padding: 0 !important;
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+#hubspot-form .hs_error_rollup .hs-error-msgs {
+    display: none !important;
+}
+
+#hubspot-form span.hs-form-required {
+    padding: 0 !important;
+    margin: 0;
+}
+
+#hubspot-form .hs-form-booleancheckbox input {
+   float: left;
+}
+
+#hubspot-form .hs-form-booleancheckbox span {
+    padding-left: 10px;
+    line-height: 20px;
+    float: left;
+    font-weight: normal !important;
+ }
+
+ #hubspot-form legend {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+ }
+
+
+#hubspot-form h1 {
+    margin-bottom: 24px;
+}
+
+#hubspot-form p {
+    margin-bottom: 0px;
+}
+
 #hubspot-form .hs-button {
     width: auto;
     border-radius: 2.5rem;
@@ -46,12 +87,12 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
     line-height: 2.5rem;
     background-color: black;
     color: white;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #hubspot-form select {
     height: 50px;
     border: solid 1px black;
-    padding: 0 20px;
+    padding: 0 40px 0 10px;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: right 1.1875rem center;
@@ -59,7 +100,7 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
     appearance: none;
 }
 
-#hubspot-form input:focus, #hubspot-form textarea:focus, #hubspot-form input:focus-visible, #hubspot-form textarea:focus-visible {
+#hubspot-form input:focus, #hubspot-form select:focus, #hubspot-form textarea:focus, #hubspot-form input:focus-visible, #hubspot-form select:focus-visible,  #hubspot-form textarea:focus-visible {
     border: 2px solid black;
     outline: none;
 }
