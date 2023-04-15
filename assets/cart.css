@@ -73,23 +73,3 @@
     align-items: center;
     height: 100%;
 }
-
-
-#offcanvas-cart {
-    background-color: #F2EFEC;
-}
-
-.offcanvas-header {
-    background-color: #F2EFEC;
-    justify-content: flex-end !important;
-}
-
-#offcanvas-cart .product-item-title {
-    font-family: "Montserrat";
-    font-weight: bold !important;
-    font-size: 18px;
-}
-
-#offcanvas-cart .btn-close {
-    opacity: 1 !important;
-}
