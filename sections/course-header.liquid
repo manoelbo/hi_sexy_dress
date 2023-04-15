@@ -1,0 +1,375 @@
+{% liquid
+    assign current_variant = product.selected_or_first_available_variant
+%}
+
+
+<section id="course-header"  >
+    <header 
+        class="bg-size-cover bg-position-center position-relative px-lg-12 px-md-4 px-4 pb-2 pt-12 pt-md-10 pb-lg-7 pt-lg-16 pb-xl-10 pt-xl-18 pt-xxl-20" 
+        {% if product.featured_image %} data-bg-src="{{ product.featured_image | image_url }}" {% endif %} >
+        <div class="top-0 start-0 bottom-0 end-0 zi-0 opacity-{{ section.settings.overlay_opacity }} bg-bg-1 w-100 h-100 position-absolute mw-100 mh-100">
+        </div>
+        <div class="position-relative zi-1 text-xl-start container-fluid">
+            <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
+                <div class="col-12">
+                    <div class="pt-xxl-15">
+                        <div class="row">
+                            <div class="g-0 col-lg-12">
+                                {% if product.title != blank %}
+                                    <h1 class="mb-6 text-uppercase {{section.settings.font_color}} {{section.settings.title_size}}" data-aos="fade-down" data-aos-delay="150">
+                                        {{ product.title }}
+                                    </h1>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="course-labels text-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-3 label-col">
+                    <p class="label">{{section.settings.label_1}}</p>
+                    <p>{{section.settings.info_1}}</p>
+                </div>
+                <div class="col-6 col-md-3 label-col">
+                    <p class="label">{{section.settings.label_2}}</p>
+                    <p>{{section.settings.info_2}}</p>
+                </div>
+                <div class="col-6 col-md-3 label-col">
+                    <p class="label">{{section.settings.label_3}}</p>
+                    <p>{{section.settings.info_3}}</p>
+                </div>
+                <div class="col-6 col-md-3 label-col">
+                    <p class="label">{{section.settings.label_4}}</p>
+                    <p>{{section.settings.info_4}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="course-info text-black">
+        <div class="text-xl-start container-xxl">
+            <div class="row  flex-md-row-reverse bg-size-cover bg-position-top-left">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 bg-size-cover bg-position-center" data-aos="fade-down" data-aos-delay="250" >
+                            <p class="description">{{ product.description }}</p>
+                            {% if section.settings.display_timezone == true %}
+                               <span>*Timezone: {{ section.settings.week_day }}, </span><span id="timezone" date="{{ section.settings.date_est }}" duration="{{ section.settings.duration }}"> </span>
+                            {% endif %}
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-down" data-aos-delay="400">
+                            <div>
+                                <div class="course-price">
+                                    <p class="price-header">{{ product.price | money }}</p>
+                                    {% if section.settings.price_option == true %}
+                                        <p class="price-sub">à vista ou em até 6x de {{ product.price | divided_by: 6 | money }}</p>
+                                    {% endif %}
+                                    {% if section.settings.price_subtitle != blank %}
+                                        <p class="price-sub">{{ section.settings.price_subtitle }}</p>
+                                    {% endif %}
+                                    {% if section.settings.price_text != blank %}
+                                        <div class="price-extra">{{ section.settings.price_text }}</div>
+                                    {% endif %}
+        
+                                </div>
+                            </div>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="course-btns">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-4 g-0">                                      
+                    <a  id="add_to_card" href="" class="w-100 course-btn one">
+                        <p>{{ section.settings.cta_1 }}</p>
+                    </a>
+                </div>
+
+                <div class="col-6 col-lg-4 g-0">                                      
+                <a  href="{{ section.settings.cta_link_2 }}" class="w-100 course-btn two">
+                    <p>{{ section.settings.cta_2 }}</p>
+                </a>
+                </div>
+
+                <div class="col-6 col-lg-4 g-0">                                      
+                <a  href="{{ section.settings.cta_link_3 }}" class="w-100 course-btn three">
+                    <p>{{ section.settings.cta_3 }}</p>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="hidden-product-form">
+{% render 'product-form' %}
+</div>
+
+{%- liquid
+    if product.selected_or_first_available_variant.featured_media
+        assign seo_media = product.selected_or_first_available_variant.featured_media
+    else
+        assign seo_media = product.featured_media
+    endif
+-%}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "url": {{ request.origin | append: product.url | json }},
+    {% if seo_media -%}
+        "image": [
+            {{ seo_media | image_url: width: seo_media.preview_image.width | prepend: "https:" | json }}
+        ],
+    {%- endif %}
+    "description": {{ product.description | strip_html | json }},
+    {% if product.selected_or_first_available_variant.sku != blank -%}
+        "sku": {{ product.selected_or_first_available_variant.sku | json }},
+    {%- endif %}
+    "brand": {
+        "@type": "Brand",
+        "name": {{ product.vendor | json }}
+    },
+    "offers": [
+        {%- for variant in product.variants -%}
+            {
+            "@type" : "Offer",
+            {%- if variant.sku != blank -%}
+                "sku": {{ variant.sku | json }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 12 -%}
+                "gtin12": {{ variant.barcode }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 13 -%}
+                "gtin13": {{ variant.barcode }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 14 -%}
+                "gtin14": {{ variant.barcode }},
+            {%- endif -%}
+            "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+            "price" : {{ variant.price | divided_by: 100.00 | json }},
+            "priceCurrency" : {{ cart.currency.iso_code | json }},
+            "url" : {{ request.origin | append: variant.url | json }}
+            }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+    ]
+}
+</script>
+
+{% schema %}
+{
+    "name": "HI Course Header",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Header Options"
+        },
+        {
+            "type": "range",
+            "id": "overlay_opacity",
+            "label": "Overlay Opacity",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "unit": "%",
+            "default": 0
+        },
+        {
+            "type": "select",
+            "id": "font_color",
+            "label": "Font Color Options",
+            "options": [
+                {
+                    "value": "text-dark",
+                    "label": "Dark"
+                  },
+                {
+                    "value": "text-light",
+                    "label": "text-light"
+                }
+            ],
+            "default": "text-dark"
+        },
+        {
+            "type": "select",
+            "id": "title_size",
+            "label": "Title Font Size",
+            "options": [
+                {
+                    "value": "display-1",
+                    "label": "5.5 rem (88px)"
+                  },
+                {
+                    "value": "display-2",
+                    "label": "5 rem (80px)"
+                },
+                {
+                    "value": "display-3",
+                    "label": "4.5 rem (72px)"
+                },
+                {
+                    "value": "display-4",
+                    "label": "3.75 rem (60px)"
+                },
+                {
+                    "value": "display-5",
+                    "label": "3 rem (48px)"
+                },
+                {
+                    "value": "display-6",
+                    "label": "2.5 rem (40px)"
+                }
+    
+            ],
+            "default": "display-1"
+        },
+        {
+            "type": "header",
+            "content": "Course Labels"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "label_1",
+            "label": "Label One",
+            "default": "Formato"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "info_1",
+            "label": "Info One",
+            "default": "Online"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "label_2",
+            "label": "Label Two",
+            "default": "Próxima Truma"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "info_2",
+            "label": "Info Two",
+            "default": "13 de Julho"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "label_3",
+            "label": "Label Three",
+            "default": "Horário"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "info_3",
+            "label": "Info Three",
+            "default": "Quarta, 18h-20h BRT"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "label_4",
+            "label": "Label Four",
+            "default": "Duração"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "info_4",
+            "label": "Info Four",
+            "default": "4 semanas"
+        },
+        {
+            "type": "header",
+            "content": "Course Description and Price"
+        },
+        {
+            "type": "checkbox",
+            "id": "price_option",
+            "label": "Add 6x Cart Description"
+        },
+        {
+            "type": "inline_richtext", 
+            "id": "price_subtitle",
+            "label": "Price Text"
+        },        
+        {
+            "type": "richtext", 
+            "id": "price_text",
+            "label": "Price Extra Text"
+        },
+        {
+            "type": "header",
+            "content": "Call To Action Options"
+        },
+        {
+            "type": "text", 
+            "id": "cta_1",
+            "label": "TEXT CTA ONE (REGISTER)",
+            "default": "Registrar"
+        },        
+        {
+            "type": "text", 
+            "id": "cta_2",
+            "label": "TEXT CTA TWO (SYLLABYUS)",
+            "default": "Baixe o programa"
+        },
+        {
+            "type": "url", 
+            "id": "cta_link_2",
+            "label": "CTA TWO LINK (SYLLABUS)"
+        },
+        {
+            "type": "text", 
+            "id": "cta_3",
+            "label": "TEXT CTA THREE (CONTACT)",
+            "default": "Tirar dúvida"
+        },
+        {
+            "type": "url", 
+            "id": "cta_link_3",
+            "label": "CTA THREE LINK (CONTACT)"
+        },
+        {
+            "type": "header",
+            "content": "Timezone Options"
+        },
+        {
+            "type": "checkbox",
+            "id": "display_timezone",
+            "label": "display user based timezone"
+        },
+        {
+            "type": "text", 
+            "id": "date_est",
+            "label": "Course EST Start Time",
+            "info": "DD-MM-YYYY-HH:mm",
+            "default": "15-04-2023-18:00"
+        },
+        {
+            "type": "text", 
+            "id": "week_day",
+            "label": "Week Day",
+            "default": "Quata"
+        },
+        {
+            "type": "number", 
+            "id": "duration",
+            "label": "Course Duration in Minutes",
+            "info": "ex: 120",
+            "default": 120
+        }
+
+    ],
+    "templates": ["product"],
+    "presets": [
+        {
+            "name": "HI Course Header",
+            "category": "Product page"
+        }
+    ]
+}
+{% endschema %}

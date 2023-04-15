@@ -11,6 +11,118 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
     
 }
 
+#course-header .course-labels {
+    background-color: black;
+}
+
+@media (min-width: 768px) {
+    #course-header .course-labels {
+        padding: 28px 56px 35px 56px;
+    }
+}
+
+@media (max-width: 767px) {
+    #course-header .course-labels {
+        padding: 20px 0;
+        font-size: 14px;
+    }
+    
+
+
+    #course-header .course-labels .label-col {
+        margin: 5px 0;
+    }
+
+}
+
+#course-header .course-info  {
+    background-color: #F2EFEC;
+    color: black;
+    font-size: 16px;    
+}
+
+#course-header .course-info .description {
+    width: 90%;
+}
+
+#course-header .course-info .price-header {
+    font-size: 40px;
+    line-height: 1;
+}
+
+#course-header .course-info .price-sub {
+    font-size: 20px;
+}
+
+#course-header .course-info .course-price .price-sub, #course-header .course-info .course-price .price-header {
+    margin: 0;
+    font-weight: bold;
+}
+
+#course-header .course-info .course-price .price-extra {
+   font-size: 14px;
+   font-weight: normal;
+   margin-top: 10px;
+}
+
+#course-header .course-info .course-price .price-extra p {
+   margin: 0;
+ }
+
+@media (min-width: 768px) {
+    #course-header .course-info{
+        padding: 70px 56px;
+    }
+
+}
+@media (max-width: 767px) {
+    #course-header .course-info{
+        padding: 40px 0px;
+    }
+
+}
+#course-header .course-labels .label {
+    font-weight: bold;
+}
+
+#course-header .course-labels p {
+    padding: 0;
+    margin: 0;
+}
+
+#course-header .course-btns .course-btn {
+    padding: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hidden-product-form {
+    display: none;
+}
+
+#course-header .course-btns .course-btn p {
+    margin: 0;
+    line-height: 1;
+}
+
+
+#course-header .course-btns .course-btn.one {
+    background-color: #FF7300;
+}
+
+#course-header .course-btns .course-btn.two {
+    background-color: #F3F0ED;
+}
+
+#course-header .course-btns .course-btn.three {
+    background-color: #E3DFD3;
+}
+
+
+
+
 #hubspot-form input, #hubspot-form textarea {
     height: 50px;
     border: solid 1px black;
@@ -35,6 +147,25 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
     margin-top: 0px;
 }
 
+#newsletter p {
+    width: 90%;
+}
+
+#newsletter p {
+    width: 90%;
+}
+
+#newsletter .hs-richtext {
+    margin-top: 20px;
+}
+
+#newsletter .hs-richtext p {
+    width: 100%;
+}
+
+#newsletter #hubspot-form .hs-error-msgs {
+    display: none !important;
+}
 
 
 #hubspot-form .input ul {
@@ -259,4 +390,51 @@ a {
 
 .btn.rounded-black.btn-border {
     border: 1px solid white;
+}
+
+.depo .depo-text {
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    width: 90%;
+}
+
+.depo .depo-name {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: bold !important;
+}
+
+#footer-copyright .copy {
+    font-weight: bold;
+    font-size: 16px;
+}
+/* }
+
+.depo {
+    padding: 60px 0;
+} */
+
+
+.social-icons-wrapper {
+    float: right;
+}
+
+#footer .info {
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    #footer .social-icons-wrapper {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+
 }

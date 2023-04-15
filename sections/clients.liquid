@@ -1,0 +1,376 @@
+<section 
+    class="px-lg-12 px-md-4 px-4"
+    {% if section.settings.bg_gradient != blank %} 
+    style="background: {{ section.settings.bg_gradient }}"
+    {% else %}
+    style="background-color: {{section.settings.bg_color }}"
+    {% endif %}
+    
+>
+
+    <div class="position-relative zi-1 container">
+        {% if section.settings.hidden != true %}
+            <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
+                <div class="col-12">
+                    <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
+                        <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
+                            <div class="g-0 col-lg-12">
+                                {% if section.settings.svg != blank %}
+                                    {{ section.settings.svg }}
+                                {% endif %}
+                                {% if section.settings.header != blank %}
+                                    <p class="text-decoration-underline text-uppercase fw-bold {{section.settings.content_width}} {{section.settings.font_color}} {{section.settings.font_color}}text-uppercase {{section.settings.header_size}}">
+                                        {{ section.settings.header }}
+                                    </p>
+                                {% endif %}
+                                {% if section.settings.title != blank %}
+                                    <h1 class="mb-6 {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
+                                        {{ section.settings.title }}
+                                    </h1>
+                                {% endif %}
+                                {% if section.settings.text != blank %}
+                                <p class="pb-0 mb-0 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
+                                    {{ section.settings.text }}                            
+                                </p>
+                            {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+        <div class="row py-4 pt-8 py-md-8 pt-md-12 my-lg-{{ section.settings.my_lg }} my-{{ section.settings.my_xs }}">
+          
+            <div class="mb-4 mb-lg-8">               
+                <div class="row pb-8 pb-md-12 clients">
+                    <div class="col-6 col-md-3 g-0">
+                        <img src="{{ settings.logo_1 | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 g-0">
+                        <img src="{{ settings.logo_2  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 g-0">
+                        <img src="{{ settings.logo_3  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 g-0">
+                        <img src="{{ settings.logo_4  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 g-0">
+                        <img src="{{ settings.logo_5 | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 g-0">
+                        <img src="{{ settings.logo_6  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 g-0">
+                        <img src="{{ settings.logo_7  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 g-0">
+                        <img src="{{ settings.logo_8  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+
+                    {% comment %} LOGOS PEQUENOS  {% endcomment %}
+                    
+                    <div class="col-4 col-md-2 g-0">
+                        <img src="{{ settings.logo_9  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 g-0">
+                        <img src="{{ settings.logo_10  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 g-0">
+                        <img src="{{ settings.logo_11  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 g-0">
+                        <img src="{{ settings.logo_12  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 g-0">
+                        <img src="{{ settings.logo_13  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 g-0">
+                        <img src="{{ settings.logo_14  | image_url }}" alt="client Logo" class="img-fluid">
+                    </div>
+
+                    
+                </div>
+            </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "HI23 Clients",
+  "settings": [
+    {
+        "type": "header",
+        "content": "Content Header"
+    },
+    {
+        "type": "checkbox",
+        "id": "hidden",
+        "label": "Hide Content Header"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "title",
+        "label": "Title",
+        "default": "Testimonial"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "text",
+        "label": "Text"
+    },
+    {
+        "type": "header",
+        "content": "Typography Style"
+    },
+   
+    {
+        "type": "select",
+        "id": "font_color",
+        "label": "Font Color Options",
+        "options": [
+            {
+                "value": "text-dark",
+                "label": "Dark"
+              },
+            {
+                "value": "text-light",
+                "label": "White"
+            }
+        ],
+        "default": "text-dark"
+    },
+    {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title Font Size",
+        "options": [
+            {
+                "value": "display-1",
+                "label": "5.5 rem (88px)"
+              },
+            {
+                "value": "display-2",
+                "label": "5 rem (80px)"
+            },
+            {
+                "value": "display-3",
+                "label": "4.5 rem (72px)"
+            },
+            {
+                "value": "display-4",
+                "label": "3.75 rem (60px)"
+            },
+            {
+                "value": "display-5",
+                "label": "3 rem (48px)"
+            },
+            {
+                "value": "display-6",
+                "label": "2.5 rem (40px)"
+            }
+
+        ],
+        "default": "display-4"
+    },
+    {
+        "type": "select",
+        "id": "text_size",
+        "label": "Text Font Size",
+        "options": [
+            {
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
+              },
+            {
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
+            }
+
+        ],
+        "default": "fs-4"
+    },
+    {
+        "type": "select",
+        "id": "align_desktop",
+        "label": "Content Align (Desktop)",
+        "options": [
+            {
+                "value": "text-lg-start",
+                "label": "Left"
+                },
+            {
+                "value": "text-lg-center",
+                "label": "Center"
+            }
+        ],
+        "default": "text-lg-center"
+    },
+    {
+        "type": "select",
+        "id": "align_mobile",
+        "label": "Content Align (Mobile)",
+        "options": [
+            {
+                "value": "text-start",
+                "label": "Left"
+                },
+            {
+                "value": "text-center",
+                "label": "Center"
+            }
+        ],
+        "default": "text-start"
+    },
+
+    {
+        "type": "header",
+        "content": "Spacing (General)"
+    },
+    {
+        "type": "checkbox",
+        "id": "default_spacing",
+        "label": "Remove Default Spacing"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Extra Large Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_xl",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "pb_xl",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mt_xl",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_xl",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_lg",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "pb_lg",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mt_lg",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_lg",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing Options (Mobile)"
+    },
+    {
+        "type": "range",
+        "id": "pt_sm",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 10
+    },
+    {
+        "type": "range",
+        "id": "pb_sm",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mt_sm",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_sm",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    }
+  ],
+  "presets": [{
+    "name": "HI23 Clients"
+  }]
+}
+{% endschema %} 

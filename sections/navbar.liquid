@@ -48,7 +48,7 @@
                 <div class="col-12  d-flex justify-content-between align-items-center">
                     <div class="d-flex justify-content-start align-items-center">
                     
-                        <a href="#">
+                        <a  class="ps-md-8" href="#">
                             {% if section.settings.logo %}
                                 <img
                                     class="img-fluid"
@@ -65,7 +65,15 @@
                         {% render 'navbar-menu' %}
                         </div>
                     </div>
-                    <a href="#" class="float-end">
+                    {% if cart.item_count != 0 %}
+                    <a 
+                        class="float-end cart-icon nav-link me-n2"
+                        href="#offcanvas-cart" 
+                        data-bs-toggle="offcanvas" 
+                        aria-controls="offcanvas-cart" 
+                        aria-label="{{ 'general.accessibility.cart' | t }} {{ cart.item_count }}" 
+                        role="button"
+                    >
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1">
                             <path d="M21.0733 6.71L18.2096 3.88C17.6409 3.31723 16.8692 3.0007 16.0644 3H9.64892C8.84407 3.0007 8.07244 3.31723 7.50368 3.88L4.63999 6.71C4.07052 7.27207 3.75022 8.03462 3.74951 8.83V18C3.74951 18.7956 4.06935 19.5587 4.63865 20.1213C5.20796 20.6839 5.9801 21 6.78523 21H18.9281C19.7332 21 20.5054 20.6839 21.0747 20.1213C21.644 19.5587 21.9638 18.7956 21.9638 18V8.83C21.9631 8.03462 21.6428 7.27207 21.0733 6.71ZM8.93046 5.29C9.12438 5.10727 9.381 5.00368 9.64892 5H16.0644C16.3323 5.00368 16.5889 5.10727 16.7828 5.29L18.5132 7H7.20011L8.93046 5.29ZM18.9281 19H6.78523C6.51685 19 6.25947 18.8946 6.0697 18.7071C5.87993 18.5196 5.77332 18.2652 5.77332 18V9H19.94V18C19.94 18.2652 19.8334 18.5196 19.6436 18.7071C19.4538 18.8946 19.1965 19 18.9281 19Z" fill="#231F20">
                             </path>
@@ -73,6 +81,7 @@
                             </path>
                         </svg>
                     </a>
+                    {% endif %}
                 </div>
 
 
