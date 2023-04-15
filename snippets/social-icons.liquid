@@ -5,9 +5,9 @@
         {% assign social_handle = social | handleize %}
         {% capture social_link %}social_{{ social_handle }}{% endcapture %}
         {% unless settings[social_link] == blank %}
-            <li class="nav-item">
+            <li class="">
                 <a 
-                    class="nav-link p-3 text-current-color" 
+                    class=" px-3 text-current-color" 
                     href="{{ settings[social_link] }}" 
                     data-bs-toggle="tooltip" 
                     data-bs-placement="bottom" 

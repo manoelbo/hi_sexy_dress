@@ -151,6 +151,81 @@
     ]
   },
   {
+    "name": "Clients",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo_1",
+        "label": "Client Logo 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_2",
+        "label": "Client Logo 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_3",
+        "label": "Client Logo 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_4",
+        "label": "Client Logo 4"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_5",
+        "label": "Client Logo 5"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_6",
+        "label": "Client Logo 6"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_7",
+        "label": "Client Logo 7"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_8",
+        "label": "Client Logo 8"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_9",
+        "label": "Client Logo 9 SMALL"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_10",
+        "label": "Client Logo 10 SMALL"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_11",
+        "label": "Client Logo 11 SMALL"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_12",
+        "label": "Client Logo 12 SMALL"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_13",
+        "label": "Client Logo 13 SMALL"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_14",
+        "label": "Client Logo 14 SMALL"
+      }
+    ]
+  },
+  {
     "name": "Search",
     "settings": [
       {
@@ -174,6 +249,40 @@
         "id": "search_articles",
         "label": "Search in blog posts",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": "Footer",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "footer_1",
+        "label": "Footer Menu Colmun 1"
+      },      {
+        "type": "link_list",
+        "id": "footer_2",
+        "label": "Footer Menu Colmun 2"
+      },      {
+        "type": "link_list",
+        "id": "footer_3",
+        "label": "Footer Menu Colmun 3"
+      },      {
+        "type": "link_list",
+        "id": "footer_4",
+        "label": "Footer Menu Colmun 4"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "info_one",
+        "label": "Company Info 1",
+        "default": "HYPER ISLAND TREINAMENTO E EDUCACAO EXECUTIVA DO BRASIL"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "info_two",
+        "label": "Company Info 2",
+        "default": "CNPJ 21.969.463/0001-36 | learning.latam@hyperisland.com"
       }
     ]
   },

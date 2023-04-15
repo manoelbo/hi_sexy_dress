@@ -62,6 +62,14 @@ async function toggleCategoryCards() {
   // Chame a função toggleCategoryCards() sempre que for necessário
   toggleCategoryCards();
 
+  const addToCart = document.querySelector('#add_to_card');
+  const addButton = document.querySelector('button[name="add"]');
+  
+  addToCart.addEventListener('click', function(event) {
+    event.preventDefault();
+    addButton.click();
+  });
+
 
   function activateCategoryButton(event) {
     // Seleciona todos os elementos com a classe 'btn-category'
@@ -82,3 +90,40 @@ async function toggleCategoryCards() {
   for (const button of categoryButtons) {
     button.addEventListener('click', activateCategoryButton);
   }
+
+
+  // Solicita que o usuário insira as duas datas
+
+
+  // Função para executar quando o documento estiver carregado
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Pegue a data da propriedade "date" do span com id="timezone" que estão no formato DD-MM-YYYY-HH:MM TMZ.
+  const spanTimezone = document.getElementById("timezone");
+
+  const dataEventoStr = spanTimezone.getAttribute("date");
+  console.log(dataEventoStr);
+  const duracaoEventoStr = spanTimezone.getAttribute("duration");
+  const duracaoEvento = parseInt(duracaoEventoStr, 10);
+
+  // 3. Faça um script para consultar o timezone do visitante.
+  const visitorTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  // 4. Converta a data para a timezone do visitante.
+  const formato = "DD-MM-YYYY-HH:mm";
+  const formatoUTC = moment.tz(dataEventoStr, formato, "America/New_York");
+  const dataEvento = moment.tz(formatoUTC, visitorTimezone);
+  console.log(dataEvento)
+
+  // 5. Crie uma nova data que adicione a duração do evento.
+  const dataFimEventoVisitante = dataEvento.clone().add(duracaoEvento, "minutes");
+
+  // 6. Faça um output que mostre o hora de inicio e final como o formato HH-HH"h" + timezone do visitante
+  const horaInicio = dataEvento.format("HH");
+  const horaFim = dataFimEventoVisitante.format("HH");
+  const timezoneAbreviado = dataFimEventoVisitante.format("z");
+
+  const output = `${horaInicio}-${horaFim}h ${"("+visitorTimezone+")"}`;
+
+  // 7. Coloque o output dentro do span com id="timezone"
+  spanTimezone.textContent = output;
+});

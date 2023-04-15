@@ -1,0 +1,474 @@
+{% if section.settings.layout_align == 'five' %}
+    {%- assign col1 = "col-lg-5" -%}
+    {%- assign col2 = "col-lg-7" -%}
+{% elsif section.settings.layout_align == 'one' %}
+    {%- assign col1 = "col-lg-6" -%}
+    {%- assign col2 = "col-lg-6" -%}
+{% else %}
+    {%- assign col1 = "col-lg-4" -%}
+    {%- assign col2 = "col-lg-8" -%}
+{% endif %}
+
+<section 
+    id="newsletter"
+    class="bg-size-cover bg-position-center position-relative" 
+    
+    {% if section.settings.bg_gradient != blank %} 
+    style="background: {{ section.settings.bg_gradient }}"
+    {% else %}
+    style="background-color: {{section.settings.bg_color }}"
+    {% endif %}
+    {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}"{% endif %}
+    
+>
+    <div class="position-relative zi-1 text-xl-start container-xxl">
+        <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
+            <div class="col-lg-12">
+                <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}  d-flex align-items-center">
+                    <div class="{{ col1 }} bg-size-cover bg-position-center" data-aos="fade-down" data-aos-delay="250" >
+                        {% if section.settings.title != blank %}
+                        <div class="{% if section.settings.default_spacing != true %} py-6 py-md-8 py-lg-10 py-xl-12 py-xxl-14 {% endif %} px-lg-12 px-md-4">
+                            <h1 class="mb-6 text-uppercase {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
+                                {{ section.settings.title }}
+                            </h1>
+                        {% endif %}
+
+                        {% if section.settings.text != blank %}
+                            <p>{{ section.settings.text }}</p>
+                        {% endif %}
+                        </div>
+                    </div>
+                    <div id="hubspot-form" class="{{ col2 }} hubspot-newsletter">
+                        <div class="{% if section.settings.default_spacing != true %} py-6 py-md-8 py-lg-10 py-xl-12 py-xxl-14 {% endif %} px-lg-12 px-md-4">
+                            <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
+                                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+                                <script>
+                                hbspt.forms.create({
+                                    region: "na1",
+                                    portalId: "1588780",
+                                    formId: "{{ section.settings.form_id }}"
+                                });
+                                </script>
+
+                            </div>
+                        </div>
+        
+              
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "HI23 Newsletter",
+  "settings": [
+    {
+        "type": "header",
+        "content": "Content"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "title",
+        "label": "Title",
+        "default": "RECEBA NOSSOS CONTEÚDOS"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil."
+    },
+    {
+        "type": "text",
+        "id": "form_id",
+        "label": "Hubspot Form ID",
+        "default": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715   "
+    },
+    {
+        "type": "header",
+        "content": "Background Style"
+    },
+    {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Backgorund Color",
+        "default": "#FFFFFF"
+    },
+    {
+        "type": "color_background",
+        "id": "bg_gradient",
+        "label": "Backgorund Gradient"
+    },
+    {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Backgorund Image"
+    },
+    {
+        "type": "header",
+        "content": "Typography Style"
+    },
+    {
+        "type": "select",
+        "id": "font_color",
+        "label": "Font Color Options",
+        "options": [
+            {
+                "value": "text-dark",
+                "label": "Dark"
+              },
+            {
+                "value": "text-light",
+                "label": "White"
+            }
+        ],
+        "default": "text-dark"
+    },
+    {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title Font Size",
+        "options": [
+            {
+                "value": "display-1",
+                "label": "5.5 rem (88px)"
+              },
+            {
+                "value": "display-2",
+                "label": "5 rem (80px)"
+            },
+            {
+                "value": "display-3",
+                "label": "4.5 rem (72px)"
+            },
+            {
+                "value": "display-4",
+                "label": "3.75 rem (60px)"
+            },
+            {
+                "value": "display-5",
+                "label": "3 rem (48px)"
+            },
+            {
+                "value": "display-6",
+                "label": "2.5 rem (40px)"
+            }
+
+        ],
+        "default": "display-4"
+    },
+    {
+        "type": "select",
+        "id": "text_size",
+        "label": "Text Font Size",
+        "options": [
+            {
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
+              },
+            {
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
+            }
+
+        ],
+        "default": "fs-4"
+    },
+    {
+        "type": "header",
+        "content": "Layout Settings"
+    },
+    {
+        "type": "select",
+        "id": "layout_align",
+        "label": "Layout Proportion",
+        "options": [
+            {
+                "value": "one",
+                "label": "1/1"
+                },
+            {
+                "value": "two",
+                "label": "1/2"
+            },
+            {
+                "value": "five",
+                "label": "5/7"
+            }
+
+        ],
+        "default": "five"
+    },
+    {
+        "type": "select",
+        "id": "align_desktop",
+        "label": "Content Align (Desktop)",
+        "options": [
+            {
+                "value": "text-lg-left",
+                "label": "Left"
+                },
+            {
+                "value": "text-lg-center",
+                "label": "Center"
+            }
+        ],
+        "default": "text-lg-left"
+    },
+    {
+        "type": "select",
+        "id": "align_mobile",
+        "label": "Content Align (Mobile)",
+        "options": [
+            {
+                "value": "text-left",
+                "label": "Left"
+                },
+            {
+                "value": "text-center",
+                "label": "Center"
+            }
+        ],
+        "default": "text-left"
+    },
+    {
+        "type": "select",
+        "id": "content_width",
+        "label": "Content Width (Desktop)",
+        "options": [
+            {
+                "value": "w-lg-auto",
+                "label": "auto"
+            },
+            {
+                "value": "w-lg-100",
+                "label": "100%"
+            },
+            {
+                "value": "w-lg-75",
+                "label": "75%"
+            },
+            {
+                "value": "w-lg-50",
+                "label": "50%"
+            },
+            {
+                "value": "w-lg-25",
+                "label": "25%"
+            }
+        ],
+        "default": "w-lg-auto"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (General)"
+    },
+    {
+        "type": "checkbox",
+        "id": "default_spacing",
+        "label": "Remove Default Spacing"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Extra Large Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_xl",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "pb_xl",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mt_xl",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_xl",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_lg",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "pb_lg",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mt_lg",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_lg",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing Options (Mobile)"
+    },
+    {
+        "type": "range",
+        "id": "pt_sm",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "pb_sm",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mt_sm",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_sm",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    }
+    
+  ],
+  "blocks": [
+    {
+        "type": "button",
+        "name": "Button",
+        "settings": [
+            {
+                "type": "text",
+                "id": "text",
+                "label": "Button Text",
+                "default": "Call to Action"
+            },
+            {
+                "type": "url",
+                "id": "url",
+                "label": "Buttom Link"
+
+            },
+            {
+                "type": "checkbox",
+                "id": "target",
+                "label": "Open In a New Tab"
+            },
+            {
+                "type": "select",
+                "id": "style",
+                "label": "Button Style",
+                "options": [
+                    {
+                        "value": "rounded-orange",
+                        "label": "Rounded Orange"
+                      },
+                    {
+                        "value": "rounded-black",
+                        "label": "Rounded Black"
+                    },
+                    {
+                        "value": "rounded-white",
+                        "label": "Rounded White"
+                    },
+                    {
+                        "value": "rounded-orange btn-border",
+                        "label": "Rounded Orange Border"
+                      },
+                    {
+                        "value": "rounded-black btn-border",
+                        "label": "Rounded Black Border"
+                    },
+                    {
+                        "value": "rounded-white btn-border",
+                        "label": "Rounded White Border"
+                    }
+
+                ],
+                "default": "rounded-white"
+            }
+        ]
+    }
+    ],
+  "presets": [{
+    "name": "HI23 Newsletter"
+  }]
+}
+{% endschema %} 
