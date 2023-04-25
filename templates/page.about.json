@@ -7,7 +7,7 @@
         "text": "",
         "bg_color": "#212529",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/R0004196.jpg",
+        "bg_image": "shopify:\/\/shop_images\/1_Header_sobre.jpg",
         "overlay_opacity": 30,
         "font_color": "text-light",
         "title_size": "display-1",
@@ -30,70 +30,15 @@
         "mb_sm": 7
       }
     },
-    "1943b40e-b851-4396-a813-7f0c740399f9": {
-      "type": "card-fluid",
-      "blocks": {
-        "template--18553304973615__1943b40e-b851-4396-a813-7f0c740399f9-1680632808ff3af4e8-0": {
-          "type": "card",
-          "settings": {
-            "header": "PARA A SUA EMPRESA",
-            "title": "BUSINESS TRANSFORMATION",
-            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
-            "url": "",
-            "target": false,
-            "font_color": "text-dark",
-            "bg_color": "#f3f0ed",
-            "bg_gradient": ""
-          }
-        },
-        "template--18553304973615__1943b40e-b851-4396-a813-7f0c740399f9-1680632808ff3af4e8-1": {
-          "type": "card",
-          "settings": {
-            "header": "PARA VOCÊ",
-            "title": "NOSSOS CURSOS",
-            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
-            "url": "",
-            "target": false,
-            "font_color": "text-dark",
-            "bg_color": "#e3dfd3",
-            "bg_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18553304973615__1943b40e-b851-4396-a813-7f0c740399f9-1680632808ff3af4e8-0",
-        "template--18553304973615__1943b40e-b851-4396-a813-7f0c740399f9-1680632808ff3af4e8-1"
-      ],
-      "settings": {
-        "header_size": "fs-6",
-        "title_size": "display-4",
-        "text_size": "fs-6",
-        "layout": "col-lg-6",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 12,
-        "mb_xl": 12,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 12,
-        "mb_lg": 12,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 12,
-        "mb_sm": 12
-      }
-    },
     "a9975935-5465-4fb0-830c-d87d16f77dad": {
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "",
-        "text": "Aprender é um processo contínuo e fundamental que nos exige entrega e construção.A partir dessa ideia, desafiamos pessoas e organizações para que questionem o \"status quo das coisas\" e experimentem coisas novas. Consequentemente, num movimento de transformação e preparação para o futuro.",
+        "title": "<strong>Hyper Island Way™ é sobre fazer. <\/strong>",
+        "text": "Mudar é difícil, mas também é constante, então você precisa aprender a aprender continuamente. E isso você fará colocando a mão na massa, criando, testando e construindo. Para mudar, você precisa ser curioso e ousado. Você precisa questionar e desafiar o status quo. Você precisa explorar e estar preparado para experimentar coisas novas. Esse é o tipo de pessoa que formamos na Hyper Island. Se você estiver disposto a se colocar e enfrentar o desafio, você vai crescer e encontrar a confiança para estar preparado para o futuro.",
         "font_color": "text-dark",
         "title_size": "display-4",
-        "text_size": "fs-4",
+        "text_size": "fs-5",
         "header": "",
         "header_size": "fs-6",
         "svg": "",
@@ -115,14 +60,63 @@
         "pt_xl": 0,
         "pb_xl": 0,
         "mt_xl": 16,
-        "mb_xl": 16,
+        "mb_xl": 0,
         "pt_lg": 0,
         "pb_lg": 0,
         "mt_lg": 16,
-        "mb_lg": 16,
+        "mb_lg": 0,
         "pt_sm": 0,
         "pb_sm": 0,
         "mt_sm": 13,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0
+      }
+    },
+    "3fcd7bb3-0766-45f7-b699-098b939ab85b": {
+      "type": "content",
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Hyper island Way™ também é sobre ser.<\/strong>",
+        "text": "Começa pela compreensão de que a mudança inicia em você. Seus valores, suas crenças e seu propósito são componentes essenciais para que a transformação aconteça. É preciso ser capaz de liderar a si mesmo para compreender os elementos da mudança e estar aberto a diferentes perspectivas para liderar e conduzir outras pessoas.",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-6",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 12,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 12,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 10,
         "mb_sm": 13,
         "py_lg": 0,
         "px_lg": 0,
@@ -134,21 +128,21 @@
         "mx_xs": 0
       }
     },
-    "0645a96b-7e84-4c8b-be91-495e1e9266dd": {
+    "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1": {
       "type": "header_half",
       "settings": {
-        "title": "Infos",
-        "text": "??",
-        "bg_color": "#f3f0ed",
+        "title": "Nossa metodologia",
+        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.<\/strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
+        "bg_color": "#e3dfd3",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/DSC8214_2.jpg",
+        "bg_image": "shopify:\/\/shop_images\/2_Metodologia_92de7774-1a0d-4c4e-9c8b-e7fd33b385d8.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
-        "text_size": "fs-5",
-        "layout-align": "left",
+        "text_size": "fs-4",
+        "layout-align": "right",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
-        "content_width": "w-lg-75",
+        "content_width": "w-lg-auto",
         "default_spacing": true,
         "pt_xl": 0,
         "pb_xl": 0,
@@ -164,16 +158,26 @@
         "mb_sm": 13
       }
     },
+    "cfba652b-8c1e-4b99-96c5-2081ff943b95": {
+      "type": "separator",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 13
+      }
+    },
     "d4de43bb-dd3a-444d-bded-010b7f361444": {
       "type": "content",
       "blocks": {
         "5c9e4f9f-ab46-4fd3-b4bd-a01c4fca1d16": {
           "type": "content",
           "settings": {
-            "title": "Experiência Prática",
-            "text": "Provocações a partir de desafios reais e uma metodologia de aprendizagem baseada em projetos práticos.",
+            "title": "Aprender fazendo",
+            "text": "Empoderar e desafiar as pessoas a assumirem o seu próprio aprendizado. Assim todos aprendemos melhor.",
             "header": "",
-            "svg": "",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"><\/path>\n<\/svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -181,10 +185,10 @@
         "9f6123dc-0939-46e3-b440-a486942a2cad": {
           "type": "content",
           "settings": {
-            "title": "Expertises Múltiplas",
-            "text": "Facilitadores de diferentes áreas e com experiências. Reflexões sobre inovação, tecnologia, comportamento humano e transformação pessoal de maneira ampla e diversificada.",
+            "title": "Feedback & Comunicação",
+            "text": "Fornecer as técnicas de comunicação essenciais para realizar a inclusão e empatia pelos outros por meio de escuta ativa, feedback e diálogo eficaz.",
             "header": "",
-            "svg": "",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"><\/path>\n<\/svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -192,10 +196,21 @@
         "a26a2cbd-b8cb-4044-8b87-58c5de30e7de": {
           "type": "content",
           "settings": {
-            "title": "Transformação Pessoal",
-            "text": "Conteúdos desenvolvidos a fim de provocar mudanças significativas na maneira de pensar e agir. Discussões com base em uma curadoria atual e exclusiva de conteúdos, para encorajar as pessoas e torná-las agentes de mudança em suas próprias vidas e organizações.",
+            "title": "Time é tudo",
+            "text": "Colaboração é a chave moderna em um mundo complexo e de constantes transformações que demanda times mais ágeis e responsivos.",
             "header": "",
-            "svg": "",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"><\/path>\n<\/svg>",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "cbb80201-3ccd-497a-b51e-bb4eb4b4dc74": {
+          "type": "content",
+          "settings": {
+            "title": "Praticar a reflexão",
+            "text": "O desenvolvimento do hábito da reflexão crítica para indivíduos e equipes oferece a oportunidade de ampliar a experiência de aprendizagem e seus resultados.",
+            "header": "",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"><\/path>\n<\/svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -204,7 +219,8 @@
       "block_order": [
         "5c9e4f9f-ab46-4fd3-b4bd-a01c4fca1d16",
         "9f6123dc-0939-46e3-b440-a486942a2cad",
-        "a26a2cbd-b8cb-4044-8b87-58c5de30e7de"
+        "a26a2cbd-b8cb-4044-8b87-58c5de30e7de",
+        "cbb80201-3ccd-497a-b51e-bb4eb4b4dc74"
       ],
       "settings": {
         "hidden": false,
@@ -227,7 +243,7 @@
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
-        "layout": "col-lg-4",
+        "layout": "col-lg-3",
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-center",
         "default_spacing": false,
@@ -253,7 +269,7 @@
         "mx_xs": 4
       }
     },
-    "cfba652b-8c1e-4b99-96c5-2081ff943b95": {
+    "c1dbb8fd-a1f4-4fc7-bfa8-b8528d8bf2ca": {
       "type": "separator",
       "settings": {
         "full_width": false,
@@ -262,32 +278,19 @@
         "mb": 13
       }
     },
-    "5d32c958-6129-4005-95c2-46ad8671fe4d": {
-      "type": "external-video",
-      "settings": {
-        "external_video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "bg_color": "",
-        "max_width": "960",
-        "video_border": "",
-        "pt": 0,
-        "pb": 0,
-        "mt": 0,
-        "mb": 0
-      }
-    },
-    "c9977b1a-1fe1-40c2-b080-da78489128a2": {
+    "8fe5ae8b-6a52-47ff-b7c0-dbc7449b9b16": {
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "<strong>Hyper Island Way™<\/strong>",
-        "text": "",
+        "title": "Nossa história",
+        "text": "Nascemos em 1996 na Suécia, após nossos fundadores trabalharem em um projeto de CD-ROM. Ao final do projeto se perguntaram: e se ajudássemos pessoas a se adaptarem às mudanças tecnológicas que estão por vir? Alguns meses depois encontraram um prédio perfeito para provocar a mudança: um presídio abandonado na ilha de Karlskrona. Assim nascia a Hyper Island.  Após 25 anos impactamos diretamente mais de 10 milhões de pessoas, formamos mais de 15 mil alunos, trabalhamos juntos com mais de 2 mil empresas e possuímos globalmente mais de 500 colaboradores atuando em hubs na Suécia, Inglaterra, Estados Unidos, Singapura e Brasil.",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
         "header": "",
         "header_size": "fs-6",
         "svg": "",
-        "bg_color": "#ffffff",
+        "bg_color": "#f5f5f5",
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-center",
@@ -296,24 +299,24 @@
         "c_title_size": "display-4",
         "c_text_size": "fs-4",
         "c_header_size": "fs-6",
-        "c_bg_color": "",
+        "c_bg_color": "#f3f0ed",
         "c_bg_gradient": "",
         "layout": "col-md-6",
         "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-left",
-        "default_spacing": true,
+        "content_align_mobile": "text-center",
+        "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
         "mt_xl": 16,
-        "mb_xl": 5,
+        "mb_xl": 0,
         "pt_lg": 0,
         "pb_lg": 0,
         "mt_lg": 16,
-        "mb_lg": 5,
+        "mb_lg": 0,
         "pt_sm": 0,
         "pb_sm": 0,
         "mt_sm": 13,
-        "mb_sm": 5,
+        "mb_sm": 0,
         "py_lg": 0,
         "px_lg": 0,
         "my_lg": 0,
@@ -324,169 +327,26 @@
         "mx_xs": 0
       }
     },
-    "ba7074ce-0e32-4dd2-a458-e118fda6c8cd": {
-      "type": "header_half",
+    "5d32c958-6129-4005-95c2-46ad8671fe4d": {
+      "type": "external-video",
       "settings": {
-        "title": "",
-        "text": "Por meio da prática dos próprios processos de aprendizagem, empodere-se e assuma o controle.",
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-6",
-        "layout-align": "left",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-75",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 10,
-        "mb_xl": 10,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 10,
-        "mb_lg": 10,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 10,
-        "mb_sm": 10
-      }
-    },
-    "baa63487-bedd-445c-8270-ca853c2d644d": {
-      "type": "separator",
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
+        "external_video": "https:\/\/www.youtube.com\/watch?v=5quLHRQRo8s",
+        "bg_color": "bg-light text-dark",
+        "max_width": "960",
+        "video_border": "",
+        "pt": 8,
+        "pb": 14,
         "mt": 0,
-        "mb": 13
+        "mb": 0
       }
     },
-    "3f6ea2ee-890a-4198-b4a4-40c10772bd73": {
-      "type": "header_half",
-      "settings": {
-        "title": "",
-        "text": "Domine técnicas de escuta ativa, feedback e diálogo eficaz para gerar inclusão e empatia.",
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-6",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-75",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 10,
-        "mb_xl": 10,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 10,
-        "mb_lg": 10,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 10,
-        "mb_sm": 10
-      }
-    },
-    "e3434079-6109-4352-a13a-e339eace54d8": {
-      "type": "separator",
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
-        "mt": 0,
-        "mb": 13
-      }
-    },
-    "b045d847-2350-4fc4-ad0d-5a6ded4d6084": {
-      "type": "header_half",
-      "settings": {
-        "title": "",
-        "text": "Aprenda o real sentido da colaboração e inicie um movimento de cocriação dentro da sua equipe e organização.",
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-6",
-        "layout-align": "left",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-75",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 10,
-        "mb_xl": 10,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 10,
-        "mb_lg": 10,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 10,
-        "mb_sm": 10
-      }
-    },
-    "6cbcee3b-f32d-4da0-91af-87e13c96ffc0": {
-      "type": "separator",
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
-        "mt": 0,
-        "mb": 13
-      }
-    },
-    "bbcf4355-3235-427b-a676-110a0f8a416d": {
-      "type": "header_half",
-      "settings": {
-        "title": "",
-        "text": "Desenvolva o hábito da reflexão crítica e amplie sua experiência de aprendizagem.",
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-6",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-75",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 10,
-        "mb_xl": 10,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 10,
-        "mb_lg": 10,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 10,
-        "mb_sm": 10
-      }
-    },
-    "bbe5912f-c7d8-487c-a212-76c5ed017fd3": {
-      "type": "separator",
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
-        "mt": 0,
-        "mb": 13
-      }
-    },
-    "303bf874-7331-424b-9123-03f4e612f205": {
-      "type": "header_half",
+    "f228795d-e400-469b-8e3d-4924a4b61625": {
+      "type": "newsletter-session",
       "blocks": {
-        "a3be9bb8-a6d7-46ce-b644-00ed9fdc449f": {
+        "f231376a-701d-4694-bd9c-d3e8466b8c21": {
           "type": "button",
           "settings": {
-            "text": "SAIBA MAIS",
+            "text": "Call to Action",
             "url": "",
             "target": false,
             "style": "rounded-white"
@@ -494,22 +354,22 @@
         }
       },
       "block_order": [
-        "a3be9bb8-a6d7-46ce-b644-00ed9fdc449f"
+        "f231376a-701d-4694-bd9c-d3e8466b8c21"
       ],
       "settings": {
-        "title": "",
-        "text": "Nossa missão é que você prospere em um mundo de constante mudança, que desenvolva habilidades essenciais para se destacar em um mercado competitivo e se torne uma pessoa que lidera de maneira criativa e inovadora. Experimente o jeito Hyper de ser!",
-        "bg_color": "#ff7300",
+        "title": "RECEBA NOSSOS CONTEÚDOS",
+        "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
+        "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
+        "bg_color": "#ffffff",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/DSC8214_2.jpg",
         "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-5",
-        "layout-align": "left",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
-        "content_width": "w-lg-75",
-        "default_spacing": true,
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
         "mt_xl": 16,
@@ -527,21 +387,14 @@
   },
   "order": [
     "9995bde8-f20f-4765-9960-c73ca0b386d8",
-    "1943b40e-b851-4396-a813-7f0c740399f9",
     "a9975935-5465-4fb0-830c-d87d16f77dad",
-    "0645a96b-7e84-4c8b-be91-495e1e9266dd",
-    "d4de43bb-dd3a-444d-bded-010b7f361444",
+    "3fcd7bb3-0766-45f7-b699-098b939ab85b",
+    "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1",
     "cfba652b-8c1e-4b99-96c5-2081ff943b95",
+    "d4de43bb-dd3a-444d-bded-010b7f361444",
+    "c1dbb8fd-a1f4-4fc7-bfa8-b8528d8bf2ca",
+    "8fe5ae8b-6a52-47ff-b7c0-dbc7449b9b16",
     "5d32c958-6129-4005-95c2-46ad8671fe4d",
-    "c9977b1a-1fe1-40c2-b080-da78489128a2",
-    "ba7074ce-0e32-4dd2-a458-e118fda6c8cd",
-    "baa63487-bedd-445c-8270-ca853c2d644d",
-    "3f6ea2ee-890a-4198-b4a4-40c10772bd73",
-    "e3434079-6109-4352-a13a-e339eace54d8",
-    "b045d847-2350-4fc4-ad0d-5a6ded4d6084",
-    "6cbcee3b-f32d-4da0-91af-87e13c96ffc0",
-    "bbcf4355-3235-427b-a676-110a0f8a416d",
-    "bbe5912f-c7d8-487c-a212-76c5ed017fd3",
-    "303bf874-7331-424b-9123-03f4e612f205"
+    "f228795d-e400-469b-8e3d-4924a4b61625"
   ]
 }

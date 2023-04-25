@@ -1,79 +1,689 @@
 {
   "sections": {
-    "template-product": {
-      "type": "template-product",
+    "5141daf1-700c-4f4a-bbce-4398352a1f4c": {
+      "type": "course-header",
+      "settings": {
+        "overlay_opacity": 30,
+        "font_color": "text-light",
+        "title_size": "display-1",
+        "label_1": "Formato",
+        "info_1": "Online",
+        "label_2": "Próxima Truma",
+        "info_2": "13 de Julho",
+        "label_3": "Horário",
+        "info_3": "Quarta, 18h-20h BRT",
+        "label_4": "Duração",
+        "info_4": "4 semanas",
+        "price_option": true,
+        "price_subtitle": "",
+        "price_text": "",
+        "cta_1": "Registrar",
+        "cta_2": "Baixe o programa",
+        "cta_link_2": "",
+        "cta_3": "Tirar dúvida",
+        "cta_link_3": "",
+        "display_timezone": false,
+        "date_est": "15-04-2023-18:00",
+        "week_day": "Quata",
+        "duration": 120
+      }
+    },
+    "5ca41278-01ed-4970-a967-bd751801d84e": {
+      "type": "content",
       "blocks": {
-        "58913963-afac-40f1-aaef-9a8b2084dc99": {
-          "type": "product_description",
+        "e1cdf001-ba57-4c64-8543-e5fe36210b92": {
+          "type": "content",
           "settings": {
-            "title": "Details"
+            "title": "<strong>O que devo esperar?<\/strong>",
+            "text": "Prepare-se para uma jornada incrível! Aprenda a aplicar tendências emergentes em sua vida profissional e pessoal, transformando sua mentalidade e explorando todas as oportunidades que o curso oferece. Conheça pessoas de todo o Brasil e do mundo, e compartilhe experiências únicas que irão enriquecer seu percurso. Este é o momento para",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
           }
         },
-        "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5": {
-          "type": "richtext",
+        "e71745f9-44c5-4ceb-9905-dfd8436563ca": {
+          "type": "content",
           "settings": {
-            "title": "Shipping & Returns",
-            "description": "<p>Feel free to create additional blocks like this for <strong>Shipping, Payments, etc <\/strong>through the Shopify Theme editor. Also, you may easily adjust their order by dragging and dropping.<\/p>"
+            "title": "Como vou aprender?",
+            "text": "Projetamos nossos cursos com curadorias cuidadosamente selecionadas para garantir que você aprenda de forma imersiva e interativa. Nossos facilitadores lideram sessões ao vivo semanalmente, desafiando você a crescer e se transformar a cada aula. Prepare-se para uma experiência de aprendizado centrada na experiência, na",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "ad76ca31-6918-454a-b837-213f971bcc31": {
+          "type": "content",
+          "settings": {
+            "title": "Por quê Hyper Island?",
+            "text": "Valorizamos sua trajetória e entendemos que respostas prontas não são a melhor forma de aprendizagem. Desenhamos oportunidades a partir dos avanços da tecnologia e inovação para que você descubra novas maneiras de criar, pensar e desenvolver suas ideias e, assim, possa expandir sua consciência visando um futuro extraordinário.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "b8ab85c3-3b5a-4789-b84d-f1d7b5020ac0": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "About Hyper with numbers",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
           }
         }
       },
       "block_order": [
-        "58913963-afac-40f1-aaef-9a8b2084dc99",
-        "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5"
+        "e1cdf001-ba57-4c64-8543-e5fe36210b92",
+        "e71745f9-44c5-4ceb-9905-dfd8436563ca",
+        "ad76ca31-6918-454a-b837-213f971bcc31",
+        "b8ab85c3-3b5a-4789-b84d-f1d7b5020ac0"
       ],
       "settings": {
-        "title_size": "h2",
-        "show_vendor": true,
-        "show_share_btn": true,
-        "gallery_img_orientation": "square",
-        "gallery_img_border": "img-thumbnail",
-        "form_light_bg": true,
-        "form_show_buy_btn": true,
-        "pt": 10,
-        "pb": 0,
-        "mt": 0,
-        "mb": 0
+        "hidden": true,
+        "title": "About Hyper with numbers",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-5",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 16,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 13,
+        "mx_xs": 0
       }
     },
-    "a048e36f-1b13-4ad9-9fdd-e392f0e9489c": {
-      "type": "separator",
+    "8b0e92c1-272e-42cf-8650-be49d5da4f42": {
+      "type": "header_half",
       "settings": {
-        "full_width": false,
-        "opacity": 0.1,
-        "mt": 10,
-        "mb": 10
+        "title": "NOSSA METODOLOGIA",
+        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.<\/strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": true,
+        "pt_xl": 10,
+        "pb_xl": 10,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 10,
+        "pb_lg": 10,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 5,
+        "pb_sm": 5,
+        "mt_sm": 0,
+        "mb_sm": 0
       }
     },
-    "5ca5d2db-2cba-4423-b260-a6a8749b20a8": {
-      "type": "recommended-products",
+    "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb": {
+      "type": "content",
+      "blocks": {
+        "9418dca7-749c-44a1-85df-12190cb65c7a": {
+          "type": "content",
+          "settings": {
+            "title": "MÓDULO 1",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "30591085-a32b-4197-b3cf-ae28dc4293c8": {
+          "type": "content",
+          "settings": {
+            "title": "MÓDULO 2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "1a9545f3-3577-4f72-bc92-3c4670e4484e": {
+          "type": "content",
+          "settings": {
+            "title": "MÓDULO 3",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vuls iaculis urna id volutpat lacus. Tin",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "7c6fe217-6aad-4380-9690-bfaeaed7727d": {
+          "type": "content",
+          "settings": {
+            "title": "MÓDULO 4",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut piscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "a5c9b93a-6a66-4b64-a9cd-33dd8ede388b": {
+          "type": "content",
+          "settings": {
+            "title": "MÓDULO 5",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat ibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "c6a17386-622e-4a05-be17-d3879e749e48": {
+          "type": "content",
+          "settings": {
+            "title": "MÓDULO 6",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "9418dca7-749c-44a1-85df-12190cb65c7a",
+        "30591085-a32b-4197-b3cf-ae28dc4293c8",
+        "1a9545f3-3577-4f72-bc92-3c4670e4484e",
+        "7c6fe217-6aad-4380-9690-bfaeaed7727d",
+        "a5c9b93a-6a66-4b64-a9cd-33dd8ede388b",
+        "c6a17386-622e-4a05-be17-d3879e749e48"
+      ],
       "settings": {
-        "bg_color": "",
-        "text_align": "text-center",
-        "limit": 8,
-        "title": "Recommended Products",
-        "title_size": "h2",
-        "description": "<p>Add on optional description to this section<\/p>",
-        "description_size": "fs-6",
-        "product_img_orientation": "square",
-        "product_img_border": "img-thumbnail",
-        "product_title_size": "h6",
-        "mobile_scroll": true,
-        "breakpoint_xs": 1,
-        "breakpoint_sm": 2,
-        "breakpoint_md": 2,
-        "breakpoint_lg": 3,
-        "breakpoint_xl": 4,
-        "breakpoint_xxl": 4,
-        "pt": 0,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
+        "hidden": false,
+        "title": "PROGRAMA DO CURSO",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-6",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": true,
+        "pt_xl": 13,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 5,
+        "py_lg": 5,
+        "px_lg": 5,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0
+      }
+    },
+    "f39daef8-3263-467c-b5e2-581de2221700": {
+      "type": "button-section",
+      "blocks": {
+        "90aa23df-1295-46c6-9bfb-0546c85e4550": {
+          "type": "button",
+          "settings": {
+            "text": "Mandar mensagem",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        },
+        "4f3d2032-e23e-43f3-a81e-3a278e71a0fd": {
+          "type": "button",
+          "settings": {
+            "text": "Mandar email",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "90aa23df-1295-46c6-9bfb-0546c85e4550",
+        "4f3d2032-e23e-43f3-a81e-3a278e71a0fd"
+      ],
+      "settings": {
+        "title": "PARA GRUPOS E EMPRESAS",
+        "text": "Quer levar esse curso para uma sessão exclusiva in-copany? Converse com a Sabryna para saber como podemos te ajudo!",
+        "img": "shopify:\/\/shop_images\/1587057149123.jpg",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-6",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9": {
+      "type": "testimonial",
+      "blocks": {
+        "d260a457-b4e4-4b1d-872c-1df57baa696d": {
+          "type": "content",
+          "settings": {
+            "name": "Elon Musk",
+            "text": "A dinâmica do curso, com kits de aprendizagem e os momentos síncronos, sem perder de vista as \"tarefas\". Isso faz com que a gente se engaje, troque experiências e fique ainda mais comprometido. Além disso, os temas abordados também ficaram super dentro do que eu tinha de expectativa em relação ao tema. Foi uma experiência incrível!",
+            "img": "shopify:\/\/shop_images\/02mai2022---o-bilionario-elon-musk-no-met-gala-em-nova-york-1669125518979_v2_1x1_19d8f476-ef3e-4c2c-b9e7-58bd5cae1b2b.jpg"
+          }
+        },
+        "903ecd16-1682-4784-86b5-ee4446329ab2": {
+          "type": "content",
+          "settings": {
+            "name": "Elon Musk",
+            "text": "As provocações para reflexão sobre a nossa atual liderança e sobre o líder que queremos ser. Gostei do formato do curso, de dar espaço para assimilar e refletir o conteúdo. Além, é claro de todos os modelos e ferramentas apresentadas.",
+            "img": "shopify:\/\/shop_images\/02mai2022---o-bilionario-elon-musk-no-met-gala-em-nova-york-1669125518979_v2_1x1_19d8f476-ef3e-4c2c-b9e7-58bd5cae1b2b.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d260a457-b4e4-4b1d-872c-1df57baa696d",
+        "903ecd16-1682-4784-86b5-ee4446329ab2"
+      ],
+      "settings": {
+        "hidden": true,
+        "title": "Testimonial",
+        "text": "As provocações para reflexão sobre a nossa atual liderança e sobre o líder que queremos ser. Gostei do formato do curso, de dar espaço para assimilar e refletir o conteúdo. Além, é claro de todos os modelos e ferramentas apresentadas.",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout": "col-md-6",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "1cb5682b-ba57-45ef-b33e-6bc5346bd719": {
+      "type": "content",
+      "blocks": {
+        "4d6a7811-6f06-4e23-a3aa-af4f7a8a3ed3": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>Como funciona o curso?<\/strong>",
+            "text": "O curso é completamente remoto, com duração de 4 semanas. As sessões são todas ao vivo, mas ficam gravadas para que você possa consultar quando quiser. A jornada de aprendizagem acontece dentro e fora das sessões, com nossos kits de aprendizagem e exercícios semanais. Além disso, a cada semana você terá um encontro especial com os facilitadores do curso e todas as outras pessoas que embarcaram nessa experiência com você!",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "b3fd152d-8892-42ee-94b3-fd1ecd1abe0f": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>Os encontros são gravados?<\/strong>",
+            "text": "Sim! Todos os nossos encontros semanais são gravados e são disponibilizados em até 24h após o término da sessão. Você poderá acessar as gravações sempre que quiser no canal de comunicação do curso.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "fed2d2e6-23e1-49da-b0f2-7bc204059924": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>Por quanto tempo terei acesso aos materiais e gravações?<\/strong>",
+            "text": "Por tempo indeterminado! Você poderá acessar os arquivos sempre que quiser.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "94f51f34-72b0-46af-9dc8-d9c978edc6c5": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>Como funciona a metodologia da Hyper Island?<\/strong>",
+            "text": "A nossa metodologia é baseada em uma abordagem centrada na experiência. Empoderamos e desafiamos as pessoas a assumirem o seu próprio aprendizado. Assim todos aprendemos mais.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "5e19636c-65dd-49eb-bf4f-84d97fca46c4": {
+          "type": "content",
+          "settings": {
+            "title": "Quais são as formas de pagamento aceitas?",
+            "text": "Você pode escolher entre pagar o curso com cartões de crédito ou débito. Caso prefira, também aceitamos PIX e depósito bancário.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "5f0b371a-b7bd-416f-a6d7-7b3e47c89253": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>O curso possui certificado?<\/strong>",
+            "text": "Sim! Ao finalizar o curso, você receberá um certificado com o total de horas e participação comprovada. Para recebê-lo, é necessário ter pelo menos 70% de presença nas sessões ao vivo e concluir metade das atividades semanais.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "a34c2e83-f8de-46eb-8f56-4d164ccff55c": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>A Hyper Island oferece bolsa de estudos?<\/strong>",
+            "text": "Buscando contribuir para uma mudança positiva na sociedade, criamos um espaço para candidaturas de bolsas de estudo com descontos de até 100% em nossos cursos online. <a href=\"https:\/\/hyperisland-global.typeform.com\/to\/M4djFd5s\"><span style=\"text-decoration:underline\">Candidate-se aqui<\/span><\/a>.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "aaacaf64-db3a-40ea-89be-01b841512d14": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "About Hyper with numbers",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "4d6a7811-6f06-4e23-a3aa-af4f7a8a3ed3",
+        "b3fd152d-8892-42ee-94b3-fd1ecd1abe0f",
+        "fed2d2e6-23e1-49da-b0f2-7bc204059924",
+        "94f51f34-72b0-46af-9dc8-d9c978edc6c5",
+        "5e19636c-65dd-49eb-bf4f-84d97fca46c4",
+        "5f0b371a-b7bd-416f-a6d7-7b3e47c89253",
+        "a34c2e83-f8de-46eb-8f56-4d164ccff55c",
+        "aaacaf64-db3a-40ea-89be-01b841512d14"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "TIRE SUAS DÚVIDAS",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 6,
+        "my_lg": 7,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 8,
+        "mx_xs": 0
+      }
+    },
+    "9948f854-b2fb-4a4d-985c-154befb25a21": {
+      "type": "clients",
+      "settings": {
+        "hidden": false,
+        "title": "Clientes",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-start",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "d1445347-876e-4eee-a179-ba8f568a5085": {
+      "type": "content",
+      "disabled": true,
+      "settings": {
+        "hidden": false,
+        "title": "Sobre a Hyper Island",
+        "text": "Em 2023 a Hyper completa 27 anos como provedora de educação e facilitadora de experiências de aprendizagem imersivas, tanto para indivíduos quanto para empresas. Nesse tempo, trabalhamos para ajudar pessoas a se desenvolverem e cultivarem suas habilidades para enfrentarem os desafios de uma sociedade em constante mudança.",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-6",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0
+      }
+    },
+    "e1ee17c5-9a80-4d4e-bd81-22f8c90f3daa": {
+      "type": "header",
+      "settings": {
+        "title": "Sobre a Hyper Island",
+        "text": "Em 2023 a Hyper completa 27 anos como provedora de educação e facilitadora de experiências de aprendizagem imersivas, tanto para indivíduos quanto para empresas. Nesse tempo, trabalhamos para ajudar pessoas a se desenvolverem e cultivarem suas habilidades para enfrentarem os desafios de uma sociedade em constante mudança.",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/BG1.png",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-5",
+        "text_size": "fs-6",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-50",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "577b8190-d683-4d05-92aa-43b63a3a640d": {
+      "type": "newsletter-session",
+      "settings": {
+        "title": "RECEBA NOSSOS CONTEÚDOS",
+        "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
+        "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
       }
     }
   },
   "order": [
-    "template-product",
-    "a048e36f-1b13-4ad9-9fdd-e392f0e9489c",
-    "5ca5d2db-2cba-4423-b260-a6a8749b20a8"
+    "5141daf1-700c-4f4a-bbce-4398352a1f4c",
+    "5ca41278-01ed-4970-a967-bd751801d84e",
+    "8b0e92c1-272e-42cf-8650-be49d5da4f42",
+    "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb",
+    "f39daef8-3263-467c-b5e2-581de2221700",
+    "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
+    "1cb5682b-ba57-45ef-b33e-6bc5346bd719",
+    "9948f854-b2fb-4a4d-985c-154befb25a21",
+    "d1445347-876e-4eee-a179-ba8f568a5085",
+    "e1ee17c5-9a80-4d4e-bd81-22f8c90f3daa",
+    "577b8190-d683-4d05-92aa-43b63a3a640d"
   ]
 }

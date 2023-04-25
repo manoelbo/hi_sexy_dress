@@ -2,9 +2,23 @@
   "sections": {
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
       "type": "header",
+      "blocks": {
+        "df7d5120-88c7-493f-b557-023dad40f405": {
+          "type": "button",
+          "settings": {
+            "text": "ENTRE EM CONTATO",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "df7d5120-88c7-493f-b557-023dad40f405"
+      ],
       "settings": {
         "title": "<strong>BUSINESS TRANSFORMATION<\/strong>",
-        "text": "Descubra uma metodologia exclusiva que pode ajudar você a transformar realidades e alcançar o sucesso de forma mais eficaz. Conheça o jeito Hyper Island Way™ de ser e transformar realidades.",
+        "text": "Leve para a sua organização uma metodologia exclusiva que pode ajudar você a transformar realidades e alcançar o sucesso de forma mais eficaz.",
         "bg_color": "#212529",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/1_Header_Para_Empresas.jpg",
@@ -16,12 +30,12 @@
         "align_mobile": "text-left",
         "content_width": "w-lg-50",
         "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
+        "pt_xl": 15,
+        "pb_xl": 12,
         "mt_xl": 13,
         "mb_xl": 10,
-        "pt_lg": 0,
-        "pb_lg": 0,
+        "pt_lg": 10,
+        "pb_lg": 10,
         "mt_lg": 13,
         "mb_lg": 10,
         "pt_sm": 0,
@@ -35,7 +49,7 @@
       "settings": {
         "hidden": false,
         "title": "<strong>Hyper Island Way™<\/strong>",
-        "text": "A liderança é uma habilidade que todas as pessoas podem alcançar. A capacidade de aprender, desaprender e reaprender é o que impulsiona as pessoas a agirem e levarem as organizações adiante. Entenda a diferença entre como e o que aprender para desbravar o futuro!",
+        "text": "A capacidade de reaprender é o que impulsiona as pessoas a agirem e levarem as organizações adiante. Ao longo de 26 anos, a Hyper Island criou uma metodologia que combina ferramentas e rituais exclusivos que criam o ambiente ideal para que isso aconteça. ",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -79,41 +93,11 @@
         "mx_xs": 0
       }
     },
-    "fe79b999-4357-4e47-a1c4-6197f81fb334": {
-      "type": "header_half",
-      "settings": {
-        "title": "WORKSHOPS",
-        "text": "Baseados em construir experiências de aprendizagem, desenhamos e facilitamos <em>workshops<\/em> de diferentes formatos e tamanhos. Nossos facilitadores trabalham para empoderar pessoas e times para encontrarem soluções inclusivas, criativas e colaborativas.",
-        "bg_color": "#f3f0ed",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/2_Workshops2.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-5",
-        "layout-align": "left",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-75",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
-      }
-    },
     "b0665530-e062-48f4-bd01-2da5ebf8f79a": {
       "type": "header_half",
       "settings": {
         "title": "<strong>JORNADAS DE TRANSFORMAÇÃO<\/strong>",
-        "text": "Criamos jornadas que sejam flexíveis para que as pessoas consigam se apropriar de ferramentas, mentalidades e comportamentos para conduzirem a mudança dentro e fora das organizações. Seja transformação digital ou transformação de negócios, no final é tudo sobre <strong>transformação de pessoas<\/strong>.",
+        "text": "Criamos jornadas que sejam flexíveis para que as pessoas consigam se apropriar de ferramentas, mentalidades e comportamentos para conduzirem a mudança dentro e fora das organizações.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/3_Jornadas_de_Transf..jpg",
@@ -139,40 +123,53 @@
         "mb_sm": 13
       }
     },
+    "fe79b999-4357-4e47-a1c4-6197f81fb334": {
+      "type": "header_half",
+      "settings": {
+        "title": "WORKSHOPS",
+        "text": "Desenhamos e facilitamos <em>workshops<\/em> de diferentes formatos e tamanhos. Nossos facilitadores trabalham para empoderar pessoas e times para encontrarem soluções inclusivas, criativas e colaborativas.",
+        "bg_color": "#f3f0ed",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/2_Workshops2.jpg",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-5",
+        "layout-align": "left",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-75",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
+      }
+    },
     "27f908dd-e677-4d9b-9d8b-2cac654683b7": {
       "type": "card",
       "blocks": {
-        "7da6f3ad-7e9a-4649-b116-4e3268a61af5": {
+        "cbf7f762-2708-4551-913e-81234484fd3b": {
           "type": "category",
           "settings": {
-            "active": false,
-            "category": "Inovação e Negócios",
-            "id": "innovation"
-          }
-        },
-        "b1398823-b615-4dad-acdf-ee06bc991fc8": {
-          "type": "category",
-          "settings": {
-            "active": false,
-            "category": "Liderança e Cultura",
-            "id": "leadership"
-          }
-        },
-        "1d3c9cb0-0487-4c30-8377-ff08828903e2": {
-          "type": "category",
-          "settings": {
-            "active": false,
-            "category": "Comunicação e Criatividade",
-            "id": "creativity"
+            "active": true,
+            "category": "Workshops & Palestras",
+            "id": "workshops"
           }
         },
         "3b9c8dac-055d-4318-b9c1-9a9a1ca6447e": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "innovation",
-            "title": "Criatividade Aplicada",
-            "text": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo.",
+            "category_id": "workshops",
+            "title": "Liderança  Do Futuro",
+            "text": "",
             "url": "",
             "target": false
           }
@@ -180,10 +177,9 @@
         "03eb4d2f-0961-44b1-917a-8ca2d0835017": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "leadership",
-            "title": "Liderança do Futuro",
-            "text": "A partir de ferramentas de aprendizagem, transforme a sua maneira de liderar e destrave a mentalidade de um líder do futuro.",
+            "category_id": "workshops",
+            "title": "Inovação e Criatividade",
+            "text": "",
             "url": "",
             "target": false
           }
@@ -191,10 +187,9 @@
         "67c5c0dd-270b-4159-bb7c-986b8f5d72ff": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "innovation",
-            "title": "Human Centric Innovation",
-            "text": "Aprenda ferramentas, técnicas e processos essenciais para inovar em seu negócio.",
+            "category_id": "workshops",
+            "title": "Experiência do Consumidor",
+            "text": "",
             "url": "",
             "target": false
           }
@@ -202,10 +197,19 @@
         "acf64343-adf9-4ed3-8eb0-2d4da0d6227d": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "leadership",
-            "title": "Transformação Exponencial",
-            "text": "Tenha acesso a ferramentas e network para promover mudanças reais em sua organização.",
+            "category_id": "workshops",
+            "title": "Marketing  Digital",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "f37f56f8-9c6f-4ce7-a2e8-0bc9695b5735": {
+          "type": "card",
+          "settings": {
+            "category_id": "workshops",
+            "title": "Future <\/br> Thinking",
+            "text": "",
             "url": "",
             "target": false
           }
@@ -213,10 +217,9 @@
         "3cedf7c5-208a-4ac4-8612-5a6f0c0c4b1d": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "creativity",
-            "title": "Marketing Digital",
-            "text": "Descubra como criar, testar e implementar campanhas de marketing digital que oferecem resultados reais.",
+            "category_id": "workshops",
+            "title": "Times de Alta Perfromance",
+            "text": "",
             "url": "",
             "target": false
           }
@@ -224,77 +227,198 @@
         "b1dc65dd-c2ef-4219-86ba-16c135623cca": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "creativity",
-            "title": "Customer Experience Design",
-            "text": "Transforme a maneira como enxerga, desenha e desenvolve experiências com foco nas necessidades reais da sua audiência.",
+            "category_id": "workshops",
+            "title": "Comunicação & Storytelling",
+            "text": "",
             "url": "",
             "target": false
           }
         },
-        "b7fa3c27-ac8b-481b-ba3a-ae6701409013": {
+        "f32b31eb-e735-4799-abfa-65c5cb2f1936": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "creativity",
-            "title": "Behavioural Design",
-            "text": "Aplique os princípios básicos da ciência do comportamento humano em seus processos de criação.",
+            "category_id": "workshops",
+            "title": "Diversidade & Inclusão",
+            "text": "",
             "url": "",
             "target": false
           }
         },
-        "de7b90cc-f647-4c30-9acc-66f26abdec56": {
+        "d8879e8c-33c7-4a3a-99f9-3686edf2d81e": {
+          "type": "category",
+          "settings": {
+            "active": false,
+            "category": "Cocriação & Teambuilding",
+            "id": "consultoria"
+          }
+        },
+        "c348b121-119f-4505-8471-332c2ba2a87b": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "leadership",
-            "title": "Liderança Ágil",
-            "text": "Alavanque o potencial do seu time por meio da mentalidade ágil.",
+            "category_id": "consultoria",
+            "title": "Planejamento Estratégico",
+            "text": "",
             "url": "",
             "target": false
           }
         },
-        "4a4c1909-5abc-48f9-99c4-c1eee34b4c6a": {
+        "6b39c4d5-6747-4738-b174-4da941df48f3": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "creativity",
-            "title": "Storytelling",
-            "text": "Saiba como estruturar e disseminar seus projetos a partir de narrativas envolventes e engajadoras, destravando um mindset de um contador de histórias.",
+            "category_id": "consultoria",
+            "title": "Sprint de Inovação",
+            "text": "",
             "url": "",
             "target": false
           }
         },
-        "5dc0b040-609e-4941-8045-51c50ee3bb77": {
+        "2cc4603c-37bc-4415-9e43-3b8c4034cc83": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DSC8214_2.jpg",
-            "category_id": "innovation",
-            "title": "Future Thinking",
-            "text": "Desenvolva um novo olhar sobre o futuro e explore tendências para futuros possíveis.",
+            "category_id": "consultoria",
+            "title": "Mapeamento de Tendências",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "666b9cd2-e76d-46f0-8701-c1dba85d0744": {
+          "type": "card",
+          "settings": {
+            "category_id": "consultoria",
+            "title": "Team Manifesto",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "2f95c0bb-8e4b-40af-8844-b67c85449db9": {
+          "type": "card",
+          "settings": {
+            "category_id": "consultoria",
+            "title": "Design de Jornada do Cosumidor",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "1cf540b5-8e1e-476d-ad49-903f4006abae": {
+          "type": "card",
+          "settings": {
+            "category_id": "consultoria",
+            "title": "Retrospectiva e Wrap-Up",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "794b311e-1bc9-4f31-a878-bb148653efe5": {
+          "type": "card",
+          "settings": {
+            "category_id": "consultoria",
+            "title": "Integração e Confiança",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "e87ab430-4cd0-4c98-aed0-3ae1f2e0110f": {
+          "type": "card",
+          "settings": {
+            "category_id": "consultoria",
+            "title": "Alinhamento e Autonomia",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "718e4ffd-baea-4815-b03a-b79735e09a6f": {
+          "type": "category",
+          "settings": {
+            "active": false,
+            "category": "Jornadas & Programas",
+            "id": "programas"
+          }
+        },
+        "c12ec254-ea4a-480d-ac2b-9d4481d6ee6e": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "active": false,
+            "category": "Programas",
+            "id": "leadership"
+          }
+        },
+        "7b11fc4d-e999-42f3-be08-c09e7450e6ed": {
+          "type": "card",
+          "settings": {
+            "category_id": "programas",
+            "title": "Transformação Organizacional",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "51d4d49e-2611-431b-a829-381dc115762f": {
+          "type": "card",
+          "settings": {
+            "category_id": "programas",
+            "title": "Implementação de Metodologias Agile",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "053307ba-1789-4e7e-a375-2f9d4ae4c4df": {
+          "type": "card",
+          "settings": {
+            "category_id": "programas",
+            "title": "Programas de Talentos",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0": {
+          "type": "card",
+          "settings": {
+            "category_id": "programas",
+            "title": "Análise de lacunas de competências",
+            "text": "",
             "url": "",
             "target": false
           }
         }
       },
       "block_order": [
-        "7da6f3ad-7e9a-4649-b116-4e3268a61af5",
-        "b1398823-b615-4dad-acdf-ee06bc991fc8",
-        "1d3c9cb0-0487-4c30-8377-ff08828903e2",
+        "cbf7f762-2708-4551-913e-81234484fd3b",
         "3b9c8dac-055d-4318-b9c1-9a9a1ca6447e",
         "03eb4d2f-0961-44b1-917a-8ca2d0835017",
         "67c5c0dd-270b-4159-bb7c-986b8f5d72ff",
         "acf64343-adf9-4ed3-8eb0-2d4da0d6227d",
+        "f37f56f8-9c6f-4ce7-a2e8-0bc9695b5735",
         "3cedf7c5-208a-4ac4-8612-5a6f0c0c4b1d",
         "b1dc65dd-c2ef-4219-86ba-16c135623cca",
-        "b7fa3c27-ac8b-481b-ba3a-ae6701409013",
-        "de7b90cc-f647-4c30-9acc-66f26abdec56",
-        "4a4c1909-5abc-48f9-99c4-c1eee34b4c6a",
-        "5dc0b040-609e-4941-8045-51c50ee3bb77"
+        "f32b31eb-e735-4799-abfa-65c5cb2f1936",
+        "d8879e8c-33c7-4a3a-99f9-3686edf2d81e",
+        "c348b121-119f-4505-8471-332c2ba2a87b",
+        "6b39c4d5-6747-4738-b174-4da941df48f3",
+        "2cc4603c-37bc-4415-9e43-3b8c4034cc83",
+        "666b9cd2-e76d-46f0-8701-c1dba85d0744",
+        "2f95c0bb-8e4b-40af-8844-b67c85449db9",
+        "1cf540b5-8e1e-476d-ad49-903f4006abae",
+        "794b311e-1bc9-4f31-a878-bb148653efe5",
+        "e87ab430-4cd0-4c98-aed0-3ae1f2e0110f",
+        "718e4ffd-baea-4815-b03a-b79735e09a6f",
+        "c12ec254-ea4a-480d-ac2b-9d4481d6ee6e",
+        "7b11fc4d-e999-42f3-be08-c09e7450e6ed",
+        "51d4d49e-2611-431b-a829-381dc115762f",
+        "053307ba-1789-4e7e-a375-2f9d4ae4c4df",
+        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0"
       ],
       "settings": {
         "hidden": false,
-        "title": "Cursos Exclusivos",
+        "title": "Desafios que abordamos",
         "text": "",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -332,61 +456,6 @@
         "mb": 13
       }
     },
-    "7afe692c-1d2c-4545-b91a-c6b912065c5b": {
-      "type": "card-fluid",
-      "blocks": {
-        "template--18554301514031__7afe692c-1d2c-4545-b91a-c6b912065c5b-1680632808ff3af4e8-0": {
-          "type": "card",
-          "settings": {
-            "header": "",
-            "title": "",
-            "text": "<strong>REGISTRAR<\/strong>",
-            "url": "",
-            "target": false,
-            "font_color": "text-dark",
-            "bg_color": "#ff7300",
-            "bg_gradient": ""
-          }
-        },
-        "template--18554301514031__7afe692c-1d2c-4545-b91a-c6b912065c5b-1680632808ff3af4e8-1": {
-          "type": "card",
-          "settings": {
-            "header": "",
-            "title": "",
-            "text": "<strong>TIRAR DÚVIDA<\/strong>",
-            "url": "",
-            "target": false,
-            "font_color": "text-dark",
-            "bg_color": "#e3dfd3",
-            "bg_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18554301514031__7afe692c-1d2c-4545-b91a-c6b912065c5b-1680632808ff3af4e8-0",
-        "template--18554301514031__7afe692c-1d2c-4545-b91a-c6b912065c5b-1680632808ff3af4e8-1"
-      ],
-      "settings": {
-        "header_size": "fs-6",
-        "title_size": "display-4",
-        "text_size": "fs-5",
-        "layout": "col-lg-6",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "pt_xl": 4,
-        "pb_xl": 4,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 4,
-        "pb_lg": 4,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 4,
-        "pb_sm": 4,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
     "08897541-1444-4312-8baa-ea342ede0dd4": {
       "type": "content",
       "blocks": {
@@ -394,7 +463,7 @@
           "type": "content",
           "settings": {
             "title": "<strong>METODOLOGIA 3U<\/strong>",
-            "text": "Nossa metodologia 3U potencializa indivíduos a se tornarem agentes de mudança e cria um movimento de transformação sustentável de longo prazo.",
+            "text": "Nossa metodologia 3U (Uncover, Unlock, Unleash) potencializa indivíduos a se tornarem agentes de mudança e cria um movimento de transformação sustentável de longo prazo.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -405,7 +474,7 @@
           "type": "content",
           "settings": {
             "title": "<strong>CUSTOMIZAÇÃO<\/strong>",
-            "text": "Customizamos nossos cursos para equipes, personalizando materiais e formatos para que seja mais adequado à organização - presencial, híbrido ou totalmente remoto.",
+            "text": "Customizamos nossos cursos para equipes, personalizando materiais e formatos para que seja mais adequado ao sprint.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -439,7 +508,7 @@
         "header": "",
         "header_size": "fs-6",
         "svg": "",
-        "bg_color": "#ffffff",
+        "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-center",
@@ -469,7 +538,7 @@
         "py_lg": 0,
         "px_lg": 0,
         "my_lg": 0,
-        "mx_lg": 4,
+        "mx_lg": 0,
         "py_xs": 0,
         "px_xs": 0,
         "my_xs": 0,
@@ -478,6 +547,7 @@
     },
     "698bf485-1eb8-4bec-9af7-12e4b920cf69": {
       "type": "separator",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "opacity": 0,
@@ -489,7 +559,7 @@
       "type": "header_half",
       "settings": {
         "title": "<strong>CURADORIA DE EVENTOS<\/strong>",
-        "text": "Ajudamos a sua empresa com o desenho e planejamento de eventos corporativos. Projetos que vão desde a criação do conceito, desenvolvimento das dinâmicas de aprendizagem, até a construção do time de <em>speakers<\/em>. Tudo isso para conduzir um melhor engajamento entre os participantes.",
+        "text": "Ajudamos a sua empresa com o desenho e planejamento de eventos corporativos. Projetos que vão desde a criação do conceito, desenvolvimento das dinâmicas de aprendizagem, até a construção do time de <em>speakers<\/em>.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/30-R0002861-2.jpg",
@@ -515,21 +585,114 @@
         "mb_sm": 13
       }
     },
-    "6d3d17e2-14f7-4f4f-b29e-18f7e95262d0": {
-      "type": "contact-form",
+    "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad": {
+      "type": "header_half",
       "settings": {
-        "bg_color": "",
-        "max_width": "992",
-        "title": "Fale com a gente!",
-        "title_size": "h1",
-        "description": "<p>Deseja nos encaminhar alguma dúvida? Nos envie uma mensagem e logo menos retornaremos o contato. <\/p>",
-        "description_size": "fs-6",
-        "btn_color": "btn-dark",
-        "btn_size": "",
-        "pt": 0,
-        "pb": 0,
-        "mt": 16,
-        "mb": 16
+        "title": "CURSOS IN-COPANY",
+        "text": "Nossos cursos remotos e presenciais estão disponíveis para turmas exclusivas, com opções de customização para que a jornada de aprendizagem faça sentido para o seu negócio e sua agenda.",
+        "bg_color": "#f3f0ed",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/2_Remoto.png",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975": {
+      "type": "button-section",
+      "blocks": {
+        "726717ac-617a-4f9a-8b5f-fca52b092f42": {
+          "type": "button",
+          "settings": {
+            "text": "Mander e-mail",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        },
+        "709e746d-79fc-4e8a-b7cd-cf6ac3f99334": {
+          "type": "button",
+          "settings": {
+            "text": "Mandar Mensagem",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "726717ac-617a-4f9a-8b5f-fca52b092f42",
+        "709e746d-79fc-4e8a-b7cd-cf6ac3f99334"
+      ],
+      "settings": {
+        "title": "FALE COM A VIVI",
+        "text": "Queremos te ouvir! Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
+        "img": "shopify:\/\/shop_images\/1675811085451.jpg",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-5",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
+      "type": "clients",
+      "settings": {
+        "hidden": false,
+        "title": "Nossos Clientes",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
       }
     },
     "ca91f808-6934-447a-aaba-35feb8712939": {
@@ -561,20 +724,66 @@
         "mt_sm": 13,
         "mb_sm": 13
       }
+    },
+    "33df1084-0138-4220-9e5e-642c9953b412": {
+      "type": "newsletter-session",
+      "blocks": {
+        "6224f3b1-1467-47bf-b2d2-3843e5059a2c": {
+          "type": "button",
+          "settings": {
+            "text": "Call to Action",
+            "url": "",
+            "target": false,
+            "style": "rounded-orange"
+          }
+        }
+      },
+      "block_order": [
+        "6224f3b1-1467-47bf-b2d2-3843e5059a2c"
+      ],
+      "settings": {
+        "title": "RECEBA NOSSOS CONTEÚDOS",
+        "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
+        "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-75",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
+      }
     }
   },
   "order": [
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
-    "fe79b999-4357-4e47-a1c4-6197f81fb334",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
+    "fe79b999-4357-4e47-a1c4-6197f81fb334",
     "27f908dd-e677-4d9b-9d8b-2cac654683b7",
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce",
-    "7afe692c-1d2c-4545-b91a-c6b912065c5b",
     "08897541-1444-4312-8baa-ea342ede0dd4",
     "698bf485-1eb8-4bec-9af7-12e4b920cf69",
     "1da6d290-5e65-44fc-8b7a-6af03f274b37",
-    "6d3d17e2-14f7-4f4f-b29e-18f7e95262d0",
-    "ca91f808-6934-447a-aaba-35feb8712939"
+    "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
+    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
+    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
+    "ca91f808-6934-447a-aaba-35feb8712939",
+    "33df1084-0138-4220-9e5e-642c9953b412"
   ]
 }

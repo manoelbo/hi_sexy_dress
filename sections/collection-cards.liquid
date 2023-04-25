@@ -1,0 +1,571 @@
+<section 
+    class="px-lg-12 px-md-4 px-4"
+    {% if section.settings.bg_gradient != blank %} 
+    style="background: {{ section.settings.bg_gradient }}"
+    {% else %}
+    style="background-color: {{section.settings.bg_color }}"
+    {% endif %}
+>
+
+    <div class="position-relative zi-1 text-xl-start container">
+        {% if section.settings.hidden != true %}
+            <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
+                <div class="col-12">
+                    <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
+                        <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
+                            <div class="g-0 col-lg-12">
+                                {% if section.settings.svg != blank %}
+                                    {{ section.settings.svg }}
+                                {% endif %}
+                                {% if section.settings.header != blank %}
+                                    <p class="text-decoration-underline text-uppercase fw-bold {{section.settings.content_width}} {{section.settings.font_color}} {{section.settings.font_color}}text-uppercase {{section.settings.header_size}}">
+                                        {{ section.settings.header }}
+                                    </p>
+                                {% endif %}
+                                {% if section.settings.title != blank %}
+                                    <h3 class="mb-6 {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
+                                        {{ section.settings.title }}
+                                    </h3>
+                                {% endif %}
+                                {% if section.settings.text != blank %}
+                            <p class="pb-0 mb-0 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
+                                    {{ section.settings.text }}                            
+                                </p>
+                            {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+        <div class=row>
+            <div class="col-12 text-center">
+            {% for collection in section.settings.collection_list %}
+ 
+                    <a href=""  onclick="return false;"
+                        id="{{ collection.id }}"
+                        class="btn-category btn rounded-white btn-border btn-border me-2 mb-10 {% if forloop.index == 1 %}active{% endif %}" 
+                        data-aos="fade-down" 
+                        data-aos-delay="{{ 100 | times: forloop.index | plus: 100 }}" >
+                        
+                         {{ collection.title }} 
+                     </a>
+        
+            {% endfor %}
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            {% for collection in section.settings.collection_list %}
+                {% for product in collection.products %}
+                <div id="{{ collection.id }}" class="{{ section.settings.layout }} category-card" data-aos="fade-down" data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}">
+                    {% if product.url != blank %}    
+                    <a  href="{{ product.url  }} "
+                        class="click-card text-center pb-4 pb-lg-8">
+                    {% else %}
+                    <div class="text-center card-top pb-4 pb-lg-8">
+                    {% endif %}
+                        <div 
+                            class="content-container  hyper-card "
+                            
+                        >    
+                            {% if product.featured_image  != blank %}
+                                {{ product.featured_image  | image_url: width: 600 | image_tag }}
+                                {% comment %} <img src="{{ block.settings.img | image_url }}" width="600" height="350" loading="lazy"/> {% endcomment %}
+                            {% endif %}
+
+                            <div class="hyper-card-content"> 
+                                {% if product.title != blank %}
+                                    <h1 class="mb-6 display-8">
+                                        {{ product.title }}
+                                    </h1>
+                                {% endif %}
+                                {% if product.description != blank %}
+                                <p class="pb-0 fs-7 mb-0">
+                                    {{ product.description }}                            
+                                </p>
+                            
+                                {% endif %}    
+                            </div>
+                        </div>
+                    {% if product.url != blank %}   
+                    </a>
+                    {% else %}
+                    </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collection Cards",
+  "settings": [
+    {
+        "type": "collection_list",
+        "id": "collection_list",
+        "label": "Collections"
+    },
+    {
+        "type": "header",
+        "content": "Section Header"
+    },
+    {
+        "type": "checkbox",
+        "id": "hidden",
+        "label": "Hide Content Header"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "title",
+        "label": "Title",
+        "default": "About Hyper with numbers"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla."
+    },
+    {
+        "type": "header",
+        "content": "Typography Style"
+    },
+   
+    {
+        "type": "select",
+        "id": "font_color",
+        "label": "Font Color Options",
+        "options": [
+            {
+                "value": "text-dark",
+                "label": "Dark"
+              },
+            {
+                "value": "text-light",
+                "label": "White"
+            }
+        ],
+        "default": "text-dark"
+    },
+    {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title Font Size",
+        "options": [
+            {
+                "value": "display-1",
+                "label": "5.5 rem (88px)"
+              },
+            {
+                "value": "display-2",
+                "label": "5 rem (80px)"
+            },
+            {
+                "value": "display-3",
+                "label": "4.5 rem (72px)"
+            },
+            {
+                "value": "display-4",
+                "label": "3.75 rem (60px)"
+            },
+            {
+                "value": "display-5",
+                "label": "3 rem (48px)"
+            },
+            {
+                "value": "display-6",
+                "label": "2.5 rem (40px)"
+            }
+
+        ],
+        "default": "display-4"
+    },
+    {
+        "type": "select",
+        "id": "text_size",
+        "label": "Text Font Size",
+        "options": [
+            {
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
+              },
+            {
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
+            }
+
+        ],
+        "default": "fs-4"
+    },
+    {
+        "type": "header",
+        "content": "Content Header Options"
+    },
+    {
+        "type": "text",
+        "id": "header",
+        "label": "Subtitle"
+    },
+    {
+        "type": "select",
+        "id": "header_size",
+        "label": "Subtitle Size",
+        "options": [
+            {
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
+              },
+            {
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
+            }
+
+        ],
+        "default": "fs-6"
+    },
+    {
+        "type": "html",
+        "id": "svg",
+        "label": "SVG Icon"
+    },
+    {
+        "type": "header",
+        "content": "Background Style"
+    },
+    {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Backgorund Color",
+        "default": "#ffffff"
+    },
+    {
+        "type": "color_background",
+        "id": "bg_gradient",
+        "label": "Backgorund Gradient"
+    },
+    {
+        "type": "header",
+        "content": "Header Layout Settings"
+    },
+    {
+        "type": "select",
+        "id": "align_desktop",
+        "label": "Content Align (Desktop)",
+        "options": [
+            {
+                "value": "text-lg-left",
+                "label": "Left"
+                },
+            {
+                "value": "text-lg-center",
+                "label": "Center"
+            }
+        ],
+        "default": "text-lg-center"
+    },
+    {
+        "type": "select",
+        "id": "align_mobile",
+        "label": "Content Align (Mobile)",
+        "options": [
+            {
+                "value": "text-left",
+                "label": "Left"
+                },
+            {
+                "value": "text-center",
+                "label": "Center"
+            }
+        ],
+        "default": "text-left"
+    },
+    {
+        "type": "select",
+        "id": "content_width",
+        "label": "Content Width (Desktop)",
+        "options": [
+            {
+                "value": "w-lg-auto",
+                "label": "auto"
+            },
+            {
+                "value": "w-lg-100",
+                "label": "100%"
+            },
+            {
+                "value": "w-lg-75",
+                "label": "75%"
+            },
+            {
+                "value": "w-lg-50",
+                "label": "50%"
+            },
+            {
+                "value": "w-lg-25",
+                "label": "25%"
+            }
+        ],
+        "default": "w-lg-auto"
+    },
+    {
+        "type": "select",
+        "id": "layout",
+        "label": "Card Columns Layout (Desktop)",
+        "options": [
+            {
+                "value": "col-md-12",
+                "label": "One Column"
+            },
+            {
+                "value": "col-md-6",
+                "label": "Two Columns"
+            },
+            {
+                "value": "col-lg-4",
+                "label": "Three Columns"
+            },
+            {
+                "value": "col-lg-3 col-md-6",
+                "label": "Four Columns"
+            }
+        ],
+        "default": "col-lg-3 col-md-6"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (General)"
+    },
+    {
+        "type": "checkbox",
+        "id": "default_spacing",
+        "label": "Remove Default Spacing"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Extra Large Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_xl",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "pb_xl",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "mt_xl",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_xl",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_lg",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "pb_lg",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "mt_lg",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_lg",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing Options (Mobile)"
+    },
+    {
+        "type": "range",
+        "id": "pt_sm",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 10
+    },
+    {
+        "type": "range",
+        "id": "pb_sm",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 10
+    },
+    {
+        "type": "range",
+        "id": "mt_sm",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_sm",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    }
+  ],
+  "blocks": [
+    {
+        "type": "category",
+        "name": "Category",
+        "settings": [
+            {
+                "type": "checkbox",
+                "label": "Active Category", 
+                "id": "active"
+            },
+            {
+                "type": "text",
+                "label": "Category Text", 
+                "id": "category",
+                "default": "Liderança e Cultura"
+            },
+            {
+                "type": "text",
+                "label": "Category ID", 
+                "id": "id",
+                "default": "leadership"
+            }
+        ]
+
+    },
+    {
+        "type": "card",
+        "name": "Card",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Card Content"
+            },
+            {
+                "type": "image_picker",
+                "label": "Card Image", 
+                "id": "img"
+            },
+            {
+                "type": "text",
+                "label": "Category Id", 
+                "id": "category_id"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "title",
+                "label": "Title",
+                "default": "Criatividade Aplicada"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "text",
+                "label": "Text",
+                "default": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo."
+            }, 
+            {
+                "type": "url",
+                "id": "url",
+                "label": "Buttom Link"
+
+            },
+            {
+                "type": "checkbox",
+                "id": "target",
+                "label": "Open In a New Tab"
+            }
+        ]
+    }
+    ],
+  "presets": [{
+    "name": "HI23 Collection Cards"
+  }]
+}
+{% endschema %} 

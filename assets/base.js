@@ -24,6 +24,7 @@ if (errors) {
 
 
 async function toggleCategoryCards() {
+  
     // Seleciona todos os elementos com a classe 'category-card'
     const categoryCards = document.querySelectorAll('.category-card');
   
@@ -32,7 +33,7 @@ async function toggleCategoryCards() {
   
     // Obtém o valor do atributo 'id' do botão ativo
     const activeButtonId = activeButton ? activeButton.id : null;
-  
+    console.log(categoryCards, activeButton, activeButtonId)
     // Percorre todos os elementos com a classe 'category-card'
     for (const card of categoryCards) {
       // Verifica se o id do elemento 'category-card' é igual ao id do botão ativo
@@ -62,19 +63,12 @@ async function toggleCategoryCards() {
   // Chame a função toggleCategoryCards() sempre que for necessário
   toggleCategoryCards();
 
-  const addToCart = document.querySelector('#add_to_card');
-  const addButton = document.querySelector('button[name="add"]');
-  
-  addToCart.addEventListener('click', function(event) {
-    event.preventDefault();
-    addButton.click();
-  });
-
 
   function activateCategoryButton(event) {
     // Seleciona todos os elementos com a classe 'btn-category'
     const categoryButtons = document.querySelectorAll('.btn-category');
-  
+
+    console.log("foi")
     // Remove a classe 'active' de todos os elementos 'btn-category'
     for (const button of categoryButtons) {
       button.classList.remove('active');
@@ -84,12 +78,28 @@ async function toggleCategoryCards() {
     event.target.classList.add('active');
     toggleCategoryCards();
   }
+
+  const categoryCards = document.querySelectorAll('.category-card');
+
+for (const card of categoryCards) {
+  card.addEventListener('click', activateCategoryButton);
+}
   
   // Adiciona um event listener aos elementos com a classe 'btn-category'
   const categoryButtons = document.querySelectorAll('.btn-category');
   for (const button of categoryButtons) {
     button.addEventListener('click', activateCategoryButton);
   }
+
+
+  const addToCart = document.querySelector('#add_to_card');
+  const addButton = document.querySelector('button[name="add"]');
+  
+  addToCart.addEventListener('click', function(event) {
+    event.preventDefault();
+    addButton.click();
+  });
+
 
 
   // Solicita que o usuário insira as duas datas
