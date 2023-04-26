@@ -3,13 +3,14 @@
 */
 
 h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, display-6 {
-    font-stretch: 62%;
     letter-spacing: 1px !important;
     font-family: 'ABC Gravity Variable';
     line-height: 80% !important;
     font-weight: 300 !important;
+    font-stretch: extra-condensed;
     
 }
+
 
 #course-header .course-labels {
     background-color: black;
@@ -151,8 +152,16 @@ h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, d
     width: 90%;
 }
 
+#newsletter #hubspot-form {
+    min-height: 200px;
+}
+
 #newsletter p {
     width: 90%;
+}
+
+#newsletter .hs_email label {
+    display: none;
 }
 
 #newsletter .hs-richtext {
@@ -292,6 +301,16 @@ a.click-card {
     font-size: 1.875rem;
 }
 
+.display-0 {
+    font-size: 7.0rem;
+}
+
+@media (max-width: 767px) {
+    .display-0 {
+        font-size: 4.0rem;
+    }
+}
+
 .fs-7 {
     font-size: .75rem;
 }
@@ -359,10 +378,10 @@ a {
 
 .btn.rounded-white, .btn.rounded-black, .btn.rounded-gray, .btn.rounded-orange {
     border-radius: 2.5rem;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1rem;
-    padding: 0 2.5rem;
-    line-height: 2.5rem;
+    padding: 1rem 2.5rem;
+    line-height: 1;
 }
 
 .btn.rounded-white {
@@ -392,6 +411,11 @@ a {
     border: 1px solid white;
 }
 
+@media (max-width: 767px) {
+    .btn.rounded-white, #collection-cards .btn.rounded-black, #collection-cards .btn.rounded-gray, #collection-cards .btn.rounded-orange {
+        font-size: 0.85rem;
+    }
+}
 .depo .depo-text {
     text-align: left;
     font-size: 16px;
@@ -437,4 +461,11 @@ a {
         
     }
 
+}
+
+
+@media (min-width: 992px) {
+    .text-lg-left {
+      text-align: left !important;
+    }
 }

@@ -1,12 +1,13 @@
 {% if section.settings.img != blank %}
     {%- assign col1 = "col-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2" -%}
-    {%- assign col2 = "col-12 col-md-10 col-lg-6 col-xl-5 offset-xxl-1" -%}
-    {%- assign col3 = "col-12 col-lg-4 offset-xxl-1 col-xxl-3" -%}
+    {%- assign col2 = "col-12 col-md-10 col-lg-5 col-xl-5 offset-xxl-1" -%}
+    {%- assign col3 = "col-12 col-lg-5 col-xxl-4" -%}
 {% else %}
     {%- assign col1 = "col-md-6 px-lg-12 px-md-4 offset-lg-1" -%}
     {%- assign col2 = "col-md-6 offset-lg-1" -%}
     {%- assign col3 = "col-md-6 col-lg-5" -%}
 {% endif %}
+
 
 <section 
     class="bg-size-cover bg-position-center position-relative" 
@@ -21,10 +22,10 @@
 >
     <div class="position-relative zi-1 text-xl-start container-fluid">
         <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
-            <div class="col-lg-12">
+            <div class="col-lg-12 mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
                 <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}  d-flex align-items-center">
                     {% if section.settings.img != blank %}
-                        <div class="{{ col1 }} px-12 py-6 px-md-4 ps-lg-12 pe-lg-0 py-xxl-12 ">
+                        <div class="{{ col1 }} px-16 py-6 px-md-4 ps-lg-12 pe-lg-4 pe-xxl-0 py-xxl-12 ">
                             <img src="{{ section.settings.img | image_url }}" alt="{{ block.settings.name }}" class="img-fluid rounded-circle">
                         </div>
                     {% endif %}
@@ -36,22 +37,29 @@
                             </h1>
                         {% endif %}
                         {% if section.settings.text != blank %}
-                            <p class="mb-6 text-center text-md-start {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
+                            <p class="text-center text-md-start {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
                                 {{ section.settings.text }}                            
                             </p>
                         {% endif %}
                         </div>
                     </div>
                     <div class="{{ col3 }} text-center text-lg-start ">
-                        <div class="{% if section.settings.default_spacing != true %} py-6 py-md-8 py-lg-10 py-xl-12 py-xxl-14 {% endif %} px-lg-12 px-md-4">
-                            <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
+                        <div class="{% if section.settings.default_spacing != true %} py-md-8 py-lg-10 py-xl-12 py-xxl-14 {% endif %} px-lg-12 px-md-4">
+                            <div class="">
                                 {% for block in section.blocks %}
-                                <a href="{{ block.settings.url }}" 
+                                    {% if block.settings.zap == true %}
+
+                                  
+                                        {%- assign link = "https://api.whatsapp.com/send?phone=" | append: block.settings.zap_number | append: "&text=" | append: block.settings.zap_msg | url_escape -%}
+                                    
+                                    {% else %}
+                                    {%- assign link =  block.settings.url %}
+                                    {% endif %}
+                                <a href="{{ link }}" 
                                     class="btn {{ block.settings.style }} btn-border me-2 mb-3" 
                                     data-aos="fade-down" 
                                     target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
                                     data-aos-delay="{{ 100 | times: forloop.index | plus: 350 }}" >
-                                    
                                     {{ block.settings.text }} 
                                 </a>
                                 {% endfor %}
@@ -134,6 +142,10 @@
         "id": "title_size",
         "label": "Title Font Size",
         "options": [
+            {
+                "value": "display-0",
+                "label": "7 rem (112px)"
+            },
             {
                 "value": "display-1",
                 "label": "5.5 rem (88px)"
@@ -425,13 +437,29 @@
             {
                 "type": "url",
                 "id": "url",
-                "label": "Buttom Link"
-
+                "label": "Buttom Link",
+                "info": "use mailto:email@dominio.com for emails"
             },
             {
                 "type": "checkbox",
                 "id": "target",
                 "label": "Open In a New Tab"
+            },
+            {
+                "type": "checkbox",
+                "id": "zap",
+                "label": "WhatsApp Link"
+            },
+            {
+                "type": "text",
+                "id": "zap_number",
+                "label": "WhatsApp Phone Number",
+                "info": "Use format 00115555555"
+            },
+            {
+                "type": "text",
+                "id": "zap_msg",
+                "label": " Texto da Mensagem"
             },
             {
                 "type": "select",

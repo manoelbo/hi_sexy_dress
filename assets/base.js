@@ -33,7 +33,6 @@ async function toggleCategoryCards() {
   
     // Obtém o valor do atributo 'id' do botão ativo
     const activeButtonId = activeButton ? activeButton.id : null;
-    console.log(categoryCards, activeButton, activeButtonId)
     // Percorre todos os elementos com a classe 'category-card'
     for (const card of categoryCards) {
       // Verifica se o id do elemento 'category-card' é igual ao id do botão ativo
@@ -59,16 +58,28 @@ async function toggleCategoryCards() {
     
     }
   }
+  (function() {
+    // Encontra todos os elementos com a classe .btn-category
+    const btnCategoryElements = document.querySelectorAll('.btn-category');
   
+    // Itera sobre os elementos encontrados e verifica se algum deles também possui a classe .active
+    for (const element of btnCategoryElements) {
+      if (element.classList.contains('active')) {
+        // Se algum elemento com a classe .btn-category também possui a classe .active, chame a função toggleCategoryCards()
+        toggleCategoryCards();
+        break;
+      }
+    }
+  })();
+
   // Chame a função toggleCategoryCards() sempre que for necessário
-  toggleCategoryCards();
+  // toggleCategoryCards();
 
 
   function activateCategoryButton(event) {
     // Seleciona todos os elementos com a classe 'btn-category'
     const categoryButtons = document.querySelectorAll('.btn-category');
 
-    console.log("foi")
     // Remove a classe 'active' de todos os elementos 'btn-category'
     for (const button of categoryButtons) {
       button.classList.remove('active');

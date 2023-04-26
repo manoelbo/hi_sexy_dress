@@ -10,16 +10,16 @@
 >
     {% comment %} <div class="top-0 start-0 bottom-0 end-0 zi-0 opacity-{{ section.settings.overlay_opacity }} bg-bg-1 w-100 h-100 position-absolute mw-100 mh-100">
     </div> {% endcomment %}
-    <div class="position-relative zi-1 text-xl-start container-fluid">
+    <div class="position-relative zi-1 text-xl-start {{ section.settings.container }}">
         <div class="row align-items-center  d-flex align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
-            <div class="col-lg-12">
+            <div class="col-lg-12 g-lg-0">
                 <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}} ">
                     {% if section.settings.layout-align == 'left' %}
-                        <div class="col-lg-6 bg-size-cover bg-position-center d-none  d-lg-block" data-aos="fade-down" data-aos-delay="250" {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}" {% else %%} data-bg-src="https://cdn.shopify.com/s/files/1/0729/7944/8111/files/R0004196.jpg?v=1679864058"{% endif %}>
+                        <div class="col-lg-6 bg-size-cover bg-position-center d-none  d-lg-block" data-aos="fade-down" data-aos-delay="250" {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}"{% endif %}>
                         </div>
                     {% endif %}
                     <div class="col-lg-6">
-                        <div class="{% if section.settings.default_spacing != true %} py-12 py-md-14 py-lg-16 py-xl-18 py-xxl-20 {% endif %} px-lg-12 px-md-4">
+                        <div class="{% if section.settings.default_spacing != true %} py-12 py-md-14 py-lg-16 py-xl-18 py-xxl-20 {% endif %} px-lg-13 px-md-4">
                             <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
 
                                 {% if section.settings.title != blank %}
@@ -122,9 +122,13 @@
         "label": "Title Font Size",
         "options": [
             {
+                "value": "display-0",
+                "label": "7 rem (112px)"
+            },
+            {
                 "value": "display-1",
                 "label": "5.5 rem (88px)"
-              },
+            },
             {
                 "value": "display-2",
                 "label": "5 rem (80px)"
@@ -185,6 +189,22 @@
     {
         "type": "header",
         "content": "Layout Settings"
+    },
+    {
+        "type": "select",
+        "id": "container",
+        "label": "Container Type",
+        "options": [
+            {
+                "value": "container-fluid",
+                "label": "Fluid"
+            },
+            {
+                "value": "container-xxl",
+                "label": "Fixed XXL"
+            }
+        ],
+        "default": "container-fluid"
     },
     {
         "type": "select",

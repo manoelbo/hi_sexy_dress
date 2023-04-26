@@ -1,4 +1,5 @@
-<section 
+<section
+    id="collection-cards"
     class="px-lg-12 px-md-4 px-4"
     {% if section.settings.bg_gradient != blank %} 
     style="background: {{ section.settings.bg_gradient }}"
@@ -13,7 +14,7 @@
                 <div class="col-12">
                     <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
                         <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
-                            <div class="g-0 col-lg-12">
+                            <div class=" col-lg-12">
                                 {% if section.settings.svg != blank %}
                                     {{ section.settings.svg }}
                                 {% endif %}
@@ -44,7 +45,7 @@
  
                     <a href=""  onclick="return false;"
                         id="{{ collection.id }}"
-                        class="btn-category btn rounded-white btn-border btn-border me-2 mb-10 {% if forloop.index == 1 %}active{% endif %}" 
+                        class="btn-category btn rounded-white btn-border btn-border me-2 mb-4 {% if forloop.index == 1 and section.settings.filter == false %}active{% endif %}" 
                         data-aos="fade-down" 
                         data-aos-delay="{{ 100 | times: forloop.index | plus: 100 }}" >
                         
@@ -59,10 +60,10 @@
                 {% for product in collection.products %}
                 <div id="{{ collection.id }}" class="{{ section.settings.layout }} category-card" data-aos="fade-down" data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}">
                     {% if product.url != blank %}    
-                    <a  href="{{ product.url  }} "
-                        class="click-card text-center pb-4 pb-lg-8">
+                    <a  href="{{ product.url }} "
+                        class="click-card text-center  py-6 py-md-4 pb-lg-8">
                     {% else %}
-                    <div class="text-center card-top pb-4 pb-lg-8">
+                    <div class="text-center card-top py-6 py-md-4 pb-lg-8">
                     {% endif %}
                         <div 
                             class="content-container  hyper-card "
@@ -80,9 +81,9 @@
                                     </h1>
                                 {% endif %}
                                 {% if product.description != blank %}
-                                <p class="pb-0 fs-7 mb-0">
+                               
                                     {{ product.description }}                            
-                                </p>
+                               
                             
                                 {% endif %}    
                             </div>
@@ -102,6 +103,11 @@
 {
   "name": "Collection Cards",
   "settings": [
+    {
+        "type": "checkbox",
+        "id": "filter",
+        "label": "Disable Default Filter"
+    },
     {
         "type": "collection_list",
         "id": "collection_list",
@@ -154,6 +160,10 @@
         "id": "title_size",
         "label": "Title Font Size",
         "options": [
+            {
+                "value": "display-0",
+                "label": "7 rem (112px)"
+            },
             {
                 "value": "display-1",
                 "label": "5.5 rem (88px)"

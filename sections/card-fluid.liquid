@@ -3,7 +3,7 @@
         <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
             {% for block in section.blocks %}
             <div 
-                class="d-flex g-0 {{ section.settings.layout }}  bg-size-cover card-fluid" 
+                class="d-flex {{ section.settings.layout }}  bg-size-cover card-fluid" 
                 data-aos="fade-down" 
                 {% if block.settings.bg_gradient != blank %} style="background: {{ block.settings.bg_gradient }}"{% else %}style="background-color: {{ block.settings.bg_color }}"{% endif %}
                 {% if block.settings.bg_image != blank %} data-bg-src="{{ block.settings.bg_image | image_url }}" {% endif %}
