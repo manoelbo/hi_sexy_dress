@@ -366,8 +366,8 @@
         "d260a457-b4e4-4b1d-872c-1df57baa696d": {
           "type": "content",
           "settings": {
-            "name": "{{ product.metafields.my_fields.name_testimonial_1.value }}",
-            "text": "{{ product.metafields.my_fields.testimonial_1.value }}"
+            "name": "{{ product.metafields.my_fields.testimonial_1.value }}",
+            "text": "{{ product.metafields.my_fields.name_testimonial_1.value }}"
           }
         },
         "903ecd16-1682-4784-86b5-ee4446329ab2": {
