@@ -26,7 +26,7 @@
         "bg_image": "shopify:\/\/shop_images\/1_Header_Para_Empresas.jpg",
         "overlay_opacity": 30,
         "font_color": "text-light",
-        "title_size": "display-1",
+        "title_size": "display-0",
         "text_size": "fs-5",
         "container": "container-fluid",
         "align_desktop": "text-lg-left",
