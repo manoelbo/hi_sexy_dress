@@ -1,3 +1,4 @@
+{% if section.blocks[0].settings.name != blank %}
 <section 
     class="pb-lg-{{section.settings.spb_lg}} mb-lg-{{section.settings.smb_lg}} pb-{{section.settings.spb_xs}} mb-{{section.settings.smb_xs}} pt-lg-{{section.settings.pt_lg}} mt-lg-{{section.settings.mt_lg}} pt-{{section.settings.pt_xs}} mt-{{section.settings.mt_xs}}"
     {% if section.settings.bg_gradient != blank %} 
@@ -73,6 +74,7 @@
         {% endfor %}
     </div>
 </section>
+{% endif %}
 
 {% schema %}
 {
