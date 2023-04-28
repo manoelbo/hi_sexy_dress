@@ -400,6 +400,32 @@
         "smb_xs": 0
       }
     },
+    "9948f854-b2fb-4a4d-985c-154befb25a21": {
+      "type": "clients",
+      "settings": {
+        "hidden": false,
+        "title": "Clientes",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "default_spacing": false,
+        "pt_xl": 12,
+        "pb_xl": 12,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 14,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 8,
+        "pb_sm": 8,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "1cb5682b-ba57-45ef-b33e-6bc5346bd719": {
       "type": "content",
       "blocks": {
@@ -554,32 +580,6 @@
         "smb_xs": 0
       }
     },
-    "9948f854-b2fb-4a4d-985c-154befb25a21": {
-      "type": "clients",
-      "settings": {
-        "hidden": false,
-        "title": "Clientes",
-        "text": "",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "default_spacing": false,
-        "pt_xl": 12,
-        "pb_xl": 12,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 13,
-        "pb_lg": 14,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 8,
-        "pb_sm": 8,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
     "d1445347-876e-4eee-a179-ba8f568a5085": {
       "type": "content",
       "disabled": true,
@@ -705,8 +705,8 @@
     "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb",
     "f39daef8-3263-467c-b5e2-581de2221700",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
-    "1cb5682b-ba57-45ef-b33e-6bc5346bd719",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
+    "1cb5682b-ba57-45ef-b33e-6bc5346bd719",
     "d1445347-876e-4eee-a179-ba8f568a5085",
     "e1ee17c5-9a80-4d4e-bd81-22f8c90f3daa",
     "577b8190-d683-4d05-92aa-43b63a3a640d"
