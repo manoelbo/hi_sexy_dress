@@ -75,7 +75,7 @@
             "header": "PARA A SUA EMPRESA",
             "title": "BUSINESS TRANSFORMATION",
             "text": "Revolucione a maneira como você agrega valor às pessoas da sua equipe e organização.",
-            "url": "",
+            "url": "shopify:\/\/pages\/empresas",
             "target": false,
             "font_color": "text-dark",
             "bg_color": "#f3f0ed",
@@ -88,8 +88,8 @@
             "header": "PARA VOCÊ",
             "title": "NOSSOS CURSOS",
             "text": "Embarque em uma jornada de aprendizagem ao lado de pessoas incríveis.",
-            "url": "",
-            "target": false,
+            "url": "shopify:\/\/pages\/cursos",
+            "target": true,
             "font_color": "text-dark",
             "bg_color": "#e3dfd3",
             "bg_gradient": ""
@@ -290,7 +290,11 @@
         "pt_sm": 2,
         "pb_sm": 3,
         "mt_sm": 3,
-        "mb_sm": 3
+        "mb_sm": 3,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
       }
     },
     "31524baf-3a3c-4284-9f0b-2058f23ab947": {
