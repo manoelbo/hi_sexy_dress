@@ -80,11 +80,11 @@
                                         {{ product.title }}
                                     </h1>
                                 {% endif %}
-                                {% if product.description != blank %}
-                               
-                                    {{ product.description }}                            
-                               
-                            
+                                
+                                {% if product.metafields.custom.excerpt != blank %}
+                                    {{ product.metafields.custom.excerpt | metafield_tag }}     
+                                {% else %}        
+                                {{ product.description }}                    
                                 {% endif %}    
                             </div>
                         </div>
