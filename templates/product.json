@@ -173,6 +173,7 @@
     },
     "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb": {
       "type": "content",
+      "disabled": true,
       "blocks": {
         "9418dca7-749c-44a1-85df-12190cb65c7a": {
           "type": "content",
@@ -366,15 +367,15 @@
         "d260a457-b4e4-4b1d-872c-1df57baa696d": {
           "type": "content",
           "settings": {
-            "name": "{{ product.metafields.my_fields.testimonial_1.value }}",
-            "text": "{{ product.metafields.my_fields.name_testimonial_1.value }}"
+            "name": "{{ product.metafields.my_fields.name_testimonial_1.value }}",
+            "text": "{{ product.metafields.my_fields.testimonial_1.value }}"
           }
         },
         "903ecd16-1682-4784-86b5-ee4446329ab2": {
           "type": "content",
           "settings": {
-            "name": "{{ product.metafields.my_fields.testimonial_2.value }}",
-            "text": "{{ product.metafields.my_fields.name_testimonial_2.value }}"
+            "name": "{{ product.metafields.my_fields.name_testimonial_2.value }}",
+            "text": "{{ product.metafields.my_fields.testimonial_2.value }}"
           }
         }
       },
