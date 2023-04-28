@@ -416,14 +416,14 @@ a {
     }
 }
 .depo .depo-text {
-    text-align: left;
+
     font-size: 16px;
     font-weight: lighter;
     width: 90%;
 }
 
 .depo .depo-name {
-    text-align: left;
+
     font-size: 16px;
     font-family: "Montserrat";
     font-weight: bold !important;

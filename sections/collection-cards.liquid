@@ -1,6 +1,6 @@
 <section
     id="collection-cards"
-    class="px-lg-12 px-md-4 px-4"
+    class="px-lg-12 px-md-4 px-4 pb-lg-{{section.settings.spb_lg}} mb-lg-{{section.settings.smb_lg}} pb-{{section.settings.spb_xs}} mb-{{section.settings.smb_xs}}"
     {% if section.settings.bg_gradient != blank %} 
     style="background: {{ section.settings.bg_gradient }}"
     {% else %}
@@ -498,6 +498,50 @@
     {
         "type": "range",
         "id": "mb_sm",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing Bottom Section (Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "spb_lg",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "smb_lg",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing Bottom Section (Mobile)"
+    },
+    {
+        "type": "range",
+        "id": "spb_xs",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "smb_xs",
         "label": "Extra Margin Bottom",
         "min": 0,
         "max": 20,

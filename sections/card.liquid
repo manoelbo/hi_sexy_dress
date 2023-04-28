@@ -14,7 +14,7 @@
                 {% if block.type == "category" %}
                     <a href=""  onclick="return false;"
                         id="{{ block.settings.id }}"
-                        class="btn-category btn rounded-white btn-border btn-border me-2 mb-10 {% if block.settings.active == true %}active{% endif %}" 
+                        class="btn-category btn rounded-white btn-border btn-border me-2 mb-4 mb-lg-10 {% if block.settings.active == true %}active{% endif %}" 
                         data-aos="fade-down" 
                         target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
                         data-aos-delay="100" >

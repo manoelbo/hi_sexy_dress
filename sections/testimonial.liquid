@@ -39,27 +39,27 @@
                 </div>
             </div>
         {% endif %} {% endcomment %}
-        <div class="row py-4 ">
+        <div class="row py-4 text-center text-lg-left ">
             {% for block in section.blocks %}
             <div class="{{ section.settings.layout }}">               
                 <div class="row depo">
                     {% if block.settings.img != blank %}
-                    <div class="col-3 col-md-3 col-lg-2">
+                    <div class="col-12 col-md-3 col-lg-2 px-16 py-6 px-md-4 p-lg-0">
                         <img src="{{ block.settings.img | image_url }}" alt="{{ block.settings.name }}" class="img-fluid rounded-circle">
                     </div>
                    
-                    <div class="col-9 col-md-9 col-lg-10 pe-2">
+                    <div class="col-12 col-md-9 col-lg-10 pe-2">
                         <p class="depo-text">
                             {{ block.settings.text }}
                         </p>
-                        <h6 class="mb-0 depo-name">
+                        <h6 class="mb-0 depo-name  mt-2 mb-12 mt-lg-0 mb-lg-0">
                             {{ block.settings.name }}
                         </h6>
                     </div>
 
                     {% else %}
                     <div class="col-12">
-                        <p class="depo-text">
+                        <p class="depo-text  mt-5 mt-lg-0">
                             {{ block.settings.text }}
                         </p>
                         <h6 class="mb-0 depo-name">

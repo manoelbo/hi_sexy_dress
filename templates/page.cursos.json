@@ -36,7 +36,7 @@
     "d43f0700-a7db-4720-9e46-1afcacd78820": {
       "type": "collection-cards",
       "settings": {
-        "filter": false,
+        "filter": true,
         "collection_list": [
           "inovacao-e-negocios",
           "comunicacao-e-experiencia",
@@ -70,7 +70,11 @@
         "pt_sm": 10,
         "pb_sm": 10,
         "mt_sm": 0,
-        "mb_sm": 0
+        "mb_sm": 0,
+        "spb_lg": 7,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
       }
     },
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce": {

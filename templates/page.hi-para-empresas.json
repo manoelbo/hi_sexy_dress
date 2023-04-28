@@ -7,7 +7,7 @@
           "type": "button",
           "settings": {
             "text": "ENTRE EM CONTATO",
-            "url": "",
+            "url": "shopify:\/\/pages\/cursos",
             "target": false,
             "style": "rounded-white"
           }
@@ -638,8 +638,8 @@
         "726717ac-617a-4f9a-8b5f-fca52b092f42": {
           "type": "button",
           "settings": {
-            "text": "Mander e-mail",
-            "url": "",
+            "text": "Mandar e-mail",
+            "url": "mailto:viviane.nishimura@hyperisland.com",
             "target": false,
             "zap": false,
             "zap_number": "",
@@ -650,12 +650,12 @@
         "709e746d-79fc-4e8a-b7cd-cf6ac3f99334": {
           "type": "button",
           "settings": {
-            "text": "Mandar Mensagem",
+            "text": "Enviar Mensagem",
             "url": "",
             "target": false,
-            "zap": false,
-            "zap_number": "",
-            "zap_msg": "",
+            "zap": true,
+            "zap_number": "5511999882445",
+            "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
             "style": "rounded-white"
           }
         }

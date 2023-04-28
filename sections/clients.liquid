@@ -1,5 +1,5 @@
 <section 
-    class="px-lg-12 px-md-4 px-4"
+    class="px-lg-12 px-md-4 px-4 mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}"
     {% if section.settings.bg_gradient != blank %} 
     style="background: {{ section.settings.bg_gradient }}"
     {% else %}
@@ -12,27 +12,14 @@
         {% if section.settings.hidden != true %}
             <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
                 <div class="col-12">
-                    <div class="pt-12 pt-md-14 pt-lg-16">
+                    <div class="">
                         <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
                             <div class=" col-lg-12">
-                                {% if section.settings.svg != blank %}
-                                    {{ section.settings.svg }}
-                                {% endif %}
-                                {% if section.settings.header != blank %}
-                                    <p class="text-decoration-underline text-uppercase fw-bold {{section.settings.content_width}} {{section.settings.font_color}} {{section.settings.font_color}}text-uppercase {{section.settings.header_size}}">
-                                        {{ section.settings.header }}
-                                    </p>
-                                {% endif %}
                                 {% if section.settings.title != blank %}
                                     <h1 class="mb-6 {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
                                         {{ section.settings.title }}
                                     </h1>
                                 {% endif %}
-                                {% if section.settings.text != blank %}
-                                <p class="pb-0 mb-0 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
-                                    {{ section.settings.text }}                            
-                                </p>
-                            {% endif %}
                             </div>
                         </div>
                     </div>
@@ -41,7 +28,7 @@
         {% endif %}
         <div class="row ">
           
-            <div class="mt-0 mb-8 mb-lg-16">               
+            <div class="mt-0">               
                 <div class="row pb-8 pb-md-12 clients">
                     <div class="col-6 col-md-3 g-0">
                         <img src="{{ settings.logo_1 | image_url }}" alt="client Logo" class="w-100">
