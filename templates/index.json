@@ -357,7 +357,7 @@
           "type": "button",
           "settings": {
             "text": "SAIBA MAIS",
-            "url": "shopify:\/\/pages\/contact",
+            "url": "shopify:\/\/pages\/contato",
             "target": false,
             "style": "rounded-white"
           }
