@@ -5,9 +5,7 @@
 h1, h2, h3, h4, h5, h6, display-1, display-2, display-3, display-4, display-5, display-6 {
     letter-spacing: 1px !important;
     font-family: 'ABC Gravity Variable';
-    line-height: 80% !important;
-    font-weight: 300 !important;
-    font-stretch: extra-condensed;
+    line-height: 0.9 !important;
     
 }
 
@@ -295,6 +293,7 @@ a.click-card {
 
 .hyper-card-content {
     padding: 1.25rem 2rem;
+    width: 100%;
 }
 
 .display-8 {

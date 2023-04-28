@@ -151,6 +151,23 @@
     ]
   },
   {
+    "name": "Scripts / Pixels",
+    "settings": [
+      {
+        "type": "html",
+        "id": "header_scripts",
+        "label": "Header Tag",
+        "info": "For Partners Tracking Scripts. Example: Google Tag Manger"
+      },
+      {
+        "type": "html",
+        "id": "body_scripts",
+        "label": "Body Tag",
+        "info": "For Partners Tracking Scripts. Example: Hubspot Tracking"
+      }
+    ]
+  },
+  {
     "name": "Clients",
     "settings": [
       {

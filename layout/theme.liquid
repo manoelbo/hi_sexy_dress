@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     
+    {{ settings.header_scripts }}
 	
 
     {% if request.design_mode != true %}
@@ -105,6 +106,7 @@
         render 'offcanvas-cart'
         render 'offcanvas-search'
     %}
+    {{ settings.body_scripts }}
 </body>
 </html>
     

@@ -1,5 +1,8 @@
 <header 
-    class="bg-size-cover bg-position-center position-relative" 
+    class="bg-size-cover bg-position-center position-relative
+    {% if section.settings.mobile_only == true %} d-block d-lg-none  {% endif %}
+    {% if section.settings.desktop_only == true %} d-none d-lg-block  {% endif %}
+    " 
     
     {% if section.settings.bg_gradient != blank %} 
     style="background: {{ section.settings.bg_gradient }}"
@@ -60,6 +63,16 @@
 {
   "name": "Header Hero Half",
   "settings": [
+    {
+        "type": "checkbox",
+        "id": "mobile_only",
+        "label": "Mobile Only"
+    },
+    {
+        "type": "checkbox",
+        "id": "desktop_only",
+        "label": "Desktop Only"
+    },
     {
         "type": "header",
         "content": "Content"

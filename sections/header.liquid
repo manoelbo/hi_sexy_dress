@@ -1,5 +1,9 @@
 <header 
-    class="bg-size-cover bg-position-center position-relative px-lg-13 px-md-4 px-4 {% if section.settings.default_spacing != true %} py-12 py-md-14 py-lg-16 py-xl-18 py-xxl-20 {% endif %}" 
+    class="bg-size-cover bg-position-center position-relative px-lg-13 px-md-4 px-4 
+    {% if section.settings.default_spacing != true %} py-12 py-md-14 py-lg-16 py-xl-18 py-xxl-20 {% endif %}
+    {% if section.settings.mobile_only == true %} d-block d-lg-none  {% endif %}
+    {% if section.settings.desktop_only == true %} d-none d-lg-block  {% endif %}
+    " 
     {% if section.settings.bg_image %} data-bg-src="{{ section.settings.bg_image | image_url }}" {% endif %}
     {% if section.settings.bg_gradient != blank %} 
     style="background: {{ section.settings.bg_gradient }}"
@@ -49,6 +53,16 @@
 {
   "name": "Header Hero Full",
   "settings": [
+    {
+        "type": "checkbox",
+        "id": "mobile_only",
+        "label": "Mobile Only"
+    },
+    {
+        "type": "checkbox",
+        "id": "desktop_only",
+        "label": "Desktop Only"
+    },
     {
         "type": "header",
         "content": "Content"

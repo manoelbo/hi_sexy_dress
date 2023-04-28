@@ -92,9 +92,9 @@ async function toggleCategoryCards() {
 
   const categoryCards = document.querySelectorAll('.category-card');
 
-for (const card of categoryCards) {
-  card.addEventListener('click', activateCategoryButton);
-}
+// for (const card of categoryCards) {
+//   card.addEventListener('click', activateCategoryButton);
+// }
   
   // Adiciona um event listener aos elementos com a classe 'btn-category'
   const categoryButtons = document.querySelectorAll('.btn-category');

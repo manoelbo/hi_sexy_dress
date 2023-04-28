@@ -1,5 +1,5 @@
 <section 
-    class="px-lg-12 px-md-4 px-4"
+    class="px-lg-12 px-md-4 px-4 mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}"
     {% if section.settings.bg_gradient != blank %} 
     style="background: {{ section.settings.bg_gradient }}"
     {% else %}
@@ -8,37 +8,7 @@
 >
 
     <div class="position-relative zi-1 text-xl-start container">
-        {% if section.settings.hidden != true %}
-            <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
-                <div class="col-12">
-                    <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
-                        <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
-                            <div class="g-0 col-lg-12">
-                                {% if section.settings.svg != blank %}
-                                    {{ section.settings.svg }}
-                                {% endif %}
-                                {% if section.settings.header != blank %}
-                                    <p class="text-decoration-underline text-uppercase fw-bold {{section.settings.content_width}} {{section.settings.font_color}} {{section.settings.font_color}}text-uppercase {{section.settings.header_size}}">
-                                        {{ section.settings.header }}
-                                    </p>
-                                {% endif %}
-                                {% if section.settings.title != blank %}
-                                    <h3 class="mb-6 {{section.settings.font_color}} {{section.settings.title_size}} {{section.settings.content_width}} " data-aos="fade-down" data-aos-delay="150">
-                                        {{ section.settings.title }}
-                                    </h3>
-                                {% endif %}
-                                {% if section.settings.text != blank %}
-                            <p class="pb-0 mb-0 {{section.settings.text_size}} {{section.settings.font_color}} {{section.settings.content_width}}" data-aos="fade-down" data-aos-delay="250">
-                                    {{ section.settings.text }}                            
-                                </p>
-                            {% endif %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        {% endif %}
-        <div class=row>
+        <div class=row >
             <div class="col-12 text-center">
             {% for block in section.blocks %}
                 {% if block.type == "category" %}
@@ -47,7 +17,7 @@
                         class="btn-category btn rounded-white btn-border btn-border me-2 mb-10 {% if block.settings.active == true %}active{% endif %}" 
                         data-aos="fade-down" 
                         target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
-                        data-aos-delay="{{ 100 | times: forloop.index | plus: 100 }}" >
+                        data-aos-delay="100" >
                         
                          {{ block.settings.category }} 
                      </a>
@@ -58,7 +28,7 @@
         <div class="row justify-content-md-center">
             {% for block in section.blocks %}
             {% if block.type == "card" %}
-            <div id="{{ block.settings.category_id }}"class="{{ section.settings.layout }} category-card" data-aos="fade-down" data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}">
+            <div id="{{ block.settings.category_id }}"class="{{ section.settings.layout }} category-card" data-aos="fade-down" data-aos-delay="{{ 100 | times: forloop.index | plus: 10 }}">
                 {% if block.settings.url != blank %}    
                 <a  href="{{ block.settings.url }} "
                     target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
@@ -67,7 +37,7 @@
                 <div class="text-center card-top pb-4 pb-lg-8">
                 {% endif %}
                     <div 
-                        class="content-container  hyper-card "
+                        class="content-container  hyper-card {% if block.settings.img == blank %} d-flex align-items-center {% endif %}"
                         
                     >    
                         {% if block.settings.img != blank %}
@@ -77,12 +47,12 @@
 
                         <div class="hyper-card-content"> 
                             {% if block.settings.title != blank %}
-                                <h1 class="mb-6 display-8">
+                                <h1 class="display-8 {% if block.settings.text == blank %} p-0 m-0 {% endif %}">
                                     {{ block.settings.title }}
                                 </h1>
                             {% endif %}
                             {% if block.settings.text != blank %}
-                            <p class="pb-0 fs-7 mb-0">
+                            <p class="mt-6 pb-0 fs-7 mb-0">
                                 {{ block.settings.text }}                            
                             </p>
                         
@@ -104,32 +74,6 @@
 {
   "name": "Card Section",
   "settings": [
-    {
-        "type": "header",
-        "content": "Section Header"
-    },
-    {
-        "type": "checkbox",
-        "id": "hidden",
-        "label": "Hide Content Header"
-    },
-    {
-        "type": "inline_richtext",
-        "id": "title",
-        "label": "Title",
-        "default": "About Hyper with numbers"
-    },
-    {
-        "type": "inline_richtext",
-        "id": "text",
-        "label": "Text",
-        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla."
-    },
-    {
-        "type": "header",
-        "content": "Typography Style"
-    },
-   
     {
         "type": "select",
         "id": "font_color",
@@ -276,67 +220,7 @@
     },
     {
         "type": "header",
-        "content": "Header Layout Settings"
-    },
-    {
-        "type": "select",
-        "id": "align_desktop",
-        "label": "Content Align (Desktop)",
-        "options": [
-            {
-                "value": "text-lg-left",
-                "label": "Left"
-                },
-            {
-                "value": "text-lg-center",
-                "label": "Center"
-            }
-        ],
-        "default": "text-lg-center"
-    },
-    {
-        "type": "select",
-        "id": "align_mobile",
-        "label": "Content Align (Mobile)",
-        "options": [
-            {
-                "value": "text-left",
-                "label": "Left"
-                },
-            {
-                "value": "text-center",
-                "label": "Center"
-            }
-        ],
-        "default": "text-left"
-    },
-    {
-        "type": "select",
-        "id": "content_width",
-        "label": "Content Width (Desktop)",
-        "options": [
-            {
-                "value": "w-lg-auto",
-                "label": "auto"
-            },
-            {
-                "value": "w-lg-100",
-                "label": "100%"
-            },
-            {
-                "value": "w-lg-75",
-                "label": "75%"
-            },
-            {
-                "value": "w-lg-50",
-                "label": "50%"
-            },
-            {
-                "value": "w-lg-25",
-                "label": "25%"
-            }
-        ],
-        "default": "w-lg-auto"
+        "content": "Layout Settings"
     },
     {
         "type": "select",
