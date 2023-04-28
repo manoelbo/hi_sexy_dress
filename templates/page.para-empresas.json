@@ -7,7 +7,7 @@
           "type": "button",
           "settings": {
             "text": "ENTRE EM CONTATO",
-            "url": "shopify:\/\/pages\/cursos",
+            "url": "shopify:\/\/pages\/contato",
             "target": false,
             "style": "rounded-white"
           }
