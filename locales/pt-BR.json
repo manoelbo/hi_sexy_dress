@@ -1,2 +1,303 @@
 {
+  "general": {
+    "general": {
+      "share": "Compartilhar",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "all_rights_reserved": "",
+      "secure_payments": "Proteção 100%",
+      "pagination_page_of": "Página {{ count }} de {{ total }}",
+      "follow_us": "Siga a Hyper Island"
+    },
+    "accessibility": {
+      "skip_content": "Pular conteúdo",
+      "skip_product_content": "Pular para conteúdo do produto",
+      "utility_icons": "Ícones de utilidade",
+      "menu": "Menu",
+      "cart": "Carrinho",
+      "search": "Busca",
+      "account": "Conta",
+      "previous": "Anterior",
+      "next": "Próximo",
+      "previous_page": "Página anterior",
+      "next_page": "Próxima página",
+      "close": "Fechar",
+      "decrease_qty": "Diminuir quantidade",
+      "increase_qty": "Adicionar",
+      "social_media_links": "Redes Sociais ",
+      "cart_product_list": "Lista de cursos",
+      "payment_methods": "Métodos de pagamento",
+      "sorted_by": "Ordenar por",
+      "product_media_gallery": "Galeria de mídia",
+      "product_options": "Opções do produto"
+    },
+    "offcanvas_search": {
+      "title": "Buscar na loja",
+      "input_label": "Comece a escrever para ver resultados",
+      "view_all_results": "Ver todos",
+      "button": "Busca",
+      "title_collections": "Coleção",
+      "title_products": "Produtos",
+      "title_pages": "Páginas",
+      "title_articles": "Artigos",
+      "search_for": "Busca por",
+      "result_found": "1 resultado encontrado",
+      "results_found": "[count] resultados encontrados",
+      "no_results": "Sem resultado"
+    },
+    "search_page": {
+      "title": "Busque no site",
+      "title_search_performed": "Resultado da busca",
+      "no_results": "Sem resultados",
+      "results_with_count_and_term": {
+        "one": "",
+        "other": ""
+      },
+      "form": {
+        "input_label": "",
+        "select_label": "",
+        "btn_text": ""
+      },
+      "types": {
+        "products": "",
+        "pages": "",
+        "articles": ""
+      }
+    },
+    "newsletter": {
+      "input_label": "",
+      "confirmation_text": "",
+      "submit_button": ""
+    },
+    "breadcrumbs": {
+      "label": "",
+      "home": ""
+    },
+    "404_page": {
+      "title": "404 - Página Não Encontrada ",
+      "subtext": "Você é uma pessoa curiosa ou essa página não existe mais",
+      "button": "Voltar para a home"
+    },
+    "contact": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Celular",
+      "message": "Mensagem",
+      "send": "Enviar",
+      "success": "Sucesso"
+    },
+    "password_page": {
+      "password_form": {
+        "password_label": "Senha",
+        "btn_label": "Enviar"
+      }
+    }
+  },
+  "collection": {
+    "empty_html": "",
+    "sort_by": "",
+    "btn_filter_products": "",
+    "paginate_count": "",
+    "count_products": {
+      "one": "",
+      "other": ""
+    },
+    "filters": {
+      "title": "",
+      "reset": "",
+      "from": "",
+      "to": "",
+      "view_more": "",
+      "clear_filter": "",
+      "clear_all": "",
+      "view_results": {
+        "one": "",
+        "other": ""
+      },
+      "max_range_notice": ""
+    }
+  },
+  "product": {
+    "add_to_cart": "",
+    "add": "",
+    "added_to_cart": "",
+    "price_regular": "",
+    "price_from": "",
+    "price_sale": "",
+    "price_unit": "",
+    "sold_out": "",
+    "quantity": "",
+    "unavailable": "",
+    "product_options": "",
+    "buy_it_now": "",
+    "save": "",
+    "in_stock": "",
+    "select_variant": "",
+    "color_options": ""
+  },
+  "cart": {
+    "title": "",
+    "empty_html": "",
+    "summary": "",
+    "continue_shopping": "",
+    "view_cart": "",
+    "checkout": "",
+    "remove": "",
+    "quantity": "",
+    "qty": "",
+    "note_label": "",
+    "note_placeholder": "",
+    "note_button": "",
+    "note_saved": "",
+    "subtotal": "",
+    "subtotal_regular": "",
+    "subtotal_discounted": "",
+    "alert_item_added": "",
+    "alert_cart_updated": "",
+    "alert_error": "",
+    "taxes_shipping_at_checkout_html": ""
+  },
+  "blogs": {
+    "filter_by": "",
+    "all_topics": "",
+    "posted_in": "",
+    "article": {
+      "blog": "",
+      "read_more_title": "",
+      "read_more": "",
+      "comments": {
+        "one": "",
+        "other": ""
+      },
+      "moderated": "",
+      "comment_form_title": "",
+      "name": "",
+      "email": "",
+      "message": "",
+      "post": "",
+      "back_to_blog": "",
+      "share": "",
+      "success": "",
+      "success_moderated": ""
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "",
+      "logout": "",
+      "order_history": "",
+      "account_details": "",
+      "view_addresses": "",
+      "return": "",
+      "drawer_manage_account_html": "",
+      "drawer_register_login_html": ""
+    },
+    "login": {
+      "title": "",
+      "email": "",
+      "password": "",
+      "submit": "",
+      "forgot_password": "",
+      "new": "",
+      "create_account": "",
+      "guest_title": "",
+      "guest_continue": ""
+    },
+    "recover_password": {
+      "title": "",
+      "email": "",
+      "submit": "",
+      "cancel": "",
+      "subtext": "",
+      "success": ""
+    },
+    "reset_password": {
+      "title": "",
+      "subtext": "",
+      "password": "",
+      "password_confirm": "",
+      "submit": ""
+    },
+    "activate_account": {
+      "title": "",
+      "subtext": "",
+      "password": "",
+      "password_confirm": "",
+      "submit": "",
+      "cancel": ""
+    },
+    "register": {
+      "title": "",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "submit": "",
+      "have_account": "",
+      "login": ""
+    },
+    "orders": {
+      "title": "",
+      "order_number": "",
+      "date": "",
+      "payment_status": "",
+      "fulfillment_status": "",
+      "total": "",
+      "none": ""
+    },
+    "order": {
+      "title": "",
+      "date_html": "",
+      "cancelled_html": "",
+      "cancelled_reason": "",
+      "billing_address": "",
+      "cancelled": "",
+      "date": "",
+      "payment_status": "",
+      "shipping_address": "",
+      "fulfillment_status": "",
+      "discount": "",
+      "shipping": "",
+      "tax": "",
+      "product": "",
+      "sku": "",
+      "price": "",
+      "quantity": "",
+      "total": "",
+      "fulfilled_at_html": "",
+      "track_shipment": "",
+      "tracking_url": "",
+      "tracking_company": "",
+      "tracking_number": "",
+      "subtotal": "",
+      "note": ""
+    },
+    "addresses": {
+      "title": "",
+      "tab_addresses": "",
+      "tab_add_new": "",
+      "default": "",
+      "add_new": "",
+      "edit_address": "",
+      "first_name": "",
+      "last_name": "",
+      "company": "",
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "country": "",
+      "province": "",
+      "zip": "",
+      "phone": "",
+      "set_default": "",
+      "add": "",
+      "update": "",
+      "cancel": "",
+      "edit": "",
+      "delete": "",
+      "delete_confirm": "",
+      "select_country": "",
+      "no_addresses": ""
+    }
+  }
 }
