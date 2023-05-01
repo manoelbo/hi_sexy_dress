@@ -38,10 +38,7 @@
       "settings": {
         "filter": true,
         "collection_list": [
-          "inovacao-e-negocios",
-          "comunicacao-e-experiencia",
-          "lideranca-e-cultura",
-          "master-class"
+          "remote-courses"
         ],
         "hidden": false,
         "title": "",
