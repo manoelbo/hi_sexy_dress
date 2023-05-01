@@ -56,8 +56,8 @@
                     <div class="row">
                         <div class="col-lg-6" data-aos="fade-down" data-aos-delay="250" >
                             {{ product.description }}
-                            {% if section.settings.display_timezone == true %}
-                               <span>*Timezone: {{ section.settings.week_day }}, </span><span id="timezone" date="{{ section.settings.date_est }}" duration="{{ section.settings.duration }}"> </span>
+                            {% if section.settings.display_timezone == true and section.settings.date_est != blank %}
+                               <span class="mt-4"> </br> *Timezone: {{ section.settings.week_day }}, </span><span id="timezone" date="{{ section.settings.date_est }}" duration="{{ section.settings.duration_text }}"> </span>
                             {% endif %}
                         </div>
                         <div class="col-lg-6" data-aos="fade-down" data-aos-delay="400">
@@ -392,11 +392,11 @@
             "default": "Quata"
         },
         {
-            "type": "number", 
-            "id": "duration",
+            "type": "text", 
+            "id": "duration_text",
             "label": "Course Duration in Minutes",
             "info": "ex: 120",
-            "default": 120
+            "default": "120"
         }
 
     ],
