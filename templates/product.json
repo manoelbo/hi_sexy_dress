@@ -26,10 +26,10 @@
         "zap": false,
         "zap_number": "",
         "zap_msg": "",
-        "display_timezone": false,
-        "date_est": "15-04-2023-18:00",
-        "week_day": "Quata",
-        "duration": 120
+        "display_timezone": true,
+        "date_est": "{{ product.metafields.custom.course_est_start_time.value }}",
+        "week_day": "{{ product.metafields.custom.course_weekday.value }}",
+        "duration_text": "{{ product.metafields.custom.course_duration_in_minutes.value }}"
       }
     },
     "5ca41278-01ed-4970-a967-bd751801d84e": {
