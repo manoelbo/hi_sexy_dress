@@ -173,6 +173,7 @@
     },
     "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb": {
       "type": "content",
+      "disabled": true,
       "blocks": {
         "9418dca7-749c-44a1-85df-12190cb65c7a": {
           "type": "content",
