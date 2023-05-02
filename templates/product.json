@@ -4,7 +4,7 @@
       "type": "course-header",
       "settings": {
         "overlay_opacity": 30,
-        "bg_position": "center",
+        "bg_position": "{{ product.metafields.custom.img_background_position.value }}",
         "font_color": "text-light",
         "title_size": "display-0",
         "label_1": "Format",
