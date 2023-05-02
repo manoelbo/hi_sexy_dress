@@ -36,8 +36,8 @@
     "9f283b33-429f-4be2-9686-34bba2bf65cb": {
       "type": "header",
       "settings": {
-        "mobile_only": true,
-        "desktop_only": false,
+        "mobile_only": false,
+        "desktop_only": true,
         "title": "DESENVOLVA A TRANFORMAÇÃO",
         "text": "Descubra novas maneiras de cocriar e desenvolver suas ideias, a partir de experiências transformadoras.",
         "bg_color": "#212529",
@@ -290,7 +290,11 @@
         "pt_sm": 2,
         "pb_sm": 3,
         "mt_sm": 3,
-        "mb_sm": 3
+        "mb_sm": 3,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
       }
     },
     "31524baf-3a3c-4284-9f0b-2058f23ab947": {
