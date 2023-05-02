@@ -94,17 +94,31 @@
             "bg_color": "#e3dfd3",
             "bg_gradient": ""
           }
+        },
+        "8da73a68-0f21-4b07-85ec-32cdd8f65b4c": {
+          "type": "card",
+          "settings": {
+            "header": "Para Empresas",
+            "title": "Nossos Cursos",
+            "text": "Para Empresas",
+            "url": "",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#ff7300",
+            "bg_gradient": ""
+          }
         }
       },
       "block_order": [
         "template--18553304908079__567bbb1f-1bdb-4a7b-b908-4ed8a71087be-1680632808ff3af4e8-0",
-        "template--18553304908079__567bbb1f-1bdb-4a7b-b908-4ed8a71087be-1680632808ff3af4e8-1"
+        "template--18553304908079__567bbb1f-1bdb-4a7b-b908-4ed8a71087be-1680632808ff3af4e8-1",
+        "8da73a68-0f21-4b07-85ec-32cdd8f65b4c"
       ],
       "settings": {
         "header_size": "fs-6",
         "title_size": "display-4",
         "text_size": "fs-6",
-        "layout": "col-lg-6",
+        "layout": "col-lg-4",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-center",
         "pt_xl": 0,
