@@ -7,7 +7,7 @@
         "bg_position": "center",
         "font_color": "text-light",
         "title_size": "display-0",
-        "label_1": "Formato",
+        "label_1": "Format",
         "info_1": "{{ product.metafields.custom.format.value }}",
         "label_2": "Próxima Truma",
         "info_2": "{{ product.metafields.custom.next_cohort_day.value }}",
