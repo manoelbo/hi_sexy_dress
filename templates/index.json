@@ -208,7 +208,7 @@
         "px_xs": 0,
         "my_xs": 0,
         "mx_xs": 4,
-        "spb_lg": 0,
+        "spb_lg": 8,
         "smb_lg": 0,
         "spb_xs": 0,
         "smb_xs": 0
@@ -216,6 +216,7 @@
     },
     "c35830d0-0a96-42c8-91ef-2a2a4a155d79": {
       "type": "separator",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "opacity": 0,
