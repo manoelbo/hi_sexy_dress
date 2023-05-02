@@ -36,8 +36,8 @@
     "9f283b33-429f-4be2-9686-34bba2bf65cb": {
       "type": "header",
       "settings": {
-        "mobile_only": false,
-        "desktop_only": true,
+        "mobile_only": true,
+        "desktop_only": false,
         "title": "DESENVOLVA A TRANFORMAÇÃO",
         "text": "Descubra novas maneiras de cocriar e desenvolver suas ideias, a partir de experiências transformadoras.",
         "bg_color": "#212529",
