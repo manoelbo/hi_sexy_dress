@@ -173,6 +173,7 @@
     },
     "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb": {
       "type": "content",
+      "disabled": true,
       "blocks": {
         "9418dca7-749c-44a1-85df-12190cb65c7a": {
           "type": "content",
@@ -250,7 +251,7 @@
         "c6a17386-622e-4a05-be17-d3879e749e48"
       ],
       "settings": {
-        "hidden": false,
+        "hidden": true,
         "title": "PROGRAMA DO CURSO",
         "text": "",
         "font_color": "text-dark",
