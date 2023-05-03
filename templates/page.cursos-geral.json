@@ -5,8 +5,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "<strong>CURSOS<\/strong>",
-        "text": "Prepare-se para o futuro e seja protagonista do seu próprio processo de transformação. Navegue em jornadas de aprendizado baseadas na experiência e desenvolva suas habilidades.",
+        "title": "<strong>courses<\/strong>",
+        "text": "Get ready for the future and be the protagonist of your own transformation process. Navigate through experiential learning journeys and develop your skills.",
         "bg_color": "#212529",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/1-Header-Cursos.jpg",
@@ -88,8 +88,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "Cursos Remotos",
-        "text": "Conecte-se com pessoas do Brasil e do mundo a partir de sessões completamente remotas. Desperte a sua curiosidade e faça parte de uma experiência interativa e imersiva, de onde estiver.",
+        "title": "Remote courses",
+        "text": "Connect with people from all over the world through fully remote sessions. Awaken your curiosity and be part of an interactive and immersive experience, from wherever you are.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
@@ -121,8 +121,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "MASTERCLASSES PRESENCIAIS",
-        "text": "Em um formato presencial, tenha acesso à metodologia da Hyper Island de maneira intensiva. Ao lado de pessoas de diferentes áreas e expertises, crie conexões poderosas para a sua jornada de transformação.",
+        "title": "In-person masterclasses",
+        "text": "In an in-person format, gain intensive access to Hyper Island's methodology. Alongside people from different areas and expertise, create powerful connections for your transformation journey.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/3_Masterclass_e13658db-e369-4b6a-b9b8-b123a060293e.jpg",
