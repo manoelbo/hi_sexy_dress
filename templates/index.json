@@ -5,8 +5,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": true,
-        "title": "DESENVOLVA A TRANFORMAÇÃO",
-        "text": "Descubra novas maneiras de cocriar e desenvolver suas ideias, a partir de experiências transformadoras.",
+        "title": "Designing Transformation",
+        "text": "In an increasingly complex and connected world, Hyper Island exists to empower lifelong learners and foster transformative experiences that shape the future.",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/R0004196.jpg",
@@ -72,7 +72,7 @@
         "template--18553304908079__567bbb1f-1bdb-4a7b-b908-4ed8a71087be-1680632808ff3af4e8-0": {
           "type": "card",
           "settings": {
-            "header": "PARA A SUA EMPRESA",
+            "header": "For companies",
             "title": "BUSINESS TRANSFORMATION",
             "text": "Revolucione a maneira como você agrega valor às pessoas da sua equipe e organização.",
             "url": "",
