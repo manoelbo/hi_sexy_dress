@@ -173,7 +173,7 @@
           "type": "category",
           "settings": {
             "active": true,
-            "category": "Workshops & Palestras",
+            "category": "Workshops",
             "id": "workshops"
           }
         },
@@ -181,7 +181,7 @@
           "type": "card",
           "settings": {
             "category_id": "workshops",
-            "title": "Liderança  Do Futuro",
+            "title": "Future Leadership",
             "text": "",
             "url": "",
             "target": false
@@ -191,7 +191,7 @@
           "type": "card",
           "settings": {
             "category_id": "workshops",
-            "title": "Inovação e Criatividade",
+            "title": "Innovation and Creativity",
             "text": "",
             "url": "",
             "target": false
@@ -201,7 +201,7 @@
           "type": "card",
           "settings": {
             "category_id": "workshops",
-            "title": "Experiência do Consumidor",
+            "title": "Customer Experience",
             "text": "",
             "url": "",
             "target": false
@@ -211,7 +211,7 @@
           "type": "card",
           "settings": {
             "category_id": "workshops",
-            "title": "Marketing  Digital",
+            "title": "Digital Marketing",
             "text": "",
             "url": "",
             "target": false
@@ -231,7 +231,7 @@
           "type": "card",
           "settings": {
             "category_id": "workshops",
-            "title": "Times de Alta Perfromance",
+            "title": "High Performance Teams",
             "text": "",
             "url": "",
             "target": false
@@ -241,7 +241,7 @@
           "type": "card",
           "settings": {
             "category_id": "workshops",
-            "title": "Comunicação & Storytelling",
+            "title": "Comunication & Storytelling",
             "text": "",
             "url": "",
             "target": false
