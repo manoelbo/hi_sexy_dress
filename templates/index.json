@@ -85,9 +85,9 @@
         "template--18553304908079__567bbb1f-1bdb-4a7b-b908-4ed8a71087be-1680632808ff3af4e8-1": {
           "type": "card",
           "settings": {
-            "header": "PARA VOCÊ",
-            "title": "NOSSOS CURSOS",
-            "text": "Embarque em uma jornada de aprendizagem ao lado de pessoas incríveis.",
+            "header": "for you",
+            "title": "Ours courses",
+            "text": "Learn from practicing industry specialists and join a global learning community that can give you inspiration and support for years to come.",
             "url": "",
             "target": false,
             "font_color": "text-dark",
