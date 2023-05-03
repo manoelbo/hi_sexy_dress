@@ -571,8 +571,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "<strong>CURADORIA DE EVENTOS<\/strong>",
-        "text": "Ajudamos a sua empresa com o desenho e planejamento de eventos corporativos. Projetos que vão desde a criação do conceito, desenvolvimento das dinâmicas de aprendizagem, até a construção do time de <em>speakers<\/em>.",
+        "title": "Event curation",
+        "text": "Hyper Island can help plan, design and facilitate company events on and off-site. In the past we have clients to create the initial concept for events, design the learning interactions, team building and other informal elements of the event as will as the communications to help drive engagement amongst participants.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/4-Eventos.jpg",
@@ -604,8 +604,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "CURSOS IN-COPANY",
-        "text": "Nossos cursos remotos e presenciais estão disponíveis para turmas exclusivas, com opções de customização para que a jornada de aprendizagem faça sentido para o seu negócio e sua agenda.",
+        "title": "IN-COPANY courses",
+        "text": "Our remote and in-person courses are available for exclusive groups, with customization options so that the learning journey makes sense for your business and schedule.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/2-Remoto.jpg",
@@ -638,7 +638,7 @@
         "726717ac-617a-4f9a-8b5f-fca52b092f42": {
           "type": "button",
           "settings": {
-            "text": "Mandar e-mail",
+            "text": "Send an e-mail",
             "url": "mailto:viviane.nishimura@hyperisland.com",
             "target": false,
             "zap": false,
@@ -650,12 +650,12 @@
         "709e746d-79fc-4e8a-b7cd-cf6ac3f99334": {
           "type": "button",
           "settings": {
-            "text": "Enviar Mensagem",
-            "url": "",
+            "text": "Booking a call",
+            "url": "https:\/\/meetings.hubspot.com\/gleisson",
             "target": false,
-            "zap": true,
-            "zap_number": "5511999882445",
-            "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
             "style": "rounded-white"
           }
         }
@@ -665,9 +665,9 @@
         "709e746d-79fc-4e8a-b7cd-cf6ac3f99334"
       ],
       "settings": {
-        "title": "FALE COM A VIVI",
-        "text": "Queremos te ouvir! Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
-        "img": "shopify:\/\/shop_images\/1675811085451.jpg",
+        "title": "TALK TO TIM",
+        "text": "We want to hear from you! Schedule a conversation with Tim and learn how Hyper Island can help your company or team.",
+        "img": "shopify:\/\/shop_images\/Tim-Lucas.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
