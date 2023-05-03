@@ -241,7 +241,7 @@
           "type": "card",
           "settings": {
             "category_id": "workshops",
-            "title": "Comunication & Storytelling",
+            "title": "Communication & Storytelling",
             "text": "",
             "url": "",
             "target": false
@@ -251,7 +251,7 @@
           "type": "card",
           "settings": {
             "category_id": "workshops",
-            "title": "Diversidade & Inclusão",
+            "title": "Diversity & Inclusion",
             "text": "",
             "url": "",
             "target": false
@@ -261,7 +261,7 @@
           "type": "category",
           "settings": {
             "active": false,
-            "category": "Cocriação & Teambuilding",
+            "category": "Co-creation & Teambuilding",
             "id": "consultoria"
           }
         },
@@ -269,7 +269,7 @@
           "type": "card",
           "settings": {
             "category_id": "consultoria",
-            "title": "Planejamento Estratégico",
+            "title": "Strategic Planning",
             "text": "",
             "url": "",
             "target": false
@@ -279,7 +279,7 @@
           "type": "card",
           "settings": {
             "category_id": "consultoria",
-            "title": "Sprint de Inovação",
+            "title": "Innovation Sprint",
             "text": "",
             "url": "",
             "target": false
@@ -289,7 +289,7 @@
           "type": "card",
           "settings": {
             "category_id": "consultoria",
-            "title": "Mapeamento de Tendências",
+            "title": "Trend Mapping",
             "text": "",
             "url": "",
             "target": false
@@ -309,7 +309,7 @@
           "type": "card",
           "settings": {
             "category_id": "consultoria",
-            "title": "Design de Jornada do Cosumidor",
+            "title": "Consumer Journey Design",
             "text": "",
             "url": "",
             "target": false
@@ -319,7 +319,7 @@
           "type": "card",
           "settings": {
             "category_id": "consultoria",
-            "title": "Retrospectiva e Wrap-Up",
+            "title": "Retrospective and Wrap-Up",
             "text": "",
             "url": "",
             "target": false
@@ -329,7 +329,7 @@
           "type": "card",
           "settings": {
             "category_id": "consultoria",
-            "title": "Integração e Confiança",
+            "title": "Integration and Trust",
             "text": "",
             "url": "",
             "target": false
@@ -339,7 +339,7 @@
           "type": "card",
           "settings": {
             "category_id": "consultoria",
-            "title": "Alinhamento e Autonomia",
+            "title": "Alignment and Autonomy",
             "text": "",
             "url": "",
             "target": false
@@ -349,7 +349,7 @@
           "type": "category",
           "settings": {
             "active": false,
-            "category": "Jornadas & Programas",
+            "category": "Journeys & Programs",
             "id": "programas"
           }
         },
