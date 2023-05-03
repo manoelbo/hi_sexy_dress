@@ -128,8 +128,8 @@
           "type": "content",
           "settings": {
             "title": "6 HUBS",
-            "text": "Começamos na Suécia, hoje estamos espalhados em 6 hubs entre América do Norte, América do Sul, Europa e Ásia.",
-            "header": "No mundo",
+            "text": "We started in Sweden, and today we have spread out to 6 hubs across North America, South America, Europe, and Asia.",
+            "header": "Worldwide",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -139,8 +139,8 @@
           "type": "content",
           "settings": {
             "title": "+250",
-            "text": "Nossa rede global é formada por facilitadores, consultores e especialistas de diversas nacionalidades.",
-            "header": "EQUipe",
+            "text": "Our global network is made up of facilitators, consultants, and experts from various nationalities.",
+            "header": "Team",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -150,8 +150,8 @@
           "type": "content",
           "settings": {
             "title": "+1870",
-            "text": "Mais de 1.870 organizações que transformaram seus negócios a partir da prática da reflexão e cocriação.",
-            "header": "Alcance",
+            "text": "More than 1,870 organizations that transformed their businesses through the practice of reflection and co-creation.",
+            "header": "Reach",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -165,8 +165,8 @@
       ],
       "settings": {
         "hidden": false,
-        "title": "Nosso Impacto",
-        "text": "Provocações que geram mudanças transformadoras em diferentes contextos - capazes de impactar empresas, pessoas e lugares ao redor do mundo. Saiba o que temos feito em <strong>26 anos de Hyper Island<\/strong>.",
+        "title": "Our Impact",
+        "text": "Provocations that generate transformative changes in different contexts - capable of impacting companies, people, and places around the world. Discover what we have accomplished in <strong>26 years of Hyper Island<\/strong>.",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -227,8 +227,8 @@
     "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5": {
       "type": "title-section",
       "settings": {
-        "title": "INTERAÇÃO E IMERSÃO",
-        "text": "Utilizamos uma metodologia completamente centrada na experiência, dentro dos processos de aprendizagem e consultorias. Em cada jornada, provocações que levam as pessoas a um movimento de imersão e interação, onde começam a se desenvolver para o Futuro.",
+        "title": "Interaction and Immersion",
+        "text": "<strong>Our methodology is founded on a learner-centered, experience-based approach.<\/strong> We create facilitated learning journeys, where discovering, uncovering, applying and reflecting is all part of the process by which participants learn useful skills and knowledge they can apply right away. In all our learning we always work with these fundamental tools.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/BG2.png",
