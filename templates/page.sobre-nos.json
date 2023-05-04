@@ -144,8 +144,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "Nossa metodologia",
-        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.<\/strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
+        "title": "Our methodology",
+        "text": "<strong>Our methodology is founded on a learner-centered, experience-based approach.<\/strong> We create facilitated learning journeys, where discovering, uncovering, applying and reflecting is all part of the process by which participants learn useful skills and knowledge they can apply right away. In all our learning we always work with these fundamental tools.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/2_Metodologia_92de7774-1a0d-4c4e-9c8b-e7fd33b385d8.jpg",
@@ -188,8 +188,8 @@
         "5c9e4f9f-ab46-4fd3-b4bd-a01c4fca1d16": {
           "type": "content",
           "settings": {
-            "title": "Aprender fazendo",
-            "text": "Empoderar e desafiar as pessoas a assumirem o seu próprio aprendizado. Assim todos aprendemos melhor.",
+            "title": "Learn by doing",
+            "text": "Build, create, and experiment by creating opportunities to get hands on with the underpinnings of what’s driving change in business.",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"><\/path>\n<\/svg>",
             "bg_color": "",
@@ -199,8 +199,8 @@
         "9f6123dc-0939-46e3-b440-a486942a2cad": {
           "type": "content",
           "settings": {
-            "title": "Feedback & Comunicação",
-            "text": "Fornecer as técnicas de comunicação essenciais para realizar a inclusão e empatia pelos outros por meio de escuta ativa, feedback e diálogo eficaz.",
+            "title": "Dialogue and Feedback",
+            "text": "Providing the essential communication techniques to realize inclusion and empathy for others through active listening, feedback and effective dialogue.",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"><\/path>\n<\/svg>",
             "bg_color": "",
