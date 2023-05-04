@@ -61,8 +61,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "CONTATO",
-        "text": "Tel: +55 11 99135-2064   <\/br> Email: learning.latam@hyperisland.com",
+        "title": "CONTACT",
+        "text": "<strong>Tel: +55 21 97664-6326 <\/strong>            larning.americas@hyperisland.com",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "overlay_opacity": 0,
@@ -157,7 +157,7 @@
     "84193b7e-3fe3-450c-89d8-8223e3fc85e2": {
       "type": "hubspot-form",
       "settings": {
-        "form_id": "8cb04454-a222-4886-8fb2-45822a4cf502"
+        "form_id": "90d76cdc-71c5-47f5-b471-392438623932"
       }
     }
   },
