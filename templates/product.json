@@ -431,8 +431,8 @@
         "fed2d2e6-23e1-49da-b0f2-7bc204059924": {
           "type": "content",
           "settings": {
-            "title": "<strong>Por quanto tempo terei acesso aos materiais e gravações?<\/strong>",
-            "text": "Por tempo indeterminado! Você poderá acessar os arquivos sempre que quiser.",
+            "title": "How long will I have access to the material?",
+            "text": "Both the learning material and the videos of the live session sare available to you indefinitely.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -442,8 +442,8 @@
         "94f51f34-72b0-46af-9dc8-d9c978edc6c5": {
           "type": "content",
           "settings": {
-            "title": "<strong>Como funciona a metodologia da Hyper Island?<\/strong>",
-            "text": "A nossa metodologia é baseada em uma abordagem centrada na experiência. Empoderamos e desafiamos as pessoas a assumirem o seu próprio aprendizado. Assim todos aprendemos mais.",
+            "title": "How does the Hyper Island methodology work?",
+            "text": "Our methodology is based on hands-on learning, feedback, inclusive communication, collaboration between participants in each journey and reflection on what we are learning. We believe that learning by doing, in a safe environment where collaboration and reflection are always present enhances the learning experience.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -453,8 +453,8 @@
         "5e19636c-65dd-49eb-bf4f-84d97fca46c4": {
           "type": "content",
           "settings": {
-            "title": "Quais são as formas de pagamento aceitas?",
-            "text": "Você pode escolher entre pagar o curso com cartões de crédito ou débito. Caso prefira, também aceitamos PIX e depósito bancário.",
+            "title": "How can I pay?",
+            "text": "You can purchase our courses on your credit card directly on the site. We also accept deposit and can invoice your company. Contact us to find out more.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -464,8 +464,8 @@
         "5f0b371a-b7bd-416f-a6d7-7b3e47c89253": {
           "type": "content",
           "settings": {
-            "title": "<strong>O curso possui certificado?<\/strong>",
-            "text": "Sim! Ao finalizar o curso, você receberá um certificado com o total de horas e participação comprovada. Para recebê-lo, é necessário ter pelo menos 70% de presença nas sessões ao vivo e concluir metade das atividades semanais.",
+            "title": "Does the course have a certificate?",
+            "text": "Yes, at the end of the course you will receive the certificate of completion with the total hours and proof of participation. To receive it, it is necessary to attend at least 60% of the live sessions and\/or perform at least half of the weekly activities.",
             "header": "",
             "svg": "",
             "bg_color": "",
