@@ -38,7 +38,7 @@
         "e1cdf001-ba57-4c64-8543-e5fe36210b92": {
           "type": "content",
           "settings": {
-            "title": "<strong>O que devo esperar?<\/strong>",
+            "title": "What will I learn?",
             "text": "{{ product.metafields.my_fields.o_que_vou_aprender_.value }}",
             "header": "",
             "svg": "",
@@ -49,8 +49,8 @@
         "e71745f9-44c5-4ceb-9905-dfd8436563ca": {
           "type": "content",
           "settings": {
-            "title": "Como vou aprender?",
-            "text": "Projetamos nossos cursos com curadorias cuidadosamente selecionadas para garantir que você aprenda de forma imersiva e interativa. Nossos facilitadores lideram sessões ao vivo semanalmente, desafiando você a crescer e se transformar a cada aula. Prepare-se para uma experiência de aprendizado centrada na experiência, na",
+            "title": "How will I learn?",
+            "text": "You will learn in an immersive way, in interactive live sessions led by our facilitators. You will also receive unique content and complementary materials, specially curated by Hyper Island for each module. And above all, you will learn by doing, with individual and group activities each week.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -60,8 +60,8 @@
         "ad76ca31-6918-454a-b837-213f971bcc31": {
           "type": "content",
           "settings": {
-            "title": "Por quê Hyper Island?",
-            "text": "Valorizamos sua trajetória e entendemos que respostas prontas não são a melhor forma de aprendizagem. Desenhamos oportunidades a partir dos avanços da tecnologia e inovação para que você descubra novas maneiras de criar, pensar e desenvolver suas ideias e, assim, possa expandir sua consciência visando um futuro extraordinário.",
+            "title": "Why Hyper Island?",
+            "text": "At Hyper Island we don't bring all the answers. We create facilitated learning journeys where discovering, applying and reflecting are part of the process in which participants internalizelearning, develop skills and generate knowledge that you can immediately apply to your own business challenges.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -143,8 +143,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "NOSSA METODOLOGIA",
-        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.<\/strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
+        "title": "Our methodology",
+        "text": "<strong>Our methodology is founded on a learner-centered, experience-based approach.<\/strong> We create facilitated learning journeys, where discovering, uncovering, applying and reflecting is all part of the process by which participants learn useful skills and knowledge they can apply right away. In all our learning we always work with these fundamental tools.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
