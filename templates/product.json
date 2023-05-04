@@ -307,8 +307,8 @@
         "90aa23df-1295-46c6-9bfb-0546c85e4550": {
           "type": "button",
           "settings": {
-            "text": "Mandar Email",
-            "url": "mailto:sabryna.alsfasser@hyperisland.com",
+            "text": "Send an e-mail",
+            "url": "mailto:tim.lucas@hyperisland.com",
             "target": false,
             "zap": false,
             "zap_number": "",
