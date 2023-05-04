@@ -363,6 +363,7 @@
     },
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9": {
       "type": "testimonial",
+      "disabled": true,
       "blocks": {
         "d260a457-b4e4-4b1d-872c-1df57baa696d": {
           "type": "content",
