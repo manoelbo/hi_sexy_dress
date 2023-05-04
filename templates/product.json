@@ -363,22 +363,19 @@
     },
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9": {
       "type": "testimonial",
-      "disabled": true,
       "blocks": {
         "d260a457-b4e4-4b1d-872c-1df57baa696d": {
           "type": "content",
           "settings": {
-            "name": "Elon Musk",
-            "text": "A dinâmica do curso, com kits de aprendizagem e os momentos síncronos, sem perder de vista as \"tarefas\". Isso faz com que a gente se engaje, troque experiências e fique ainda mais comprometido. Além disso, os temas abordados também ficaram super dentro do que eu tinha de expectativa em relação ao tema. Foi uma experiência incrível!",
-            "img": "shopify:\/\/shop_images\/02mai2022---o-bilionario-elon-musk-no-met-gala-em-nova-york-1669125518979_v2_1x1_19d8f476-ef3e-4c2c-b9e7-58bd5cae1b2b.jpg"
+            "name": "{{ product.metafields.my_fields.name_testimonial_1.value }}",
+            "text": "{{ product.metafields.my_fields.testimonial_1.value }}"
           }
         },
         "903ecd16-1682-4784-86b5-ee4446329ab2": {
           "type": "content",
           "settings": {
-            "name": "Elon Musk",
-            "text": "As provocações para reflexão sobre a nossa atual liderança e sobre o líder que queremos ser. Gostei do formato do curso, de dar espaço para assimilar e refletir o conteúdo. Além, é claro de todos os modelos e ferramentas apresentadas.",
-            "img": "shopify:\/\/shop_images\/02mai2022---o-bilionario-elon-musk-no-met-gala-em-nova-york-1669125518979_v2_1x1_19d8f476-ef3e-4c2c-b9e7-58bd5cae1b2b.jpg"
+            "name": "{{ product.metafields.my_fields.name_testimonial_2.value }}",
+            "text": "{{ product.metafields.my_fields.testimonial_2.value }}"
           }
         }
       },
