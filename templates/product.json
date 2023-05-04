@@ -319,10 +319,10 @@
         "27e043bb-8543-455b-bfd3-89f17b5e710b": {
           "type": "button",
           "settings": {
-            "text": "Enviar Mensagem",
+            "text": "Booking a call",
             "url": "",
             "target": false,
-            "zap": true,
+            "zap": false,
             "zap_number": "56939309660",
             "zap_msg": "Olá, gostaria de saber sobre cursos para empresas",
             "style": "rounded-white"
