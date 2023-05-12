@@ -55,10 +55,10 @@
             {% endfor %}
             </div>
         </div>
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center" data-aos="fade-down" data-aos-delay="300">
             {% for collection in section.settings.collection_list %}
                 {% for product in collection.products %}
-                <div id="{{ collection.id }}" class="{{ section.settings.layout }} category-card" data-aos="fade-down" data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}">
+                <div id="{{ collection.id }}" class="{{ section.settings.layout }} category-card">
                     {% if product.url != blank %}    
                     <a  href="{{ product.url }} "
                         class="click-card text-center  py-6 py-md-4 pb-lg-8">
