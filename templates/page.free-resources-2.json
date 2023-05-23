@@ -159,8 +159,8 @@
         "title_size": "h2",
         "description": "<p><a href=\"https:\/\/knowledge.hyperisland.com\/rapid-rapport-self-assessment\" title=\"https:\/\/knowledge.hyperisland.com\/rapid-rapport-self-assessment\"><strong>Take this simple assessment to score how well you build rapport with yourself, with your team and with your customers   <\/strong><\/a><\/p>",
         "description_size": "fs-6",
-        "pt": 8,
-        "pb": 0,
+        "pt": 10,
+        "pb": 10,
         "mt": 0,
         "mb": 0
       }
