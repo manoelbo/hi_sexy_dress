@@ -6,8 +6,8 @@
         "df7d5120-88c7-493f-b557-023dad40f405": {
           "type": "button",
           "settings": {
-            "text": "GET IN TOUCH",
-            "url": "shopify:\/\/pages\/cursos",
+            "text": "Subscribe for the next Meta Session",
+            "url": "https:\/\/knowledge.hyperisland.com\/inclusive-innovation",
             "target": false,
             "style": "rounded-white"
           }
@@ -19,11 +19,11 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "<strong>BUSINESS TRANSFORMATION<\/strong>",
-        "text": "We facilitate leadership, team development and strategy & innovation with the purpose of creating change that matters.",
+        "title": "<strong>META SESSIONS<\/strong>",
+        "text": "<strong>A free live learning experience with Hyper Island. These fun workshops will help you to develop your adaptability, creativity, rapport and foresight<\/strong>",
         "bg_color": "#212529",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/1_Header_Para_Empresas.jpg",
+        "bg_image": "shopify:\/\/shop_images\/HI_Energizer_DigitalGlitch_1920x1080_04_2.png",
         "overlay_opacity": 30,
         "font_color": "text-light",
         "title_size": "display-1",
