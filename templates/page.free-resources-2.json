@@ -134,7 +134,7 @@
         "align_mobile": "text-center",
         "content_width": "w-lg-75",
         "default_spacing": true,
-        "pt_xl": 0,
+        "pt_xl": 10,
         "pb_xl": 0,
         "mt_xl": 16,
         "mb_xl": 16,
