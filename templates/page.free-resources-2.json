@@ -165,6 +165,23 @@
         "mb": 0
       }
     },
+    "eace86db-ef7e-456c-9886-5e04ba5d0f7a": {
+      "type": "html",
+      "settings": {
+        "html": "<div data-tf-widget=\"AnJYqshD\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Teste Segurança Psicológica\" data-tf-transitive-search-params=\"\" data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "What's your Psychological Safety score?",
+        "title_size": "h1",
+        "description": "<p>Based on over 25 years of helping organizations and individuals create teams that reach their full potential, Hyper Island has developed a unique assessment relevant for all professionals. It's fun, simple, and easy to complete. Take it yourself and share it with your friends and colleagues. <\/p><p>Take the quiz below and find out if you as a leader are fostering psychological safety through your daily behaviors:<\/p>",
+        "description_size": "fs-6",
+        "pt": 15,
+        "pb": 15,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "fe79b999-4357-4e47-a1c4-6197f81fb334": {
       "type": "header_half",
       "blocks": {
@@ -961,6 +978,7 @@
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
     "beca507e-c218-466e-865c-7e86897129f8",
+    "eace86db-ef7e-456c-9886-5e04ba5d0f7a",
     "fe79b999-4357-4e47-a1c4-6197f81fb334",
     "27f908dd-e677-4d9b-9d8b-2cac654683b7",
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce",
