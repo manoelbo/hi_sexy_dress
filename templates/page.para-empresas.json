@@ -687,6 +687,20 @@
     },
     "3978c612-ee33-49d6-9778-a9ec4801cd75": {
       "type": "header_half",
+      "blocks": {
+        "e8980447-b4f9-420c-8b3b-f0573bf45ee0": {
+          "type": "button",
+          "settings": {
+            "text": "Request workshop",
+            "url": "shopify:\/\/pages\/contact",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "e8980447-b4f9-420c-8b3b-f0573bf45ee0"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
