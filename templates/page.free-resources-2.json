@@ -51,8 +51,8 @@
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "<strong>0The Hyper Island Way™<\/strong>",
-        "text": "The ability to relearn is what drives people to act and move organizations forward. Over 26 years, Hyper Island has developed a methodology that combines unique tools and rituals that create the ideal environment for this to happen.",
+        "title": "Rapid Rapport Self Assessment",
+        "text": "<a href=\"https:\/\/knowledge.hyperisland.com\/rapid-rapport-self-assessment\" title=\"https:\/\/knowledge.hyperisland.com\/rapid-rapport-self-assessment\"><strong>Take this simple assessment to score how well you build rapport with yourself, with your team and with your customers   <\/strong><\/a>",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -100,8 +100,39 @@
         "smb_xs": 0
       }
     },
+    "beca507e-c218-466e-865c-7e86897129f8": {
+      "type": "html",
+      "settings": {
+        "html": "<div data-tf-widget=\"Ret4bGoV\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Rapport Self-Assessment\" data-tf-transitive-search-params=\"\" data-tf-medium=\"snippet\" data-tf-hidden=\"hubspot_utk=,hubspot_page_name=,hubspot_page_url=\" style=\"width:100%;height:500px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "b0665530-e062-48f4-bd01-2da5ebf8f79a": {
       "type": "header_half",
+      "blocks": {
+        "726be544-089c-4234-b630-d3ee0343a953": {
+          "type": "button",
+          "settings": {
+            "text": "Download the Rapid Rapport Handbook",
+            "url": "https:\/\/knowledge.hyperisland.com\/rapid-rapport-handbook",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "726be544-089c-4234-b630-d3ee0343a953"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -899,6 +930,7 @@
   "order": [
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
+    "beca507e-c218-466e-865c-7e86897129f8",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
     "fe79b999-4357-4e47-a1c4-6197f81fb334",
     "27f908dd-e677-4d9b-9d8b-2cac654683b7",
