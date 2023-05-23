@@ -667,14 +667,28 @@
     },
     "1da6d290-5e65-44fc-8b7a-6af03f274b37": {
       "type": "header_half",
+      "blocks": {
+        "cc077866-9181-4cfc-a19a-c34794bb6e3d": {
+          "type": "button",
+          "settings": {
+            "text": "Sign up to the 10-week challenge",
+            "url": "https:\/\/knowledge.hyperisland.com\/creativity-bootcamp",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "cc077866-9181-4cfc-a19a-c34794bb6e3d"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "Event curation",
-        "text": "Hyper Island can help plan, design and facilitate company events on and off-site. In the past we helped clients to create the initial concept for events, design the learning interactions, team building and other informal elements of the event as well as the communications to help drive engagement amongst participants.",
+        "title": "Creativity Bootcamp",
+        "text": "<strong>Looking for some new tools and activities to boost your creative powers? Perfect for you, your team, and your organization.<\/strong> Sign up for the 10-week challenge by email or Download the e-book",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/4-Eventos.jpg",
+        "bg_image": "shopify:\/\/shop_images\/Creativity-Challenge-2023.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-5",
