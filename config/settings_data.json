@@ -60,7 +60,7 @@
           "logo_height_mobile": 32,
           "logo_height_desktop": 20,
           "offcanvas_menu_header_bg": "bg-dark text-white",
-          "menu_mobile": "",
+          "menu_mobile": "main-menu",
           "utilities_menu": "",
           "offcanvas_menu_show_social_icons": false,
           "pt": 3,
