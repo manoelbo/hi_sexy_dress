@@ -355,11 +355,10 @@
         },
         "c12ec254-ea4a-480d-ac2b-9d4481d6ee6e": {
           "type": "category",
-          "disabled": true,
           "settings": {
             "active": false,
-            "category": "Programas",
-            "id": "leadership"
+            "category": "Reignite Sessions",
+            "id": "Reignite"
           }
         },
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed": {
@@ -401,6 +400,55 @@
             "url": "",
             "target": false
           }
+        },
+        "285eff9c-9acf-44d6-9144-a8d10c33f96e": {
+          "type": "card",
+          "settings": {
+            "category_id": "Reignite",
+            "title": "Future Foresight",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "553d70db-c5e6-4e79-8f08-78c9ff0c22dd": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "active": false,
+            "category": "Liderança e Cultura",
+            "id": "leadership"
+          }
+        },
+        "9cc67ab5-63eb-4b4b-9812-4f652d4746b1": {
+          "type": "card",
+          "settings": {
+            "category_id": "Reignite",
+            "title": "<strong>Creative Confidence<\/strong>",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "fb407fd2-594e-48af-b07f-5d3fe2d56e89": {
+          "type": "card",
+          "settings": {
+            "category_id": "Reignite",
+            "title": "<strong>Team Reconnect<\/strong>",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "b9814d27-5048-4834-a2b8-25f76b3f1ccd": {
+          "type": "card",
+          "settings": {
+            "category_id": "Reignite",
+            "title": "<strong>Leading Hybrid Organizations<\/strong>",
+            "text": "",
+            "url": "",
+            "target": false
+          }
         }
       },
       "block_order": [
@@ -427,7 +475,12 @@
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed",
         "51d4d49e-2611-431b-a829-381dc115762f",
         "053307ba-1789-4e7e-a375-2f9d4ae4c4df",
-        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0"
+        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0",
+        "285eff9c-9acf-44d6-9144-a8d10c33f96e",
+        "553d70db-c5e6-4e79-8f08-78c9ff0c22dd",
+        "9cc67ab5-63eb-4b4b-9812-4f652d4746b1",
+        "fb407fd2-594e-48af-b07f-5d3fe2d56e89",
+        "b9814d27-5048-4834-a2b8-25f76b3f1ccd"
       ],
       "settings": {
         "font_color": "text-dark",
