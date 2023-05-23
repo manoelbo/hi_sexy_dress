@@ -165,23 +165,6 @@
         "mb": 0
       }
     },
-    "eace86db-ef7e-456c-9886-5e04ba5d0f7a": {
-      "type": "html",
-      "settings": {
-        "html": "<div data-tf-widget=\"AnJYqshD\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Teste Segurança Psicológica\" data-tf-transitive-search-params=\"\" data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
-        "bg_color": "",
-        "container": "container",
-        "text_align": "text-center",
-        "title": "What's your Psychological Safety score?",
-        "title_size": "h1",
-        "description": "<p>Based on over 25 years of helping organizations and individuals create teams that reach their full potential, Hyper Island has developed a unique assessment relevant for all professionals. It's fun, simple, and easy to complete. Take it yourself and share it with your friends and colleagues. <\/p><p>Take the quiz below and find out if you as a leader are fostering psychological safety through your daily behaviors:<\/p>",
-        "description_size": "fs-6",
-        "pt": 15,
-        "pb": 15,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "fe79b999-4357-4e47-a1c4-6197f81fb334": {
       "type": "header_half",
       "blocks": {
@@ -231,6 +214,7 @@
     },
     "27f908dd-e677-4d9b-9d8b-2cac654683b7": {
       "type": "card",
+      "disabled": true,
       "blocks": {
         "cbf7f762-2708-4551-913e-81234484fd3b": {
           "type": "category",
@@ -581,6 +565,7 @@
     },
     "08897541-1444-4312-8baa-ea342ede0dd4": {
       "type": "content",
+      "disabled": true,
       "blocks": {
         "18047f15-66cd-4693-921a-7ba553f84efb": {
           "type": "content",
@@ -729,8 +714,26 @@
         "mb_sm": 13
       }
     },
+    "eace86db-ef7e-456c-9886-5e04ba5d0f7a": {
+      "type": "html",
+      "settings": {
+        "html": "<div data-tf-widget=\"AnJYqshD\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=Teste Segurança Psicológica\" data-tf-transitive-search-params=\"\" data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "What's your Psychological Safety score?",
+        "title_size": "h1",
+        "description": "<p>Based on over 25 years of helping organizations and individuals create teams that reach their full potential, Hyper Island has developed a unique assessment relevant for all professionals. It's fun, simple, and easy to complete. Take it yourself and share it with your friends and colleagues. <\/p><p>Take the quiz below and find out if you as a leader are fostering psychological safety through your daily behaviors:<\/p>",
+        "description_size": "fs-6",
+        "pt": 15,
+        "pb": 15,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -764,6 +767,7 @@
     },
     "3978c612-ee33-49d6-9778-a9ec4801cd75": {
       "type": "header_half",
+      "disabled": true,
       "blocks": {
         "e8980447-b4f9-420c-8b3b-f0573bf45ee0": {
           "type": "button",
@@ -811,6 +815,7 @@
     },
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975": {
       "type": "button-section",
+      "disabled": true,
       "blocks": {
         "726717ac-617a-4f9a-8b5f-fca52b092f42": {
           "type": "button",
@@ -871,6 +876,7 @@
     },
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
       "type": "clients",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "Ours Clients",
@@ -897,6 +903,7 @@
     },
     "ca91f808-6934-447a-aaba-35feb8712939": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -978,13 +985,13 @@
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
     "beca507e-c218-466e-865c-7e86897129f8",
-    "eace86db-ef7e-456c-9886-5e04ba5d0f7a",
     "fe79b999-4357-4e47-a1c4-6197f81fb334",
     "27f908dd-e677-4d9b-9d8b-2cac654683b7",
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce",
     "08897541-1444-4312-8baa-ea342ede0dd4",
     "698bf485-1eb8-4bec-9af7-12e4b920cf69",
     "1da6d290-5e65-44fc-8b7a-6af03f274b37",
+    "eace86db-ef7e-456c-9886-5e04ba5d0f7a",
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
     "3978c612-ee33-49d6-9778-a9ec4801cd75",
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
