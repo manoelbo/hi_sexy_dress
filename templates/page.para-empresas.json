@@ -194,7 +194,7 @@
         "title_size": "display-1",
         "text_size": "fs-5",
         "container": "container-fluid",
-        "layout-align": "left",
+        "layout-align": "right",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
         "content_width": "w-lg-75",
