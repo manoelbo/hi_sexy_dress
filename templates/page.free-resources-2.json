@@ -479,15 +479,15 @@
         "default_spacing": true,
         "pt_xl": 0,
         "pb_xl": 0,
-        "mt_xl": 0,
+        "mt_xl": 5,
         "mb_xl": 4,
         "pt_lg": 0,
         "pb_lg": 0,
-        "mt_lg": 4,
+        "mt_lg": 6,
         "mb_lg": 4,
         "pt_sm": 0,
         "pb_sm": 0,
-        "mt_sm": 3,
+        "mt_sm": 7,
         "mb_sm": 4
       }
     },
