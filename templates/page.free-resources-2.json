@@ -415,9 +415,9 @@
         "c12ec254-ea4a-480d-ac2b-9d4481d6ee6e": {
           "type": "category",
           "settings": {
-            "active": false,
-            "category": "Psychological safety",
-            "id": "Psychological safety"
+            "active": true,
+            "category": "Psychological Safety",
+            "id": "Psychological Safety"
           }
         },
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed": {
