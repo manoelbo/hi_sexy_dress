@@ -340,6 +340,7 @@
         },
         "2cc4603c-37bc-4415-9e43-3b8c4034cc83": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "consultoria",
             "title": "Trend Mapping",
@@ -350,6 +351,7 @@
         },
         "666b9cd2-e76d-46f0-8701-c1dba85d0744": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "consultoria",
             "title": "Team Manifesto",
@@ -360,6 +362,7 @@
         },
         "2f95c0bb-8e4b-40af-8844-b67c85449db9": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "consultoria",
             "title": "Consumer Journey Design",
@@ -370,6 +373,7 @@
         },
         "1cf540b5-8e1e-476d-ad49-903f4006abae": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "consultoria",
             "title": "Retrospective and Wrap-Up",
@@ -380,6 +384,7 @@
         },
         "794b311e-1bc9-4f31-a878-bb148653efe5": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "consultoria",
             "title": "Integration and Trust",
@@ -390,6 +395,7 @@
         },
         "e87ab430-4cd0-4c98-aed0-3ae1f2e0110f": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "consultoria",
             "title": "Alignment and Autonomy",
@@ -417,8 +423,8 @@
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed": {
           "type": "card",
           "settings": {
-            "category_id": "programas",
-            "title": "Organizational Transformation",
+            "category_id": "Foresight",
+            "title": "Future Scenario Cards",
             "text": "",
             "url": "",
             "target": false
@@ -427,8 +433,8 @@
         "51d4d49e-2611-431b-a829-381dc115762f": {
           "type": "card",
           "settings": {
-            "category_id": "programas",
-            "title": "Implementation of Agile Methodologies",
+            "category_id": "Foresight",
+            "title": "Trends Tracker App",
             "text": "",
             "url": "",
             "target": false
@@ -437,8 +443,8 @@
         "053307ba-1789-4e7e-a375-2f9d4ae4c4df": {
           "type": "card",
           "settings": {
-            "category_id": "programas",
-            "title": "Talent Programs",
+            "category_id": "Foresight",
+            "title": "Trends Hack Playbook",
             "text": "",
             "url": "",
             "target": false
@@ -446,6 +452,7 @@
         },
         "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "programas",
             "title": "Competency gap analysis",
@@ -456,6 +463,7 @@
         },
         "285eff9c-9acf-44d6-9144-a8d10c33f96e": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "Reignite",
             "title": "Future Foresight",
@@ -476,15 +484,16 @@
         "9cc67ab5-63eb-4b4b-9812-4f652d4746b1": {
           "type": "card",
           "settings": {
-            "category_id": "Reignite",
-            "title": "<strong>Creative Confidence<\/strong>",
-            "text": "At a time when creativity has never been so in demand the covid pandemic has paradoxically created a range of challenges for individual and collective creativity. This workshop can help teams to refresh their creative confidence through a range of activities to develop the mindset and skills for ideas generation, team collaboration and greater diversity. The workshop will present tools and creative frameworks for immediate application.",
+            "category_id": "Psychological Safety",
+            "title": "Psychological Safety Test",
+            "text": "",
             "url": "",
             "target": false
           }
         },
         "fb407fd2-594e-48af-b07f-5d3fe2d56e89": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "Reignite",
             "title": "<strong>Team Reconnect<\/strong>",
@@ -495,6 +504,7 @@
         },
         "b9814d27-5048-4834-a2b8-25f76b3f1ccd": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "Reignite",
             "title": "<strong>Leading Hybrid Organizations<\/strong>",
