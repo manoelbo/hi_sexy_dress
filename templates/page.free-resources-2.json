@@ -313,7 +313,7 @@
         "d8879e8c-33c7-4a3a-99f9-3686edf2d81e": {
           "type": "category",
           "settings": {
-            "active": false,
+            "active": true,
             "category": "Rapport",
             "id": "Rapport"
           }
@@ -407,7 +407,7 @@
         "718e4ffd-baea-4815-b03a-b79735e09a6f": {
           "type": "category",
           "settings": {
-            "active": false,
+            "active": true,
             "category": "Foresight",
             "id": "Foresight"
           }
