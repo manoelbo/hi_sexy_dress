@@ -215,6 +215,14 @@
     "27f908dd-e677-4d9b-9d8b-2cac654683b7": {
       "type": "card",
       "blocks": {
+        "718e4ffd-baea-4815-b03a-b79735e09a6f": {
+          "type": "category",
+          "settings": {
+            "active": true,
+            "category": "Foresight",
+            "id": "Foresight"
+          }
+        },
         "cbf7f762-2708-4551-913e-81234484fd3b": {
           "type": "category",
           "settings": {
@@ -404,14 +412,6 @@
             "target": false
           }
         },
-        "718e4ffd-baea-4815-b03a-b79735e09a6f": {
-          "type": "category",
-          "settings": {
-            "active": true,
-            "category": "Foresight",
-            "id": "Foresight"
-          }
-        },
         "c12ec254-ea4a-480d-ac2b-9d4481d6ee6e": {
           "type": "category",
           "settings": {
@@ -515,6 +515,7 @@
         }
       },
       "block_order": [
+        "718e4ffd-baea-4815-b03a-b79735e09a6f",
         "cbf7f762-2708-4551-913e-81234484fd3b",
         "3b9c8dac-055d-4318-b9c1-9a9a1ca6447e",
         "03eb4d2f-0961-44b1-917a-8ca2d0835017",
@@ -533,7 +534,6 @@
         "1cf540b5-8e1e-476d-ad49-903f4006abae",
         "794b311e-1bc9-4f31-a878-bb148653efe5",
         "e87ab430-4cd0-4c98-aed0-3ae1f2e0110f",
-        "718e4ffd-baea-4815-b03a-b79735e09a6f",
         "c12ec254-ea4a-480d-ac2b-9d4481d6ee6e",
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed",
         "51d4d49e-2611-431b-a829-381dc115762f",
