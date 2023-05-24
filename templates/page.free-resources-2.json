@@ -218,7 +218,7 @@
         "718e4ffd-baea-4815-b03a-b79735e09a6f": {
           "type": "category",
           "settings": {
-            "active": true,
+            "active": false,
             "category": "Foresight",
             "id": "Foresight"
           }
@@ -226,7 +226,7 @@
         "cbf7f762-2708-4551-913e-81234484fd3b": {
           "type": "category",
           "settings": {
-            "active": true,
+            "active": false,
             "category": "Creativity",
             "id": "Creativity"
           }
@@ -321,7 +321,7 @@
         "d8879e8c-33c7-4a3a-99f9-3686edf2d81e": {
           "type": "category",
           "settings": {
-            "active": true,
+            "active": false,
             "category": "Rapport",
             "id": "Rapport"
           }
@@ -415,7 +415,7 @@
         "c12ec254-ea4a-480d-ac2b-9d4481d6ee6e": {
           "type": "category",
           "settings": {
-            "active": true,
+            "active": false,
             "category": "Psychological Safety",
             "id": "Psychological Safety"
           }
