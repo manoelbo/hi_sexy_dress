@@ -226,8 +226,8 @@
         "3b9c8dac-055d-4318-b9c1-9a9a1ca6447e": {
           "type": "card",
           "settings": {
-            "category_id": "workshops",
-            "title": "Future Leadership",
+            "category_id": "Creativity",
+            "title": "Creativity Bootcamp",
             "text": "",
             "url": "",
             "target": false
@@ -235,6 +235,7 @@
         },
         "03eb4d2f-0961-44b1-917a-8ca2d0835017": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "workshops",
             "title": "Innovation and Creativity",
@@ -245,6 +246,7 @@
         },
         "67c5c0dd-270b-4159-bb7c-986b8f5d72ff": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "workshops",
             "title": "Customer Experience",
@@ -255,6 +257,7 @@
         },
         "acf64343-adf9-4ed3-8eb0-2d4da0d6227d": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "workshops",
             "title": "Digital Marketing",
@@ -265,6 +268,7 @@
         },
         "f37f56f8-9c6f-4ce7-a2e8-0bc9695b5735": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "workshops",
             "title": "Future <\/br> Thinking",
@@ -275,6 +279,7 @@
         },
         "3cedf7c5-208a-4ac4-8612-5a6f0c0c4b1d": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "workshops",
             "title": "High Performance Teams",
@@ -285,6 +290,7 @@
         },
         "b1dc65dd-c2ef-4219-86ba-16c135623cca": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "workshops",
             "title": "Communication & Storytelling",
@@ -295,6 +301,7 @@
         },
         "f32b31eb-e735-4799-abfa-65c5cb2f1936": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "workshops",
             "title": "Diversity & Inclusion",
@@ -307,15 +314,15 @@
           "type": "category",
           "settings": {
             "active": false,
-            "category": "Co-creation & Teambuilding",
-            "id": "consultoria"
+            "category": "Rapport",
+            "id": "Rapport"
           }
         },
         "c348b121-119f-4505-8471-332c2ba2a87b": {
           "type": "card",
           "settings": {
-            "category_id": "consultoria",
-            "title": "Strategic Planning",
+            "category_id": "Rapport",
+            "title": "Rapid Rapport Handbook",
             "text": "",
             "url": "",
             "target": false
@@ -324,8 +331,8 @@
         "6b39c4d5-6747-4738-b174-4da941df48f3": {
           "type": "card",
           "settings": {
-            "category_id": "consultoria",
-            "title": "Innovation Sprint",
+            "category_id": "Rapport",
+            "title": "Rapport Self-Assessment",
             "text": "",
             "url": "",
             "target": false
@@ -395,16 +402,16 @@
           "type": "category",
           "settings": {
             "active": false,
-            "category": "Journeys & Programs",
-            "id": "programas"
+            "category": "Foresight",
+            "id": "Foresight"
           }
         },
         "c12ec254-ea4a-480d-ac2b-9d4481d6ee6e": {
           "type": "category",
           "settings": {
             "active": false,
-            "category": "Reignite Sessions",
-            "id": "Reignite"
+            "category": "Psychological safety",
+            "id": "Psychological safety"
           }
         },
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed": {
