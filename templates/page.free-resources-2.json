@@ -121,15 +121,15 @@
         "default_spacing": true,
         "pt_xl": 0,
         "pb_xl": 0,
-        "mt_xl": 7,
+        "mt_xl": 10,
         "mb_xl": 0,
         "pt_lg": 0,
         "pb_lg": 0,
-        "mt_lg": 8,
+        "mt_lg": 10,
         "mb_lg": 0,
         "pt_sm": 0,
         "pb_sm": 0,
-        "mt_sm": 7,
+        "mt_sm": 9,
         "mb_sm": 0
       }
     },
