@@ -308,7 +308,7 @@
           "type": "button",
           "settings": {
             "text": "Send an e-mail",
-            "url": "mailto:tim.lucas@hyperisland.com",
+            "url": "mailto:gleisson.dias@hyperisland.com",
             "target": false,
             "zap": false,
             "zap_number": "",
@@ -320,7 +320,7 @@
           "type": "button",
           "settings": {
             "text": "Booking a call",
-            "url": "",
+            "url": "https:\/\/meetings.hubspot.com\/gleisson",
             "target": false,
             "zap": false,
             "zap_number": "56939309660",
@@ -334,9 +334,9 @@
         "27e043bb-8543-455b-bfd3-89f17b5e710b"
       ],
       "settings": {
-        "title": "TALK TO TIM",
-        "text": "We want to hear from you! Schedule a conversation with Tim and learn how Hyper Island can help your company or team.",
-        "img": "shopify:\/\/shop_images\/Tim-Lucas.jpg",
+        "title": "TALK TO Gleisson",
+        "text": "We want to hear from you! Schedule a conversation with Gleisson and learn how Hyper Island can help your company or team.",
+        "img": "shopify:\/\/shop_images\/profile-pic_2.png",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
