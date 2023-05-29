@@ -354,7 +354,7 @@
         "cc058fd3-4f6a-4057-b059-3744a261b0be": {
           "type": "button",
           "settings": {
-            "text": "LEARN MORE",
+            "text": "SCHEDULE A CALL",
             "url": "shopify:\/\/pages\/contact",
             "target": false,
             "style": "rounded-white"
@@ -366,7 +366,7 @@
       ],
       "settings": {
         "title": "Let's talk?",
-        "text": "Our facilitators are ready to receive your message! Schedule a meeting with us and discover how Hyper Island can help you and your organization.",
+        "text": "Schedule a call with us at a time that is convenient for you. We would love to hear from you and understand how Hyper Island can help you and your organization.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/BG1.png",
