@@ -72,9 +72,9 @@
         "template--18553304908079__567bbb1f-1bdb-4a7b-b908-4ed8a71087be-1680632808ff3af4e8-0": {
           "type": "card",
           "settings": {
-            "header": "For companies",
-            "title": "BUSINESS TRANSFORMATION",
-            "text": "In an increasingly complex and connected world, Hyper Island designs and facilitates learning experiences to help teams and organizations to thrive.",
+            "header": "For Companies",
+            "title": "Hyper Island Consultancy",
+            "text": "In an increasingly complex and connected world, we design and facilitates learning experiences to help teams and organizations to thrive.",
             "url": "",
             "target": false,
             "font_color": "text-dark",
@@ -85,9 +85,9 @@
         "template--18553304908079__567bbb1f-1bdb-4a7b-b908-4ed8a71087be-1680632808ff3af4e8-1": {
           "type": "card",
           "settings": {
-            "header": "for you",
-            "title": "Our courses",
-            "text": "Learn from industry specialists and join a global learning community that will inspire and support your professional journey.",
+            "header": "For Individuals and Teams",
+            "title": "Hyper Island Business School",
+            "text": "Our industry leading courses connect you to a global learning community that will inspire and support your professional journey.",
             "url": "",
             "target": false,
             "font_color": "text-dark",
