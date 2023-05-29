@@ -558,7 +558,7 @@
       "type": "clients",
       "settings": {
         "hidden": false,
-        "title": "Clientes",
+        "title": "Some of our Clients",
         "text": "",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -640,7 +640,7 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "About Hyper Island",
-        "text": "In 2023, Hyper will celebrate 27 years as a provider of education and facilitator of immersive learning experiences for individuals and companies alike. During this time, we have worked to help people develop and cultivate their skills to meet the challenges of an ever-changing society.",
+        "text": "In 2023, Hyper Island celebrates 27 years as a provider of education and facilitator of immersive learning experiences for individuals and companies alike. During this time, we have worked to help people develop and cultivate their skills to meet the challenges of an ever-changing society.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/BG1.png",
@@ -670,8 +670,8 @@
     "577b8190-d683-4d05-92aa-43b63a3a640d": {
       "type": "newsletter-session",
       "settings": {
-        "title": "Receive our content",
-        "text": "Get access to exclusive content on innovation, creativity, and leadership, and stay up to date on the latest news from Hyper Island.",
+        "title": "Get our Updates",
+        "text": "Sign up to be the first to receive our awesome tools, content, news about courses and networking events from Hyper Island.",
         "form_id": "eca9f05f-8c53-4bc0-9539-eacc5fe97bde",
         "bg_color": "#ffffff",
         "bg_gradient": "",
