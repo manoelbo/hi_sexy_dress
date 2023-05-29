@@ -4,7 +4,7 @@
       "type": "header_half",
       "settings": {
         "mobile_only": false,
-        "desktop_only": false,
+        "desktop_only": true,
         "title": "Empowering Change",
         "text": "Cutting-edge consultancy and business school, Hyper Island is the transformation partner of choice for the world's leading brands. We empower people and organizations  with the skills to shape their futures today.",
         "bg_color": "#ffffff",
@@ -36,7 +36,7 @@
     "9f283b33-429f-4be2-9686-34bba2bf65cb": {
       "type": "header",
       "settings": {
-        "mobile_only": false,
+        "mobile_only": true,
         "desktop_only": false,
         "title": "Empowering Change",
         "text": "Cutting-edge consultancy and business school, Hyper Island is the transformation partner of choice for the world's leading brands. We empower people and organizations  with the skills to shape their futures today. ",
