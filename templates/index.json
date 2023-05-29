@@ -74,7 +74,7 @@
           "settings": {
             "header": "For Companies",
             "title": "Hyper Island Consultancy",
-            "text": "In an increasingly complex and connected world, we design and facilitates learning experiences to help teams and organizations to thrive.",
+            "text": "In an increasingly complex and connected world, we design and facilitate learning experiences to help teams and organizations thrive.",
             "url": "",
             "target": false,
             "font_color": "text-dark",
@@ -227,8 +227,8 @@
     "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5": {
       "type": "title-section",
       "settings": {
-        "title": "Interaction and Immersion",
-        "text": "<strong>Our methodology is founded on a learner-centered, experience-based approach.<\/strong> We create facilitated learning journeys, where discovering, uncovering, applying and reflecting is all part of the process by which participants learn useful skills and knowledge they can apply right away. In all our learning we always work with these fundamental tools.",
+        "title": "Experience is everything",
+        "text": "Each client brief is unique: 30 minute keynotes from industry experts, innovation sprints, design thinking training for leaders or digital transformation journeys for the whole organization…at Hyper Island we co-create amazing experiences. We develop the mindset and behaviours to help shape cultures adaptive to an uncertain and complex future. We do this with cutting edge content, cases and hands-on activities to build the meta skills of tomorrow today. Engaging and fun experiences through immediately applicable tools drive sustainable change.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/BG2.png",
