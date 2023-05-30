@@ -121,6 +121,36 @@
         "mb_sm": 12
       }
     },
+    "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5": {
+      "type": "title-section",
+      "settings": {
+        "title": "Experience is everything",
+        "text": "Each client brief is unique: 30 minute keynotes from industry experts, innovation sprints, design thinking training for leaders or digital transformation journeys for the whole organization…at Hyper Island we co-create amazing experiences. We develop the mindset and behaviours to help shape cultures adaptive to an uncertain and complex future. We do this with cutting edge content, cases and hands-on activities to build the meta skills of tomorrow today. Engaging and fun experiences through immediately applicable tools drive sustainable change.",
+        "bg_color": "rgba(0,0,0,0)",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/BG2.png",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-5",
+        "layout_align": "two",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-auto",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
+      }
+    },
     "4462b449-4456-4f4d-afbb-9ea8cdaa313a": {
       "type": "content",
       "blocks": {
@@ -224,36 +254,6 @@
         "mb": 13
       }
     },
-    "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5": {
-      "type": "title-section",
-      "settings": {
-        "title": "Experience is everything",
-        "text": "Each client brief is unique: 30 minute keynotes from industry experts, innovation sprints, design thinking training for leaders or digital transformation journeys for the whole organization…at Hyper Island we co-create amazing experiences. We develop the mindset and behaviours to help shape cultures adaptive to an uncertain and complex future. We do this with cutting edge content, cases and hands-on activities to build the meta skills of tomorrow today. Engaging and fun experiences through immediately applicable tools drive sustainable change.",
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/BG2.png",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-5",
-        "layout_align": "two",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-auto",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
-      }
-    },
     "92c8cdb0-c545-4567-a937-d91527bfe434": {
       "type": "collection-cards",
       "settings": {
@@ -304,50 +304,6 @@
         "mb": 13
       }
     },
-    "dbc4c92e-a9a2-4f2c-825b-31cdd278d41e": {
-      "type": "newsletter-session",
-      "blocks": {
-        "2b43fc1a-5df5-4f5c-ac6a-0a5617ae13dc": {
-          "type": "button",
-          "settings": {
-            "text": "Call to Action",
-            "url": "",
-            "target": false,
-            "style": "rounded-orange"
-          }
-        }
-      },
-      "block_order": [
-        "2b43fc1a-5df5-4f5c-ac6a-0a5617ae13dc"
-      ],
-      "settings": {
-        "title": "GET OUR UPDATES",
-        "text": "Sign up to be the first to receive our awesome tools, content, news about courses and networking events from Hyper Island.",
-        "form_id": "eca9f05f-8c53-4bc0-9539-eacc5fe97bde",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "layout_align": "five",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-auto",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 13
-      }
-    },
     "4e41194f-fd9b-4c9e-8166-1426ddc34160": {
       "type": "title-section",
       "blocks": {
@@ -391,18 +347,62 @@
         "mt_sm": 13,
         "mb_sm": 13
       }
+    },
+    "dbc4c92e-a9a2-4f2c-825b-31cdd278d41e": {
+      "type": "newsletter-session",
+      "blocks": {
+        "2b43fc1a-5df5-4f5c-ac6a-0a5617ae13dc": {
+          "type": "button",
+          "settings": {
+            "text": "Call to Action",
+            "url": "",
+            "target": false,
+            "style": "rounded-orange"
+          }
+        }
+      },
+      "block_order": [
+        "2b43fc1a-5df5-4f5c-ac6a-0a5617ae13dc"
+      ],
+      "settings": {
+        "title": "Learn, unlearn, relearn",
+        "text": "Sign up to be the first to receive our awesome tools, content, news about courses and networking events from Hyper Island.",
+        "form_id": "eca9f05f-8c53-4bc0-9539-eacc5fe97bde",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-auto",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 13
+      }
     }
   },
   "order": [
     "6090c0d5-5f7f-46db-b197-6d723683e9b4",
     "9f283b33-429f-4be2-9686-34bba2bf65cb",
     "567bbb1f-1bdb-4a7b-b908-4ed8a71087be",
+    "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5",
     "4462b449-4456-4f4d-afbb-9ea8cdaa313a",
     "c35830d0-0a96-42c8-91ef-2a2a4a155d79",
-    "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5",
     "92c8cdb0-c545-4567-a937-d91527bfe434",
     "31524baf-3a3c-4284-9f0b-2058f23ab947",
-    "dbc4c92e-a9a2-4f2c-825b-31cdd278d41e",
-    "4e41194f-fd9b-4c9e-8166-1426ddc34160"
+    "4e41194f-fd9b-4c9e-8166-1426ddc34160",
+    "dbc4c92e-a9a2-4f2c-825b-31cdd278d41e"
   ]
 }
