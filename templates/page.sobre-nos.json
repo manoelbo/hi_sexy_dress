@@ -35,6 +35,7 @@
     },
     "a9975935-5465-4fb0-830c-d87d16f77dad": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "<strong>The Hyper Island Way<\/strong>",
@@ -88,6 +89,7 @@
     },
     "3fcd7bb3-0766-45f7-b699-098b939ab85b": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "<strong>The Hyper Island Way™ is also about being.<\/strong>",
