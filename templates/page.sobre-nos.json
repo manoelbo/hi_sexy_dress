@@ -37,8 +37,8 @@
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "<strong>The Hyper Island Way™ is about doing.<\/strong>",
-        "text": "Change is difficult, but it is also constant, so you need to learn to continuously learn. And this you will do by making, creating, testing and building. You will need to be curious and daring. You need to question and challenge status quo’s. And you’ll need to be explorative and up to try new things. This is the type of people we make at Hyper Island. If you are willing to lean in and rise to the challenge, you will grow and find the confidence to be what’s next.",
+        "title": "<strong>The Hyper Island Way<\/strong>",
+        "text": "<strong>The Hyper Island Way™<\/strong> is a unique methodology based on tools that promote experience based learning and reflection to empower individuals to be the protagonists of change within and beyond their organizations.",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -145,7 +145,7 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "Our methodology",
-        "text": "<strong>Our methodology is founded on a learner-centered, experience-based approach.<\/strong> We create facilitated learning journeys, where discovering, uncovering, applying and reflecting is all part of the process by which participants learn useful skills and knowledge they can apply right away. In all our learning we always work with these fundamental tools.",
+        "text": "<strong>The Hyper Island Way™<\/strong> is a unique methodology based on applicable tools that promote experience based learning and reflection. We empower individuals to be the protagonists of change within and beyond their organizations.  Our facilitated trainings and learning journeys help participants unlock their talents and learn the meta skills and technical knowledge they can apply right away.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/2_Metodologia_92de7774-1a0d-4c4e-9c8b-e7fd33b385d8.jpg",
@@ -300,8 +300,8 @@
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "Our story",
-        "text": "The year was 1996, and three multimedia pioneers convened in a bar in Stockholm to discuss an upcoming CD-ROM project.  They agreed the age of digital was surely upon us and because of that organizations are going to need to evolve accordingly to that impending change in order to survive. That’s when they saw the opportunity to build a new institution of professional learning designed based on flexibility in anticipating and dealing with change. This would be a place that inspires creativity and innovation by challenging participants to practice experiential learning: to question, reflect deeply and explore different approaches to solving challenges. With that Hyper Island was born, named in part “Hyper” was a popular coding term and “Island” since the school was located on the island Stumholmen in Karlskrona. ",
+        "title": "The backstory",
+        "text": "The year was 1996, and three multimedia pioneers convened in a bar in Stockholm to discuss an upcoming CD-ROM project.  They agreed the age of digital was surely upon us and because of that organizations are going to need to evolve accordingly to that impending change in order to survive. That’s when they saw the opportunity to build a new institution of professional learning designed based on flexibility in anticipating and dealing with change. This would be a place to inspire creativity and innovation by challenging participants to practice experiential learning: to question, reflect deeply and explore different approaches to solving business challenges. With that Hyper Island was born, named in part “Hyper” was a popular coding term and “Island” since the school was located on the island Stumholmen in Karlskrona. ",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -379,7 +379,7 @@
         "f231376a-701d-4694-bd9c-d3e8466b8c21"
       ],
       "settings": {
-        "title": "Receive our content",
+        "title": "Learn, unlearn, relearn",
         "text": "Get access to exclusive content on innovation, creativity, and leadership, and stay up to date on the latest news from Hyper Island.",
         "form_id": "eca9f05f-8c53-4bc0-9539-eacc5fe97bde",
         "bg_color": "#ffffff",
