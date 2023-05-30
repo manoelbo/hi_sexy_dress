@@ -5,6 +5,7 @@
       "blocks": {
         "df7d5120-88c7-493f-b557-023dad40f405": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "text": "GET IN TOUCH",
             "url": "shopify:\/\/pages\/cursos",
@@ -322,7 +323,7 @@
         "709e746d-79fc-4e8a-b7cd-cf6ac3f99334"
       ],
       "settings": {
-        "title": "TALK TO GLEISSON",
+        "title": "TALK TO US!",
         "text": "We want to hear from you! Schedule a conversation with Gleisson and learn how Hyper Island can help your company or team.",
         "img": "shopify:\/\/shop_images\/profile-pic_2.png",
         "bg_color": "#000000",
