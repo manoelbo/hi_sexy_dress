@@ -243,10 +243,20 @@
             "target": false,
             "style": "rounded-white"
           }
+        },
+        "77dfc59c-2e43-453d-a650-19d039f3c060": {
+          "type": "button",
+          "settings": {
+            "text": "Download the Portfolio",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
         }
       },
       "block_order": [
-        "e8980447-b4f9-420c-8b3b-f0573bf45ee0"
+        "e8980447-b4f9-420c-8b3b-f0573bf45ee0",
+        "77dfc59c-2e43-453d-a650-19d039f3c060"
       ],
       "settings": {
         "mobile_only": false,
