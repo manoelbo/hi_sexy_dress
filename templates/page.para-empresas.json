@@ -428,6 +428,7 @@
     },
     "27f908dd-e677-4d9b-9d8b-2cac654683b7": {
       "type": "card",
+      "disabled": true,
       "blocks": {
         "cbf7f762-2708-4551-913e-81234484fd3b": {
           "type": "category",
@@ -769,6 +770,7 @@
     },
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce": {
       "type": "separator",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "opacity": 0,
@@ -778,6 +780,7 @@
     },
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "<strong>Learn, Unlearn, Relearn<\/strong>",
@@ -841,6 +844,7 @@
     },
     "1da6d290-5e65-44fc-8b7a-6af03f274b37": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
