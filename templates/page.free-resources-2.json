@@ -155,7 +155,7 @@
         "desktop_only": false,
         "title": "What skill do you want to develop?",
         "text": "",
-        "bg_color": "#fff",
+        "bg_color": "#ffffff",
         "bg_gradient": "",
         "overlay_opacity": 0,
         "font_color": "text-dark",
@@ -1142,8 +1142,8 @@
         "6224f3b1-1467-47bf-b2d2-3843e5059a2c"
       ],
       "settings": {
-        "title": "Receive our content",
-        "text": "Get access to exclusive content on innovation, creativity, and leadership, and stay up to date on the latest news from Hyper Island.",
+        "title": "Learn, Unlearn, Relearn",
+        "text": "Sign up to be the first to receive our awesome tools, content, news about courses and networking events from Hyper Island.",
         "form_id": "eca9f05f-8c53-4bc0-9539-eacc5fe97bde",
         "bg_color": "#ffffff",
         "bg_gradient": "",
