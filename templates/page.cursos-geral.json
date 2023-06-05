@@ -2,6 +2,20 @@
   "sections": {
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
       "type": "header",
+      "blocks": {
+        "bec7af20-3ad1-44fd-9ae2-8270b90895fc": {
+          "type": "button",
+          "settings": {
+            "text": "Call to Action",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "bec7af20-3ad1-44fd-9ae2-8270b90895fc"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
