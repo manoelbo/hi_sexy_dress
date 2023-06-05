@@ -11,10 +11,20 @@
             "target": false,
             "style": "rounded-white"
           }
+        },
+        "282cbb03-8a2a-44a6-a90c-0f80314057ae": {
+          "type": "button",
+          "settings": {
+            "text": "Talk to Us",
+            "url": "shopify:\/\/pages\/contact",
+            "target": false,
+            "style": "rounded-black btn-border"
+          }
         }
       },
       "block_order": [
-        "bec7af20-3ad1-44fd-9ae2-8270b90895fc"
+        "bec7af20-3ad1-44fd-9ae2-8270b90895fc",
+        "282cbb03-8a2a-44a6-a90c-0f80314057ae"
       ],
       "settings": {
         "mobile_only": false,
