@@ -6,15 +6,25 @@
         "bec7af20-3ad1-44fd-9ae2-8270b90895fc": {
           "type": "button",
           "settings": {
-            "text": "Call to Action",
-            "url": "",
+            "text": "Download the Courses Portifolio",
+            "url": "https:\/\/drive.google.com\/file\/d\/1Elu6KCiagSga3KV9m5YRhuneqkH_cBnP\/view?usp=sharing",
+            "target": false,
+            "style": "rounded-white"
+          }
+        },
+        "05a39e8b-c137-4351-9aa7-ce2fcbab24b5": {
+          "type": "button",
+          "settings": {
+            "text": "Talk to Us",
+            "url": "shopify:\/\/pages\/contact",
             "target": false,
             "style": "rounded-white"
           }
         }
       },
       "block_order": [
-        "bec7af20-3ad1-44fd-9ae2-8270b90895fc"
+        "bec7af20-3ad1-44fd-9ae2-8270b90895fc",
+        "05a39e8b-c137-4351-9aa7-ce2fcbab24b5"
       ],
       "settings": {
         "mobile_only": false,
