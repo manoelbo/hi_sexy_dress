@@ -18,7 +18,7 @@
             "text": "Talk to Us",
             "url": "shopify:\/\/pages\/contact",
             "target": false,
-            "style": "rounded-white"
+            "style": "rounded-black btn-border"
           }
         }
       },
