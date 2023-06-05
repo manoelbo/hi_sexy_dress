@@ -922,6 +922,12 @@
         "mt_sm": 13,
         "mb_sm": 13
       }
+    },
+    "2818b1c4-0b30-4e49-b074-51ff158c6ff5": {
+      "type": "hubspot-form",
+      "settings": {
+        "form_id": "1VbZ_fzVUR8C-tXAwuW5F2Qy1ws"
+      }
     }
   },
   "order": [
@@ -939,6 +945,7 @@
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
     "698bf485-1eb8-4bec-9af7-12e4b920cf69",
     "1da6d290-5e65-44fc-8b7a-6af03f274b37",
-    "ca91f808-6934-447a-aaba-35feb8712939"
+    "ca91f808-6934-447a-aaba-35feb8712939",
+    "2818b1c4-0b30-4e49-b074-51ff158c6ff5"
   ]
 }
