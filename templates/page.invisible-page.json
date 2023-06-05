@@ -54,7 +54,7 @@
         "57a0c943-7c6a-4c7c-91de-e038c4b8accb": {
           "type": "button",
           "settings": {
-            "text": "Access the Toolbox",
+            "text": "Call to Action",
             "url": "https:\/\/toolbox.hyperisland.com\/",
             "target": true,
             "style": "rounded-white"
@@ -67,8 +67,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "Toolbox",
-        "text": "A resource kit you can use to apply creative collaboration and unleash potential in your team or organization. Toolbox is a collection of methods and activities, based on Hyper Island’s core methodology and is focused on Learning-by-doing (or Experiential Learning), Reflection (or Reflective Practice), and workshop or group facilitation",
+        "title": "Case 1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam eget urna sed dapibus. Fusce consectetur dapibus ligula, at finibus mauris fringilla vel. Mauris gravida tincidunt ex, at lobortis lorem consectetur non. Nulla nec ullamcorper mi. Phasellus eu ultricies tortor. Nullam eu pellentesque lorem. Sed quis urna eu arcu blandit elementum. Quisque interdum semper nunc, id hendrerit justo ullamcorper id. Etiam vel libero eget lectus convallis varius.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/Hyper_Island_Toolbox.png",
