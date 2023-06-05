@@ -2,6 +2,7 @@
   "sections": {
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
       "type": "header",
+      "disabled": true,
       "blocks": {
         "df7d5120-88c7-493f-b557-023dad40f405": {
           "type": "button",
