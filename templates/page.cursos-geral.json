@@ -288,6 +288,20 @@
     },
     "73614a1e-df18-468c-883b-1d4ee9e4abdd": {
       "type": "header_half",
+      "blocks": {
+        "53e1e0c5-b959-4323-a64f-171d49bdff79": {
+          "type": "button",
+          "settings": {
+            "text": "I want this Certificate",
+            "url": "shopify:\/\/collections\/remote-courses",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "53e1e0c5-b959-4323-a64f-171d49bdff79"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
