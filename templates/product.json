@@ -140,6 +140,20 @@
     },
     "8b0e92c1-272e-42cf-8650-be49d5da4f42": {
       "type": "header_half",
+      "blocks": {
+        "9dcecbe3-5c35-46b9-a1df-e5b2fe9dd973": {
+          "type": "button",
+          "settings": {
+            "text": "Download the course Syllabus",
+            "url": "{{ product.metafields.my_fields.syllabus.value }}",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "9dcecbe3-5c35-46b9-a1df-e5b2fe9dd973"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
