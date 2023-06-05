@@ -358,6 +358,7 @@
     },
     "774ba484-eeae-44d8-a196-010f4e120128": {
       "type": "title-section",
+      "disabled": true,
       "settings": {
         "title": "Find your course",
         "text": "",
