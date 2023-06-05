@@ -107,16 +107,6 @@
         "smb_xs": 0
       }
     },
-    "109d28db-848c-4d3f-85ba-4a8e64fb65ce": {
-      "type": "separator",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
-        "mt": 0,
-        "mb": 13
-      }
-    },
     "08897541-1444-4312-8baa-ea342ede0dd4": {
       "type": "content",
       "blocks": {
@@ -208,6 +198,15 @@
         "smb_lg": 5,
         "spb_xs": 0,
         "smb_xs": 5
+      }
+    },
+    "109d28db-848c-4d3f-85ba-4a8e64fb65ce": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 13
       }
     },
     "c4b96ad1-1479-427d-b89d-75142e9fa312": {
@@ -338,8 +337,8 @@
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
     "d43f0700-a7db-4720-9e46-1afcacd78820",
-    "109d28db-848c-4d3f-85ba-4a8e64fb65ce",
     "08897541-1444-4312-8baa-ea342ede0dd4",
+    "109d28db-848c-4d3f-85ba-4a8e64fb65ce",
     "c4b96ad1-1479-427d-b89d-75142e9fa312",
     "698bf485-1eb8-4bec-9af7-12e4b920cf69",
     "ca91f808-6934-447a-aaba-35feb8712939",
