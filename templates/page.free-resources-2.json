@@ -1125,23 +1125,6 @@
         "mb_sm": 13
       }
     },
-    "668b1196-3b0a-411b-b5c8-728de612e662": {
-      "type": "html",
-      "settings": {
-        "html": "<title>Book Recommendation<\/title>\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n      background-color: #f5f5f5;\n      margin: 0;\n      padding: 20px;\n    }\n    \n    .container {\n      max-width: 400px;\n      margin: 0 auto;\n      background-color: #fff;\n      padding: 30px;\n      border-radius: 10px;\n      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);\n    }\n    \n    h1 {\n      text-align: center;\n      margin: 0 0 20px;\n      color: #ff8c00;\n    }\n    \n    form {\n      margin-bottom: 20px;\n    }\n    \n    label {\n      display: block;\n      margin-bottom: 10px;\n      color: #555555;\n      font-weight: bold;\n    }\n    \n    select {\n      width: 100%;\n      padding: 10px;\n      font-size: 16px;\n      border-radius: 5px;\n      border: 1px solid #ccc;\n    }\n    \n    button {\n      display: block;\n      width: 100%;\n      padding: 10px;\n      font-size: 16px;\n      color: #fff;\n      background-color: #ff8c00;\n      border: none;\n      border-radius: 5px;\n      cursor: pointer;\n    }\n    \n    #recommendation {\n      text-align: center;\n      margin-top: 10px;\n      color: #555555;\n      font-weight: bold;\n    }\n  <\/style>\n\n\n  <div class=\"container\">\n    <h1>Book Recommendation<\/h1>\n    \n    <form>\n      <label for=\"skill\">Which skill do you want to develop?<\/label>\n      <select id=\"skill\">\n        <option value=\"\">Select an option<\/option>\n        <option value=\"A\">A - Creativity<\/option>\n        <option value=\"B\">B - Leadership<\/option>\n        <option value=\"C\">C - Innovation<\/option>\n      <\/select>\n      \n      <label for=\"level\">What is your knowledge level in the subject?<\/label>\n      <select id=\"level\">\n        <option value=\"\">Select an option<\/option>\n        <option value=\"A\">A - Beginner<\/option>\n        <option value=\"B\">B - Intermediate<\/option>\n        <option value=\"C\">C - Advanced<\/option>\n      <\/select>\n      \n      <button type=\"button\" onclick=\"recommendBook()\">Get Book Recommendation<\/button>\n    <\/form>\n    \n    <div id=\"recommendation\"><\/div>\n  <\/div>\n  \n  <script>\n    function recommendBook() {\n      var skill = document.getElementById(\"skill\").value;\n      var level = document.getElementById(\"level\").value;\n      \n      var book;\n      \n      if (skill === \"A\" && level === \"A\") {\n        book = \"Book 1\";\n      } else if (skill === \"A\" && level === \"B\") {\n        book = \"Book 2\";\n      } else if (skill === \"A\" && level === \"C\") {\n        book = \"Book 3\";\n      } else if (skill === \"B\" && level === \"A\") {\n        book = \"Book 4\";\n      } else if (skill === \"B\" && level === \"B\") {\n        book = \"Book 5\";\n      } else if (skill === \"B\" && level === \"C\") {\n        book = \"Book 6\";\n      } else if (skill === \"C\" && level === \"A\") {\n        book = \"Book 7\";\n      } else if (skill === \"C\" && level === \"B\") {\n        book = \"Book 8\";\n      } else if (skill === \"C\" && level === \"C\") {\n        book = \"Book 9\";\n      }\n      \n      var recommendationElement = document.getElementById(\"recommendation\");\n      \n      if (book) {\n        recommendationElement.innerHTML = \"Recommended Book: <span style='color: #ff8c00;'>\" + book + \"<\/span>\";\n      } else {\n        recommendationElement.innerHTML = \"<span style='color: #ff0000;'>Please select the options correctly.<\/span>\";\n      }\n    }\n  <\/script>",
-        "bg_color": "",
-        "container": "container",
-        "text_align": "text-start",
-        "title": "",
-        "title_size": "h2",
-        "description": "",
-        "description_size": "fs-6",
-        "pt": 0,
-        "pb": 0,
-        "mt": 6,
-        "mb": 6
-      }
-    },
     "33df1084-0138-4220-9e5e-642c9953b412": {
       "type": "newsletter-session",
       "blocks": {
@@ -1208,7 +1191,6 @@
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
     "ca91f808-6934-447a-aaba-35feb8712939",
     "084000c6-5184-466c-8a6c-a8f304871687",
-    "668b1196-3b0a-411b-b5c8-728de612e662",
     "33df1084-0138-4220-9e5e-642c9953b412"
   ]
 }
