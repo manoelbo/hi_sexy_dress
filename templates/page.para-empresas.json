@@ -82,6 +82,20 @@
     },
     "fe79b999-4357-4e47-a1c4-6197f81fb334": {
       "type": "header_half",
+      "blocks": {
+        "6e52f459-fd0e-488a-8364-6c5675df3bac": {
+          "type": "button",
+          "settings": {
+            "text": "Get to know some of our Business Transformation Cases.",
+            "url": "shopify:\/\/pages\/business-transformation-cases",
+            "target": false,
+            "style": "rounded-orange"
+          }
+        }
+      },
+      "block_order": [
+        "6e52f459-fd0e-488a-8364-6c5675df3bac"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
