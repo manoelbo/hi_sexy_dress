@@ -437,6 +437,7 @@
     },
     "e4e17a99-776b-4d5b-9816-8d83fbd8062c": {
       "type": "collection-cards",
+      "disabled": true,
       "blocks": {
         "78b01013-9054-46c3-a78b-4147a80ed169": {
           "type": "card",
@@ -514,6 +515,7 @@
     },
     "559186d7-3fe3-45ff-b34f-82acfb64f803": {
       "type": "card-fluid",
+      "disabled": true,
       "blocks": {
         "template--15499970412597__559186d7-3fe3-45ff-b34f-82acfb64f803-168601288347f09fed-0": {
           "type": "card",
