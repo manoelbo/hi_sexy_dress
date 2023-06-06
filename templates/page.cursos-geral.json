@@ -329,7 +329,7 @@
         "7bad68c2-2915-4e88-ad17-f12115971f59": {
           "type": "button",
           "settings": {
-            "text": "I want Hyper in my company.",
+            "text": "I want Hyper in my Company",
             "url": "shopify:\/\/pages\/contact",
             "target": false,
             "style": "rounded-white"
