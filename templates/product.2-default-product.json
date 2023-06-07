@@ -34,6 +34,7 @@
     },
     "5ca41278-01ed-4970-a967-bd751801d84e": {
       "type": "content",
+      "disabled": true,
       "blocks": {
         "e1cdf001-ba57-4c64-8543-e5fe36210b92": {
           "type": "content",
@@ -140,6 +141,7 @@
     },
     "8b0e92c1-272e-42cf-8650-be49d5da4f42": {
       "type": "header_half",
+      "disabled": true,
       "blocks": {
         "9dcecbe3-5c35-46b9-a1df-e5b2fe9dd973": {
           "type": "button",
@@ -317,6 +319,7 @@
     },
     "f39daef8-3263-467c-b5e2-581de2221700": {
       "type": "button-section",
+      "disabled": true,
       "blocks": {
         "90aa23df-1295-46c6-9bfb-0546c85e4550": {
           "type": "button",
@@ -377,6 +380,7 @@
     },
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9": {
       "type": "testimonial",
+      "disabled": true,
       "blocks": {
         "d260a457-b4e4-4b1d-872c-1df57baa696d": {
           "type": "content",
@@ -416,6 +420,7 @@
     },
     "1cb5682b-ba57-45ef-b33e-6bc5346bd719": {
       "type": "content",
+      "disabled": true,
       "blocks": {
         "4d6a7811-6f06-4e23-a3aa-af4f7a8a3ed3": {
           "type": "content",
@@ -570,6 +575,7 @@
     },
     "9948f854-b2fb-4a4d-985c-154befb25a21": {
       "type": "clients",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "Some of our Clients",
