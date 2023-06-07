@@ -579,9 +579,9 @@
         "726be544-089c-4234-b630-d3ee0343a953": {
           "type": "button",
           "settings": {
-            "text": "Call to Action",
-            "url": "https:\/\/knowledge.hyperisland.com\/rapid-rapport-handbook",
-            "target": false,
+            "text": "I want to know more about",
+            "url": "mailto:tim.lucas@hyperisland.com",
+            "target": true,
             "style": "rounded-white"
           }
         }
