@@ -86,8 +86,8 @@
         "57a0c943-7c6a-4c7c-91de-e038c4b8accb": {
           "type": "button",
           "settings": {
-            "text": "Call to Action",
-            "url": "https:\/\/toolbox.hyperisland.com\/",
+            "text": "See how it went",
+            "url": "https:\/\/www.youtube.com\/watch?v=1tUZYFWqhVE",
             "target": true,
             "style": "rounded-white"
           }
