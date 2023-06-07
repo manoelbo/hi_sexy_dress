@@ -2,17 +2,18 @@
   "sections": {
     "template-collection": {
       "type": "template-collection",
+      "disabled": true,
       "settings": {
         "container": "container",
         "text_align": "text-center",
         "limit": 40,
-        "show_filters": true,
+        "show_filters": false,
         "filters_btn_color": "btn-outline-secondary",
-        "show_sort_by": true,
-        "show_collection_img": true,
+        "show_sort_by": false,
+        "show_collection_img": false,
         "img_opacity": 0.3,
         "title_size": "h1",
-        "show_collection_description": true,
+        "show_collection_description": false,
         "description_size": "fs-5",
         "product_img_orientation": "square",
         "product_img_border": "img-thumbnail",

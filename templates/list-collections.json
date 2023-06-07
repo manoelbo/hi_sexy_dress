@@ -2,13 +2,14 @@
   "sections": {
     "template-list-collections": {
       "type": "template-list-collections",
+      "disabled": true,
       "settings": {
-        "limit": 48,
+        "limit": 2,
         "bg_color": "",
         "text_align": "text-center",
         "title": "Collections",
         "title_size": "h1",
-        "description": "<p>Add on optional description to this section<\/p>",
+        "description": "",
         "description_size": "fs-5",
         "collection_img_orientation": "square",
         "collection_img_border": "img-thumbnail",
