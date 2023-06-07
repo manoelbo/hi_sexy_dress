@@ -456,7 +456,7 @@
         "align_desktop": "text-lg-center",
         "align_mobile": "text-left",
         "content_width": "w-lg-auto",
-        "layout": "col-lg-4",
+        "layout": "col-lg-3 col-md-6",
         "default_spacing": false,
         "pt_xl": 13,
         "pb_xl": 13,
