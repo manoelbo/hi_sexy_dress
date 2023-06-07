@@ -86,7 +86,7 @@
         "57a0c943-7c6a-4c7c-91de-e038c4b8accb": {
           "type": "button",
           "settings": {
-            "text": "See how it went",
+            "text": "Watch a video",
             "url": "https:\/\/www.youtube.com\/watch?v=1tUZYFWqhVE",
             "target": true,
             "style": "rounded-white"
