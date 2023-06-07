@@ -435,53 +435,16 @@
         "mb_sm": 0
       }
     },
-    "e4e17a99-776b-4d5b-9816-8d83fbd8062c": {
+    "2944387b-7253-4af1-a77d-0c4dc6f75a2d": {
       "type": "collection-cards",
-      "disabled": true,
-      "blocks": {
-        "78b01013-9054-46c3-a78b-4147a80ed169": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/profile-pic_2.png",
-            "category_id": "Members",
-            "title": "Criatividade Aplicada",
-            "text": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo.",
-            "url": "",
-            "target": false
-          }
-        },
-        "a51474ed-0534-491f-bc40-93eb5c649e83": {
-          "type": "card",
-          "settings": {
-            "category_id": "",
-            "title": "Criatividade Aplicada",
-            "text": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo.",
-            "url": "",
-            "target": false
-          }
-        },
-        "1838b06b-9468-4a4f-a558-f356b758c9ae": {
-          "type": "category",
-          "settings": {
-            "active": true,
-            "category": "Liderança e Cultura",
-            "id": "leadership"
-          }
-        }
-      },
-      "block_order": [
-        "78b01013-9054-46c3-a78b-4147a80ed169",
-        "a51474ed-0534-491f-bc40-93eb5c649e83",
-        "1838b06b-9468-4a4f-a558-f356b758c9ae"
-      ],
       "settings": {
         "filter": false,
         "collection_list": [
-
+          "our-team"
         ],
-        "hidden": false,
-        "title": "About Hyper with numbers",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+        "hidden": true,
+        "title": "Our Team",
+        "text": "",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-4",
@@ -512,91 +475,6 @@
         "spb_xs": 0,
         "smb_xs": 0
       }
-    },
-    "559186d7-3fe3-45ff-b34f-82acfb64f803": {
-      "type": "card-fluid",
-      "disabled": true,
-      "blocks": {
-        "template--15499970412597__559186d7-3fe3-45ff-b34f-82acfb64f803-168601288347f09fed-0": {
-          "type": "card",
-          "settings": {
-            "header": "PARA A SUA EMPRESA",
-            "title": "BUSINESS TRANSFORMATION",
-            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
-            "url": "",
-            "target": false,
-            "font_color": "text-dark",
-            "bg_color": "#f3f0ed",
-            "bg_gradient": "",
-            "bg_image": "shopify:\/\/shop_images\/profile-pic_2.png"
-          }
-        },
-        "template--15499970412597__559186d7-3fe3-45ff-b34f-82acfb64f803-168601288347f09fed-1": {
-          "type": "card",
-          "settings": {
-            "header": "PARA VOCÊ",
-            "title": "NOSSOS CURSOS",
-            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
-            "url": "",
-            "target": false,
-            "font_color": "text-dark",
-            "bg_color": "#e3dfd3",
-            "bg_gradient": ""
-          }
-        },
-        "03d3070f-849d-416b-ac37-c28b3e1e0d11": {
-          "type": "card",
-          "settings": {
-            "header": "Para Empresas",
-            "title": "Nossos Cursos",
-            "text": "Para Empresas",
-            "url": "",
-            "target": false,
-            "font_color": "text-dark",
-            "bg_color": "#E3DFD3",
-            "bg_gradient": ""
-          }
-        },
-        "cb3fb672-5797-4e1f-b0d6-5bc2e3a372bd": {
-          "type": "card",
-          "settings": {
-            "header": "Para Empresas",
-            "title": "Nossos Cursos",
-            "text": "Para Empresas",
-            "url": "",
-            "target": false,
-            "font_color": "text-dark",
-            "bg_color": "#E3DFD3",
-            "bg_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15499970412597__559186d7-3fe3-45ff-b34f-82acfb64f803-168601288347f09fed-0",
-        "template--15499970412597__559186d7-3fe3-45ff-b34f-82acfb64f803-168601288347f09fed-1",
-        "03d3070f-849d-416b-ac37-c28b3e1e0d11",
-        "cb3fb672-5797-4e1f-b0d6-5bc2e3a372bd"
-      ],
-      "settings": {
-        "header_size": "fs-6",
-        "title_size": "display-4",
-        "text_size": "fs-5",
-        "layout": "col-lg-6",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "pt_xl": 18,
-        "pb_xl": 17,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 14,
-        "pb_lg": 12,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 8,
-        "pb_sm": 8,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
     }
   },
   "order": [
@@ -611,7 +489,6 @@
     "5d32c958-6129-4005-95c2-46ad8671fe4d",
     "f228795d-e400-469b-8e3d-4924a4b61625",
     "b2c41b66-17b5-4aa8-9df9-eeb2659ee72f",
-    "e4e17a99-776b-4d5b-9816-8d83fbd8062c",
-    "559186d7-3fe3-45ff-b34f-82acfb64f803"
+    "2944387b-7253-4af1-a77d-0c4dc6f75a2d"
   ]
 }
