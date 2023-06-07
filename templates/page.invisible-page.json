@@ -644,10 +644,10 @@
         "68bdb991-7548-4b40-a709-ac560d480ce1": {
           "type": "button",
           "settings": {
-            "text": "Call to Action",
-            "url": "https:\/\/knowledge.hyperisland.com\/scenario_cards",
-            "target": false,
-            "style": "rounded-orange"
+            "text": "I want to know more about",
+            "url": "mailto:tim.lucas@hyperisland.com",
+            "target": true,
+            "style": "rounded-white"
           }
         }
       },
@@ -805,9 +805,9 @@
         "cc077866-9181-4cfc-a19a-c34794bb6e3d": {
           "type": "button",
           "settings": {
-            "text": "Call to Action",
-            "url": "https:\/\/knowledge.hyperisland.com\/creativity-bootcamp",
-            "target": false,
+            "text": "I want to know more about",
+            "url": "mailto:tim.lucas@hyperisland.com",
+            "target": true,
             "style": "rounded-white"
           }
         }
