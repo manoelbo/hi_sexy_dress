@@ -437,7 +437,6 @@
     },
     "2944387b-7253-4af1-a77d-0c4dc6f75a2d": {
       "type": "collection-cards",
-      "disabled": true,
       "settings": {
         "filter": true,
         "collection_list": [
