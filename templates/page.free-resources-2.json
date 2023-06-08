@@ -15,7 +15,7 @@
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
         "content_width": "w-lg-auto",
-        "default_spacing": false,
+        "default_spacing": true,
         "pt_xl": 0,
         "pb_xl": 0,
         "mt_xl": 0,
