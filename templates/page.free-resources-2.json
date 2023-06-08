@@ -15,19 +15,19 @@
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
         "content_width": "w-lg-auto",
-        "default_spacing": true,
-        "pt_xl": 0,
+        "default_spacing": false,
+        "pt_xl": 6,
         "pb_xl": 0,
         "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
+        "mb_xl": 6,
+        "pt_lg": 6,
         "pb_lg": 0,
         "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
+        "mb_lg": 6,
+        "pt_sm": 6,
         "pb_sm": 0,
         "mt_sm": 0,
-        "mb_sm": 0
+        "mb_sm": 6
       }
     },
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
