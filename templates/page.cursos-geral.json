@@ -282,6 +282,20 @@
     },
     "c4b96ad1-1479-427d-b89d-75142e9fa312": {
       "type": "header_half",
+      "blocks": {
+        "0e6764cd-cc40-4348-972b-dd1ccef3dc7f": {
+          "type": "button",
+          "settings": {
+            "text": "I want Hyper in My Company",
+            "url": "shopify:\/\/pages\/contact",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "0e6764cd-cc40-4348-972b-dd1ccef3dc7f"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
