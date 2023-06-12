@@ -22,7 +22,7 @@
         "cta_2": "Connect on LinkedIn",
         "cta_link_2": "{{ product.metafields.my_fields.syllabus.value }}",
         "cta_3": "Talk to Me!",
-        "cta_link_3": "mailto:tim.lucas@hyperisland.com",
+        "cta_link_3": "mailto:mauricio.sanchez@hyperisland.com",
         "zap": false,
         "zap_number": "",
         "zap_msg": "",
