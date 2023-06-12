@@ -32,61 +32,6 @@
         "mb_sm": 0
       }
     },
-    "13f3f086-3476-4715-95ea-04a340146b68": {
-      "type": "card-fluid",
-      "blocks": {
-        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-0": {
-          "type": "card",
-          "settings": {
-            "header": "Get to know",
-            "title": "Hyper Island Brazil",
-            "text": "",
-            "url": "https:\/\/www.hyperisland.com.br\/",
-            "target": true,
-            "font_color": "text-dark",
-            "bg_color": "#f3f0ed",
-            "bg_gradient": ""
-          }
-        },
-        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-1": {
-          "type": "card",
-          "settings": {
-            "header": "Get to know",
-            "title": "Hyper Island Habla Hispana",
-            "text": "",
-            "url": "https:\/\/hyperisland.es\/",
-            "target": true,
-            "font_color": "text-dark",
-            "bg_color": "#e3dfd3",
-            "bg_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-0",
-        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-1"
-      ],
-      "settings": {
-        "header_size": "fs-6",
-        "title_size": "display-5",
-        "text_size": "fs-5",
-        "layout": "col-lg-6",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "pt_xl": 9,
-        "pb_xl": 9,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 9,
-        "pb_lg": 9,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 8,
-        "pb_sm": 8,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
     "2dec94af-d749-4cb1-898b-992342979263": {
       "type": "header_half",
       "disabled": true,
@@ -158,13 +103,68 @@
       "settings": {
         "form_id": "90d76cdc-71c5-47f5-b471-392438623932"
       }
+    },
+    "13f3f086-3476-4715-95ea-04a340146b68": {
+      "type": "card-fluid",
+      "blocks": {
+        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-0": {
+          "type": "card",
+          "settings": {
+            "header": "Get to know",
+            "title": "Hyper Island Brazil",
+            "text": "",
+            "url": "https:\/\/www.hyperisland.com.br\/",
+            "target": true,
+            "font_color": "text-dark",
+            "bg_color": "#f3f0ed",
+            "bg_gradient": ""
+          }
+        },
+        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-1": {
+          "type": "card",
+          "settings": {
+            "header": "Get to know",
+            "title": "Hyper Island Habla Hispana",
+            "text": "",
+            "url": "https:\/\/hyperisland.es\/",
+            "target": true,
+            "font_color": "text-dark",
+            "bg_color": "#e3dfd3",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-0",
+        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-1"
+      ],
+      "settings": {
+        "header_size": "fs-6",
+        "title_size": "display-5",
+        "text_size": "fs-5",
+        "layout": "col-lg-6",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "pt_xl": 9,
+        "pb_xl": 9,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 9,
+        "pb_lg": 9,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 8,
+        "pb_sm": 8,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
     }
   },
   "order": [
     "3cf50fee-bb62-4669-a150-48226775153d",
-    "13f3f086-3476-4715-95ea-04a340146b68",
     "2dec94af-d749-4cb1-898b-992342979263",
     "567ce4e4-8cb8-41ef-a002-d0928ceb0ae3",
-    "84193b7e-3fe3-450c-89d8-8223e3fc85e2"
+    "84193b7e-3fe3-450c-89d8-8223e3fc85e2",
+    "13f3f086-3476-4715-95ea-04a340146b68"
   ]
 }
