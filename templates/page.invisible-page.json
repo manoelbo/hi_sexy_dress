@@ -831,8 +831,8 @@
         "cc077866-9181-4cfc-a19a-c34794bb6e3d": {
           "type": "button",
           "settings": {
-            "text": "I want to know more about",
-            "url": "mailto:tim.lucas@hyperisland.com",
+            "text": "Watch a video",
+            "url": "https:\/\/www.youtube.com\/watch?v=_kC3XcQkHkE",
             "target": true,
             "style": "rounded-white"
           }
