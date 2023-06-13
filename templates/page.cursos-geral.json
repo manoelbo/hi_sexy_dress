@@ -337,6 +337,99 @@
         "mb": 13
       }
     },
+    "8b9367b2-3972-4359-9a70-f13e1bd4c89e": {
+      "type": "content",
+      "blocks": {
+        "b57371f1-5e61-4ae1-bd68-9c082ef3cffe": {
+          "type": "content",
+          "settings": {
+            "title": "+ 5.000 ALUMNI",
+            "text": "We offer you the chance to form part of a community with more than +5000 people around the world.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "648a9229-be22-4472-b19b-b264a679eb18": {
+          "type": "content",
+          "settings": {
+            "title": "+27 YEARS",
+            "text": "27 years experience of developing and running programs",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "ce690df3-aa8d-4665-a125-d8fa2c2b2d04": {
+          "type": "content",
+          "settings": {
+            "title": "8\/10 RECOMMEND",
+            "text": "Over 8 out of 10 participants would recommend others to take an online course with Hyper Island.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "b57371f1-5e61-4ae1-bd68-9c082ef3cffe",
+        "648a9229-be22-4472-b19b-b264a679eb18",
+        "ce690df3-aa8d-4665-a125-d8fa2c2b2d04"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 10,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 10,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
     "60a98fd5-6fc9-4b25-9107-fcca4e3735ec": {
       "type": "header_half",
       "blocks": {
@@ -463,6 +556,7 @@
     "73614a1e-df18-468c-883b-1d4ee9e4abdd",
     "c4b96ad1-1479-427d-b89d-75142e9fa312",
     "698bf485-1eb8-4bec-9af7-12e4b920cf69",
+    "8b9367b2-3972-4359-9a70-f13e1bd4c89e",
     "60a98fd5-6fc9-4b25-9107-fcca4e3735ec",
     "ca91f808-6934-447a-aaba-35feb8712939",
     "774ba484-eeae-44d8-a196-010f4e120128",
