@@ -403,7 +403,7 @@
         "layout": "col-lg-4",
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-left",
-        "default_spacing": false,
+        "default_spacing": true,
         "pt_xl": 5,
         "pb_xl": 13,
         "mt_xl": 0,
