@@ -591,10 +591,10 @@
         "btn_url": "mailto:mauricio.sanchez@hyperisland.com",
         "btn_color": "btn-light",
         "btn_size": "",
-        "pt": 6,
-        "pb": 8,
-        "mt": 0,
-        "mb": 0
+        "pt": 13,
+        "pb": 12,
+        "mt": 4,
+        "mb": 4
       }
     }
   },
