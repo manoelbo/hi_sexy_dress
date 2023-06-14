@@ -529,7 +529,7 @@
           "settings": {
             "header": "",
             "title": "Linkedin",
-            "text": "https:\/\/www.linkedin.com\/in\/benitoberretta\/",
+            "text": "linkedin.com\/in\/benitoberretta\/",
             "url": "https:\/\/www.linkedin.com\/in\/benitoberretta\/",
             "target": true,
             "font_color": "text-light",
@@ -591,10 +591,10 @@
         "btn_url": "mailto:benito.berretta@hyperisland.com",
         "btn_color": "btn-light",
         "btn_size": "",
-        "pt": 10,
-        "pb": 12,
-        "mt": 0,
-        "mb": 0
+        "pt": 13,
+        "pb": 13,
+        "mt": 4,
+        "mb": 4
       }
     }
   },
