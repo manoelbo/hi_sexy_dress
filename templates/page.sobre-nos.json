@@ -544,17 +544,6 @@
             "id": "leadership"
           }
         },
-        "8fd43e34-a394-407b-8cb7-fe5e58562910": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebgmau.jpg",
-            "category_id": "team",
-            "title": "Mauricio Sánchez",
-            "text": "Business Leader & Facilitator of Hyper Island Americas",
-            "url": "shopify:\/\/pages\/mauricio-sanches",
-            "target": false
-          }
-        },
         "58a68944-e355-48e2-af88-f8f886b86b7f": {
           "type": "card",
           "settings": {
@@ -565,12 +554,35 @@
             "url": "shopify:\/\/pages\/gleisson-dias",
             "target": false
           }
+        },
+        "f840c7d0-c04d-45b3-a240-9842a8ff8a94": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebgLayla.jpg",
+            "category_id": "team",
+            "title": "Layla Oliveira",
+            "text": "Head of Hyper Island in North America",
+            "url": "shopify:\/\/pages\/gleisson-dias",
+            "target": false
+          }
+        },
+        "8fd43e34-a394-407b-8cb7-fe5e58562910": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebgmau.jpg",
+            "category_id": "team",
+            "title": "Mauricio Sánchez",
+            "text": "Business Leader & Facilitator of Hyper Island Americas",
+            "url": "shopify:\/\/pages\/mauricio-sanches",
+            "target": false
+          }
         }
       },
       "block_order": [
         "0be6dcfc-9fa0-4d5f-ba93-ca6f1ebacabb",
-        "8fd43e34-a394-407b-8cb7-fe5e58562910",
-        "58a68944-e355-48e2-af88-f8f886b86b7f"
+        "58a68944-e355-48e2-af88-f8f886b86b7f",
+        "f840c7d0-c04d-45b3-a240-9842a8ff8a94",
+        "8fd43e34-a394-407b-8cb7-fe5e58562910"
       ],
       "settings": {
         "font_color": "text-dark",
