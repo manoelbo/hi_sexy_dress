@@ -566,6 +566,17 @@
             "target": false
           }
         },
+        "d78a1a65-d6a5-4fd4-978c-884ba0dc3804": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebgtim_f8557b44-6409-4dd5-8ac6-c3244a017dd9.jpg",
+            "category_id": "team",
+            "title": "Tim Lucas",
+            "text": "Head of Hyper Island in North America",
+            "url": "shopify:\/\/pages\/sabryna-aslfasser",
+            "target": false
+          }
+        },
         "f840c7d0-c04d-45b3-a240-9842a8ff8a94": {
           "type": "card",
           "settings": {
@@ -604,6 +615,7 @@
         "0be6dcfc-9fa0-4d5f-ba93-ca6f1ebacabb",
         "58a68944-e355-48e2-af88-f8f886b86b7f",
         "6eaf98a4-cc10-4fc0-a39e-c6752cb84193",
+        "d78a1a65-d6a5-4fd4-978c-884ba0dc3804",
         "f840c7d0-c04d-45b3-a240-9842a8ff8a94",
         "b92d0bf2-8446-4a25-8569-acd11a05af14",
         "8fd43e34-a394-407b-8cb7-fe5e58562910"
