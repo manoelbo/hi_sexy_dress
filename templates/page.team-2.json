@@ -516,7 +516,7 @@
           "settings": {
             "header": "",
             "title": "role",
-            "text": "Head of Hyper Island Sales in North America. ",
+            "text": "Head of Hyper Island Courses Sales in North America. ",
             "url": "",
             "target": false,
             "font_color": "text-light",
@@ -591,10 +591,10 @@
         "btn_url": "mailto:gleisson.dias@hyperisland.com",
         "btn_color": "btn-light",
         "btn_size": "",
-        "pt": 6,
-        "pb": 8,
-        "mt": 0,
-        "mb": 0
+        "pt": 14,
+        "pb": 14,
+        "mt": 4,
+        "mb": 4
       }
     }
   },
