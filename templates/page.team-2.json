@@ -10,7 +10,7 @@
         "bg_color": "#1a1a1a",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/testebgmau.jpg",
-        "overlay_opacity": 0,
+        "overlay_opacity": 20,
         "font_color": "text-light",
         "title_size": "display-1",
         "text_size": "fs-4",
@@ -507,6 +507,75 @@
         "mt_sm": 13,
         "mb_sm": 13
       }
+    },
+    "37a39c8c-59c3-4739-9d5d-2313b594abc5": {
+      "type": "card-fluid",
+      "blocks": {
+        "template--15523476930613__37a39c8c-59c3-4739-9d5d-2313b594abc5-1686759529cdcce3f6-0": {
+          "type": "card",
+          "settings": {
+            "header": "",
+            "title": "role",
+            "text": "Business Leader & Facilitator of Hyper Island Americas",
+            "url": "",
+            "target": false,
+            "font_color": "text-light",
+            "bg_color": "#1a1a1a",
+            "bg_gradient": ""
+          }
+        },
+        "template--15523476930613__37a39c8c-59c3-4739-9d5d-2313b594abc5-1686759529cdcce3f6-1": {
+          "type": "card",
+          "settings": {
+            "header": "",
+            "title": "Linkedin",
+            "text": "linkedin.com\/in\/mauxsanchez\/",
+            "url": "https:\/\/linkedin.com\/in\/mauxsanchez\/",
+            "target": true,
+            "font_color": "text-light",
+            "bg_color": "#1a1a1a",
+            "bg_gradient": ""
+          }
+        },
+        "0ecfa8d3-e68f-4b7b-8b15-0ec90839ddb8": {
+          "type": "card",
+          "settings": {
+            "header": "",
+            "title": "CONTACT",
+            "text": "mauricio.sanchez@hyperisland.com",
+            "url": "mailto:mauricio.sanchez@hyperisland.com",
+            "target": true,
+            "font_color": "text-light",
+            "bg_color": "#1a1a1a",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15523476930613__37a39c8c-59c3-4739-9d5d-2313b594abc5-1686759529cdcce3f6-0",
+        "template--15523476930613__37a39c8c-59c3-4739-9d5d-2313b594abc5-1686759529cdcce3f6-1",
+        "0ecfa8d3-e68f-4b7b-8b15-0ec90839ddb8"
+      ],
+      "settings": {
+        "header_size": "fs-6",
+        "title_size": "display-6",
+        "text_size": "fs-5",
+        "layout": "col-lg-4",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "pt_xl": 7,
+        "pb_xl": 7,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 7,
+        "pb_lg": 7,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 8,
+        "pb_sm": 8,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
     }
   },
   "order": [
@@ -522,6 +591,7 @@
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
     "ca91f808-6934-447a-aaba-35feb8712939",
     "084000c6-5184-466c-8a6c-a8f304871687",
-    "33df1084-0138-4220-9e5e-642c9953b412"
+    "33df1084-0138-4220-9e5e-642c9953b412",
+    "37a39c8c-59c3-4739-9d5d-2313b594abc5"
   ]
 }
