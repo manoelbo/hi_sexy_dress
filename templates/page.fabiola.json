@@ -529,8 +529,8 @@
           "settings": {
             "header": "",
             "title": "Linkedin",
-            "text": "inkedin.com\/in\/fabiola-artoni",
-            "url": "https:\/\/inkedin.com\/in\/fabiola-artoni-1b91b24",
+            "text": "linkedin.com\/in\/fabiola-artoni",
+            "url": "https:\/\/linkedin.com\/in\/fabiola-artoni-1b91b24",
             "target": true,
             "font_color": "text-light",
             "bg_color": "#000000",
@@ -591,10 +591,10 @@
         "btn_url": "mailto:fabiola.artoni@hyperisland.com",
         "btn_color": "btn-light",
         "btn_size": "",
-        "pt": 10,
+        "pt": 13,
         "pb": 12,
-        "mt": 0,
-        "mb": 0
+        "mt": 4,
+        "mb": 4
       }
     }
   },
