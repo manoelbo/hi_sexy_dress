@@ -364,6 +364,142 @@
         "mb": 0
       }
     },
+    "5de62494-9b31-46a4-b789-6a234907d376": {
+      "type": "card",
+      "blocks": {
+        "0be6dcfc-9fa0-4d5f-ba93-ca6f1ebacabb": {
+          "type": "category",
+          "settings": {
+            "active": false,
+            "category": "Our Team",
+            "id": "team"
+          }
+        },
+        "d78a1a65-d6a5-4fd4-978c-884ba0dc3804": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebgtim_f8557b44-6409-4dd5-8ac6-c3244a017dd9.jpg",
+            "category_id": "team",
+            "title": "Tim Lucas",
+            "text": "Head of Hyper Island in North America",
+            "url": "shopify:\/\/pages\/tim-lucas",
+            "target": false
+          }
+        },
+        "4230a6cd-6398-4bb3-98a7-c1dcd03eb6fc": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebggleisson2_b54f16aa-e3ec-459b-90cb-2bb72760e826.jpg",
+            "category_id": "team",
+            "title": "Benito Berretta",
+            "text": "Head of Hyper Island",
+            "url": "shopify:\/\/pages\/benito-berretta",
+            "target": false
+          }
+        },
+        "57d689cf-9b71-4a86-bba4-53ae3df969c4": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebggleisson2_b54f16aa-e3ec-459b-90cb-2bb72760e826.jpg",
+            "category_id": "team",
+            "title": "<strong>Veronica Magariños<\/strong>",
+            "text": "Head of Hyper Island Habla Hispana",
+            "url": "shopify:\/\/pages\/veronica-magarinos",
+            "target": false
+          }
+        },
+        "6eaf98a4-cc10-4fc0-a39e-c6752cb84193": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebgsabryna2_06042d09-eaa4-4da1-8dae-3ba34cada7d4.jpg",
+            "category_id": "team",
+            "title": "Sabyna Alsfasser",
+            "text": "Head of Hyper Island Courses in North America",
+            "url": "shopify:\/\/pages\/sabryna-aslfasser",
+            "target": false
+          }
+        },
+        "58a68944-e355-48e2-af88-f8f886b86b7f": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebggleisson2_b54f16aa-e3ec-459b-90cb-2bb72760e826.jpg",
+            "category_id": "team",
+            "title": "Gleisson Dias",
+            "text": "Head of Hyper Island Sales in North America",
+            "url": "shopify:\/\/pages\/gleisson-dias",
+            "target": false
+          }
+        },
+        "f840c7d0-c04d-45b3-a240-9842a8ff8a94": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebgLayla.jpg",
+            "category_id": "team",
+            "title": "Layla Oliveira",
+            "text": "Head of Hyper Island in North America",
+            "url": "shopify:\/\/pages\/layla-oliveira",
+            "target": false
+          }
+        },
+        "b92d0bf2-8446-4a25-8569-acd11a05af14": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebgLayla.jpg",
+            "category_id": "team",
+            "title": "Fabiola Artoni",
+            "text": "Head of Hyper Island Sales in North America",
+            "url": "shopify:\/\/pages\/fabiola-artoni",
+            "target": false
+          }
+        },
+        "8fd43e34-a394-407b-8cb7-fe5e58562910": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebgmau.jpg",
+            "category_id": "team",
+            "title": "Mauricio Sánchez",
+            "text": "Business Leader & Facilitator of Hyper Island Americas",
+            "url": "shopify:\/\/pages\/mauricio-sanches",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "0be6dcfc-9fa0-4d5f-ba93-ca6f1ebacabb",
+        "d78a1a65-d6a5-4fd4-978c-884ba0dc3804",
+        "4230a6cd-6398-4bb3-98a7-c1dcd03eb6fc",
+        "57d689cf-9b71-4a86-bba4-53ae3df969c4",
+        "6eaf98a4-cc10-4fc0-a39e-c6752cb84193",
+        "58a68944-e355-48e2-af88-f8f886b86b7f",
+        "f840c7d0-c04d-45b3-a240-9842a8ff8a94",
+        "b92d0bf2-8446-4a25-8569-acd11a05af14",
+        "8fd43e34-a394-407b-8cb7-fe5e58562910"
+      ],
+      "settings": {
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-lg-3 col-md-6",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "f228795d-e400-469b-8e3d-4924a4b61625": {
       "type": "newsletter-session",
       "blocks": {
@@ -437,6 +573,7 @@
     },
     "2944387b-7253-4af1-a77d-0c4dc6f75a2d": {
       "type": "collection-cards",
+      "disabled": true,
       "settings": {
         "filter": true,
         "collection_list": [
@@ -531,143 +668,6 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
-    },
-    "5de62494-9b31-46a4-b789-6a234907d376": {
-      "type": "card",
-      "blocks": {
-        "0be6dcfc-9fa0-4d5f-ba93-ca6f1ebacabb": {
-          "type": "category",
-          "disabled": true,
-          "settings": {
-            "active": false,
-            "category": "Liderança e Cultura",
-            "id": "leadership"
-          }
-        },
-        "58a68944-e355-48e2-af88-f8f886b86b7f": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebggleisson2_b54f16aa-e3ec-459b-90cb-2bb72760e826.jpg",
-            "category_id": "team",
-            "title": "Gleisson Dias",
-            "text": "Head of Hyper Island Sales in North America",
-            "url": "shopify:\/\/pages\/gleisson-dias",
-            "target": false
-          }
-        },
-        "4230a6cd-6398-4bb3-98a7-c1dcd03eb6fc": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebggleisson2_b54f16aa-e3ec-459b-90cb-2bb72760e826.jpg",
-            "category_id": "team",
-            "title": "Benito Berretta",
-            "text": "Head of Hyper Island",
-            "url": "shopify:\/\/pages\/benito-berretta",
-            "target": false
-          }
-        },
-        "57d689cf-9b71-4a86-bba4-53ae3df969c4": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebggleisson2_b54f16aa-e3ec-459b-90cb-2bb72760e826.jpg",
-            "category_id": "team",
-            "title": "<strong>Veronica Magariños<\/strong>",
-            "text": "Head of Hyper Island Habla Hispana",
-            "url": "shopify:\/\/pages\/veronica-magarinos",
-            "target": false
-          }
-        },
-        "6eaf98a4-cc10-4fc0-a39e-c6752cb84193": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebgsabryna2_06042d09-eaa4-4da1-8dae-3ba34cada7d4.jpg",
-            "category_id": "team",
-            "title": "Sabyna Alsfasser",
-            "text": "Head of Hyper Island Courses in North America",
-            "url": "shopify:\/\/pages\/sabryna-aslfasser",
-            "target": false
-          }
-        },
-        "d78a1a65-d6a5-4fd4-978c-884ba0dc3804": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebgtim_f8557b44-6409-4dd5-8ac6-c3244a017dd9.jpg",
-            "category_id": "team",
-            "title": "Tim Lucas",
-            "text": "Head of Hyper Island in North America",
-            "url": "shopify:\/\/pages\/tim-lucas",
-            "target": false
-          }
-        },
-        "f840c7d0-c04d-45b3-a240-9842a8ff8a94": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebgLayla.jpg",
-            "category_id": "team",
-            "title": "Layla Oliveira",
-            "text": "Head of Hyper Island in North America",
-            "url": "shopify:\/\/pages\/layla-oliveira",
-            "target": false
-          }
-        },
-        "b92d0bf2-8446-4a25-8569-acd11a05af14": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebgLayla.jpg",
-            "category_id": "team",
-            "title": "Fabiola Artoni",
-            "text": "Head of Hyper Island Sales in North America",
-            "url": "shopify:\/\/pages\/fabiola-artoni",
-            "target": false
-          }
-        },
-        "8fd43e34-a394-407b-8cb7-fe5e58562910": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/testebgmau.jpg",
-            "category_id": "team",
-            "title": "Mauricio Sánchez",
-            "text": "Business Leader & Facilitator of Hyper Island Americas",
-            "url": "shopify:\/\/pages\/mauricio-sanches",
-            "target": false
-          }
-        }
-      },
-      "block_order": [
-        "0be6dcfc-9fa0-4d5f-ba93-ca6f1ebacabb",
-        "58a68944-e355-48e2-af88-f8f886b86b7f",
-        "4230a6cd-6398-4bb3-98a7-c1dcd03eb6fc",
-        "57d689cf-9b71-4a86-bba4-53ae3df969c4",
-        "6eaf98a4-cc10-4fc0-a39e-c6752cb84193",
-        "d78a1a65-d6a5-4fd4-978c-884ba0dc3804",
-        "f840c7d0-c04d-45b3-a240-9842a8ff8a94",
-        "b92d0bf2-8446-4a25-8569-acd11a05af14",
-        "8fd43e34-a394-407b-8cb7-fe5e58562910"
-      ],
-      "settings": {
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "layout": "col-lg-3 col-md-6",
-        "default_spacing": false,
-        "pt_xl": 13,
-        "pb_xl": 13,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 13,
-        "pb_lg": 13,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
     }
   },
   "order": [
@@ -680,10 +680,10 @@
     "c1dbb8fd-a1f4-4fc7-bfa8-b8528d8bf2ca",
     "8fe5ae8b-6a52-47ff-b7c0-dbc7449b9b16",
     "5d32c958-6129-4005-95c2-46ad8671fe4d",
+    "5de62494-9b31-46a4-b789-6a234907d376",
     "f228795d-e400-469b-8e3d-4924a4b61625",
     "b2c41b66-17b5-4aa8-9df9-eeb2659ee72f",
     "2944387b-7253-4af1-a77d-0c4dc6f75a2d",
-    "17930712-f97e-409d-95c3-0e23ec3d38a9",
-    "5de62494-9b31-46a4-b789-6a234907d376"
+    "17930712-f97e-409d-95c3-0e23ec3d38a9"
   ]
 }
