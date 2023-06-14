@@ -554,11 +554,23 @@
             "url": "shopify:\/\/pages\/mauricio-sanches",
             "target": false
           }
+        },
+        "58a68944-e355-48e2-af88-f8f886b86b7f": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/testebggleisson2_b54f16aa-e3ec-459b-90cb-2bb72760e826.jpg",
+            "category_id": "team",
+            "title": "Gleisson Dias",
+            "text": "Head of Hyper Island Sales in North America",
+            "url": "shopify:\/\/pages\/gleisson-dias",
+            "target": false
+          }
         }
       },
       "block_order": [
         "0be6dcfc-9fa0-4d5f-ba93-ca6f1ebacabb",
-        "8fd43e34-a394-407b-8cb7-fe5e58562910"
+        "8fd43e34-a394-407b-8cb7-fe5e58562910",
+        "58a68944-e355-48e2-af88-f8f886b86b7f"
       ],
       "settings": {
         "font_color": "text-dark",

@@ -5,11 +5,11 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "MAURICIO SÁNCHEZ",
+        "title": "Gleisson Dias",
         "text": "",
         "bg_color": "#1a1a1a",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/testebgmau.jpg",
+        "bg_image": "shopify:\/\/shop_images\/testebggleisson2_b54f16aa-e3ec-459b-90cb-2bb72760e826.jpg",
         "overlay_opacity": 20,
         "font_color": "text-light",
         "title_size": "display-1",
@@ -516,7 +516,7 @@
           "settings": {
             "header": "",
             "title": "role",
-            "text": "Business Leader & Facilitator of Hyper Island Americas",
+            "text": "Head of Hyper Island Sales in North America. ",
             "url": "",
             "target": false,
             "font_color": "text-light",
@@ -529,7 +529,7 @@
           "settings": {
             "header": "",
             "title": "Linkedin",
-            "text": "linkedin.com\/in\/mauxsanchez\/",
+            "text": "linkedin.com\/in\/gleisson-dias\/",
             "url": "https:\/\/linkedin.com\/in\/mauxsanchez\/",
             "target": true,
             "font_color": "text-light",
@@ -542,7 +542,7 @@
           "settings": {
             "header": "",
             "title": "CONTACT",
-            "text": "mauricio.sanchez@hyperisland.com",
+            "text": "gleisson.dias@hyperisland.com",
             "url": "mailto:mauricio.sanchez@hyperisland.com",
             "target": true,
             "font_color": "text-light",
