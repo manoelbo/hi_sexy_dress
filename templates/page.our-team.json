@@ -1,7 +1,25 @@
 {
   "sections": {
+    "a3c9b1da-4470-4255-a67d-04bb5976bdad": {
+      "type": "html",
+      "settings": {
+        "html": "<title>Mashup Scenarios<\/title>\n  <style>\n    body {\n      background-color: #f4f4f4;\n      font-family: Arial, sans-serif;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n    }\n\n    h1 {\n      text-align: center;\n      color: #333;\n      margin-top: 20px;\n    }\n\n    p {\n      text-align: center;\n      color: #555;\n      margin-top: 10px;\n    }\n\n    .card-container {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-top: 30px;\n    }\n\n    .card {\n      width: 300px;\n      height: 300px;\n      background-color: #ffa500;\n      border-radius: 10px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      margin: 10px;\n      padding: 20px;\n      color: #fff;\n      font-weight: bold;\n      text-align: center;\n    }\n\n    .connector {\n      width: 20px;\n      height: 2px;\n      background-color: #333;\n      margin: 0 10px;\n    }\n\n    #refreshButton {\n      background-color: #333;\n      color: #fff;\n      border: none;\n      border-radius: 5px;\n      padding: 10px 20px;\n      font-size: 16px;\n      cursor: pointer;\n      margin-top: 20px;\n    }\n  <\/style>\n\n\n  <h1>Mashup Scenarios<\/h1>\n  <p>Think creatively and come up with innovative product ideas by combining the suggestions from the cards below.<\/p>\n\n  <div class=\"card-container\">\n    <div class=\"card\" id=\"humanNeedsCard\"><\/div>\n    <div class=\"connector\"><\/div>\n    <div class=\"card\" id=\"dataSourcesCard\"><\/div>\n    <div class=\"connector\"><\/div>\n    <div class=\"card\" id=\"technologiesCard\"><\/div>\n  <\/div>\n\n  <button id=\"refreshButton\">Refresh<\/button>\n\n  <script>\n    \/\/ Arrays de exemplos para cada card\n    const humanNeeds = [\n      \"Health and well-being\",\n      \"Connection and belonging\",\n      \"Autonomy and freedom\",\n      \"Meaning and purpose\",\n      \"Competence and mastery\"\n    ];\n\n    const dataSources = [\n      \"Internet of Things (IoT)\",\n      \"Social media feeds\",\n      \"Open government data\",\n      \"Market research surveys\",\n      \"Sensor data from wearables\"\n    ];\n\n    const technologies = [\n      \"Artificial Intelligence (AI)\",\n      \"Blockchain\",\n      \"Virtual Reality (VR)\",\n      \"Augmented Reality (AR)\",\n      \"Internet of Things (IoT)\"\n    ];\n\n    \/\/ Função para embaralhar os arrays\n    function shuffleArray(array) {\n      for (let i = array.length - 1; i > 0; i--) {\n        const j = Math.floor(Math.random() * (i + 1));\n        [array[i], array[j]] = [array[j], array[i]];\n      }\n      return array;\n    }\n\n    \/\/ Função para gerar as sugestões nos cards\n    function generateSuggestions() {\n      const humanNeedsCard = document.getElementById(\"humanNeedsCard\");\n      const dataSourcesCard = document.getElementById(\"dataSourcesCard\");\n      const technologiesCard = document.getElementById(\"technologiesCard\");\n\n      const shuffledHumanNeeds = shuffleArray(humanNeeds);\n      const shuffledDataSources = shuffleArray(dataSources);\n      const shuffledTechnologies = shuffleArray(technologies);\n\n      humanNeedsCard.textContent = shuffledHumanNeeds[0];\n      dataSourcesCard.textContent = shuffledDataSources[0];\n      technologiesCard.textContent = shuffledTechnologies[0];\n    }\n\n    \/\/ Evento de clique no botão Refresh\n    const refreshButton = document.getElementById(\"refreshButton\");\n    refreshButton.addEventListener(\"click\", generateSuggestions);\n\n    \/\/ Gerar as sugestões inicialmente\n    generateSuggestions();\n  <\/script>",
+        "bg_color": "",
+        "container": "",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 7,
+        "pb": 0,
+        "mt": 0,
+        "mb": 8
+      }
+    },
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
       "type": "header",
+      "disabled": true,
       "blocks": {
         "df7d5120-88c7-493f-b557-023dad40f405": {
           "type": "button",
@@ -49,6 +67,7 @@
     },
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "<strong>Hyper Island Way™<\/strong>",
@@ -102,6 +121,7 @@
     },
     "b0665530-e062-48f4-bd01-2da5ebf8f79a": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -135,6 +155,7 @@
     },
     "fe79b999-4357-4e47-a1c4-6197f81fb334": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -168,6 +189,7 @@
     },
     "27f908dd-e677-4d9b-9d8b-2cac654683b7": {
       "type": "card",
+      "disabled": true,
       "blocks": {
         "cbf7f762-2708-4551-913e-81234484fd3b": {
           "type": "category",
@@ -456,6 +478,7 @@
     },
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce": {
       "type": "separator",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "opacity": 0,
@@ -465,6 +488,7 @@
     },
     "08897541-1444-4312-8baa-ea342ede0dd4": {
       "type": "content",
+      "disabled": true,
       "blocks": {
         "18047f15-66cd-4693-921a-7ba553f84efb": {
           "type": "content",
@@ -568,6 +592,7 @@
     },
     "1da6d290-5e65-44fc-8b7a-6af03f274b37": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -601,6 +626,7 @@
     },
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -634,6 +660,7 @@
     },
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975": {
       "type": "button-section",
+      "disabled": true,
       "blocks": {
         "726717ac-617a-4f9a-8b5f-fca52b092f42": {
           "type": "button",
@@ -694,6 +721,7 @@
     },
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
       "type": "clients",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "Nossos Clientes",
@@ -720,6 +748,7 @@
     },
     "ca91f808-6934-447a-aaba-35feb8712939": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -753,6 +782,7 @@
     },
     "33df1084-0138-4220-9e5e-642c9953b412": {
       "type": "newsletter-session",
+      "disabled": true,
       "blocks": {
         "6224f3b1-1467-47bf-b2d2-3843e5059a2c": {
           "type": "button",
@@ -797,6 +827,7 @@
     }
   },
   "order": [
+    "a3c9b1da-4470-4255-a67d-04bb5976bdad",
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
