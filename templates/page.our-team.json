@@ -824,6 +824,16 @@
         "mt_sm": 13,
         "mb_sm": 13
       }
+    },
+    "53eda44c-c927-4ba6-bdc8-10196f5ab9e0": {
+      "type": "separator",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "opacity": 0.1,
+        "mt": 0,
+        "mb": 0
+      }
     }
   },
   "order": [
@@ -841,6 +851,7 @@
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
     "ca91f808-6934-447a-aaba-35feb8712939",
-    "33df1084-0138-4220-9e5e-642c9953b412"
+    "33df1084-0138-4220-9e5e-642c9953b412",
+    "53eda44c-c927-4ba6-bdc8-10196f5ab9e0"
   ]
 }
