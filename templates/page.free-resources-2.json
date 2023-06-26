@@ -557,6 +557,16 @@
             "url": "",
             "target": false
           }
+        },
+        "c0bd0d15-1da7-4de6-aa5b-f14dee9f4414": {
+          "type": "card",
+          "settings": {
+            "category_id": "Foresight",
+            "title": "Inclusive Innovation Resource Kit",
+            "text": "",
+            "url": "https:\/\/knowledge.hyperisland.com\/inclusive-innovation-resource-kit",
+            "target": true
+          }
         }
       },
       "block_order": [
@@ -588,7 +598,8 @@
         "553d70db-c5e6-4e79-8f08-78c9ff0c22dd",
         "9cc67ab5-63eb-4b4b-9812-4f652d4746b1",
         "fb407fd2-594e-48af-b07f-5d3fe2d56e89",
-        "b9814d27-5048-4834-a2b8-25f76b3f1ccd"
+        "b9814d27-5048-4834-a2b8-25f76b3f1ccd",
+        "c0bd0d15-1da7-4de6-aa5b-f14dee9f4414"
       ],
       "settings": {
         "font_color": "text-dark",
