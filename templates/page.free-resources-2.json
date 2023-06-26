@@ -32,6 +32,7 @@
     },
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
       "type": "header",
+      "disabled": true,
       "blocks": {
         "df7d5120-88c7-493f-b557-023dad40f405": {
           "type": "button",
@@ -79,6 +80,7 @@
     },
     "278da30e-2b6a-43a2-bc99-be71a85640b0": {
       "type": "header",
+      "disabled": true,
       "blocks": {
         "0829ce43-047f-4c71-9309-320ba6d26887": {
           "type": "button",
