@@ -37,8 +37,8 @@
           "type": "button",
           "settings": {
             "text": "Subscribe for the next Meta Session",
-            "url": "https:\/\/knowledge.hyperisland.com\/inclusive-innovation",
-            "target": false,
+            "url": "https:\/\/knowledge.hyperisland.com\/creative-chaos",
+            "target": true,
             "style": "rounded-white"
           }
         }
