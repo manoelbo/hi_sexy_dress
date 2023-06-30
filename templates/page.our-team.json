@@ -12,7 +12,7 @@
         "description": "",
         "description_size": "fs-6",
         "pt": 7,
-        "pb": 0,
+        "pb": 6,
         "mt": 0,
         "mb": 8
       }
@@ -946,7 +946,7 @@
             "category_id": "",
             "title": "Download our Creative Bootcamp content",
             "text": "",
-            "url": "",
+            "url": "https:\/\/knowledge.hyperisland.com\/creativity-bootcamp",
             "target": false
           }
         }
