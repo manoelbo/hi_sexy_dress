@@ -909,6 +909,7 @@
       "blocks": {
         "836249cc-5539-41f0-877f-8b43d1373373": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "",
             "title": "Full Instructions",
@@ -919,6 +920,7 @@
         },
         "29c7ee49-e4ac-47da-96ca-8dab12edcfa4": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "",
             "title": "Share Your Ideas",
@@ -929,6 +931,7 @@
         },
         "da9068cf-4360-4fb3-9c9f-6df72098aa0b": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "category_id": "",
             "title": "Book a Mash Up Session for your team",
