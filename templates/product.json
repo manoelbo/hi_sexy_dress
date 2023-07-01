@@ -389,8 +389,8 @@
         "btn_url": "",
         "btn_color": "btn-primary",
         "btn_size": "",
-        "pt": 9,
-        "pb": 9,
+        "pt": 12,
+        "pb": 2,
         "mt": 0,
         "mb": 0
       }
@@ -418,15 +418,15 @@
         "903ecd16-1682-4784-86b5-ee4446329ab2"
       ],
       "settings": {
-        "bg_color": "#f3f0ed",
+        "bg_color": "#f5f5f5",
         "bg_gradient": "",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-4",
         "layout": "col-md-6",
-        "pt_lg": 7,
+        "pt_lg": 4,
         "mt_lg": 0,
-        "pt_xs": 7,
+        "pt_xs": 4,
         "mt_xs": 0,
         "spb_lg": 11,
         "smb_lg": 0,
