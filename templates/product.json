@@ -375,6 +375,26 @@
         "mb_sm": 0
       }
     },
+    "e71b8589-47ee-4d30-8b01-25c2942f1763": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "bg-light text-dark",
+        "max_width": "960",
+        "text_align": "text-center",
+        "title": "What do the Alumni say about the course?",
+        "title_size": "h3",
+        "description": "",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 9,
+        "pb": 9,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9": {
       "type": "testimonial",
       "blocks": {
@@ -404,11 +424,11 @@
         "title_size": "display-4",
         "text_size": "fs-4",
         "layout": "col-md-6",
-        "pt_lg": 13,
+        "pt_lg": 7,
         "mt_lg": 0,
-        "pt_xs": 11,
+        "pt_xs": 7,
         "mt_xs": 0,
-        "spb_lg": 12,
+        "spb_lg": 11,
         "smb_lg": 0,
         "spb_xs": 13,
         "smb_xs": 0
@@ -719,6 +739,7 @@
     "8b0e92c1-272e-42cf-8650-be49d5da4f42",
     "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb",
     "f39daef8-3263-467c-b5e2-581de2221700",
+    "e71b8589-47ee-4d30-8b01-25c2942f1763",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
     "1cb5682b-ba57-45ef-b33e-6bc5346bd719",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
