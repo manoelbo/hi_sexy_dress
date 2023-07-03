@@ -38,7 +38,7 @@
       "settings": {
         "mobile_only": true,
         "desktop_only": false,
-        "title": "Empowering Change",
+        "title": "Own the future",
         "text": "Cutting-edge consultancy and business school, Hyper Island is the transformation partner of choice for the world's leading brands. We empower people and organizations  with the skills to shape their futures today. ",
         "bg_color": "#212529",
         "bg_gradient": "",
@@ -159,7 +159,7 @@
           "settings": {
             "title": "6 HUBS",
             "text": "We offer global reach and local sensitivity. What started in Sweden has scaled  to international hubs across North America, South America, Europe, and Asia.",
-            "header": "Worldwide",
+            "header": "Reach",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -170,7 +170,7 @@
           "settings": {
             "title": "+250",
             "text": "Our diverse network is made up of facilitators, consultants, and market experts from various backgrounds and nationalities.",
-            "header": "Team",
+            "header": "Scale",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
