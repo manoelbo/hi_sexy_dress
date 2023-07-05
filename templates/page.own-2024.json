@@ -1305,21 +1305,20 @@
         "template--15534334607413__56c3d046-a91a-4a6c-ad40-f3db48f9c5a2-168856857575b09115-0": {
           "type": "card",
           "settings": {
-            "header": "Option 1",
+            "header": "Good for few collaborators (< 20)",
             "title": "<strong>Package of seats in our cohort-based courses<\/strong>",
-            "text": "Get discount by buying a package of x seats. Flexibility to decide which collaborator will do which course in which time of the year <em>(4 cohorts per course per year). <\/em>Good for few collaborators (< 20)",
+            "text": "Get discount by buying a package of x seats. Flexibility to decide which collaborator will do which course in which time of the year <em>(4 cohorts per course per year). <\/em>",
             "url": "",
             "target": false,
             "font_color": "text-dark",
-            "bg_color": "#f3f0ed",
-            "bg_gradient": "",
-            "bg_image": "shopify:\/\/shop_images\/Energizer_OrangeGradient_01.gif"
+            "bg_color": "#f5f5f5",
+            "bg_gradient": ""
           }
         },
         "template--15534334607413__56c3d046-a91a-4a6c-ad40-f3db48f9c5a2-168856857575b09115-1": {
           "type": "card",
           "settings": {
-            "header": "OPTION 2",
+            "header": "Good for higher number of collaborators (>20)",
             "title": "<strong>In-company Meta Skills journey<\/strong>",
             "text": "Adaptability of the contents to your culture \/ pain points. Flexibility to decide date and time of the sessions. Good for higher number of collaborators (>20)",
             "url": "",
