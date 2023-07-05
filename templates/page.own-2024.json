@@ -17,7 +17,7 @@
         "container": "container-fluid",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-center",
-        "content_width": "w-lg-auto",
+        "content_width": "w-lg-75",
         "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
