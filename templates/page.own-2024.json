@@ -1312,7 +1312,8 @@
             "target": false,
             "font_color": "text-dark",
             "bg_color": "#f3f0ed",
-            "bg_gradient": ""
+            "bg_gradient": "",
+            "bg_image": "shopify:\/\/shop_images\/Energizer_OrangeGradient_01.gif"
           }
         },
         "template--15534334607413__56c3d046-a91a-4a6c-ad40-f3db48f9c5a2-168856857575b09115-1": {
