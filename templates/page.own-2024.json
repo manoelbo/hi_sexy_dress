@@ -844,16 +844,16 @@
         "align_mobile": "text-left",
         "pt_xl": 8,
         "pb_xl": 9,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 9,
-        "pb_lg": 9,
-        "mt_lg": 0,
-        "mb_lg": 0,
+        "mt_xl": 4,
+        "mb_xl": 4,
+        "pt_lg": 11,
+        "pb_lg": 11,
+        "mt_lg": 4,
+        "mb_lg": 4,
         "pt_sm": 8,
         "pb_sm": 8,
-        "mt_sm": 0,
-        "mb_sm": 0
+        "mt_sm": 4,
+        "mb_sm": 4
       }
     },
     "949bdeb6-7de2-4971-a1a9-53a880ab735f": {
