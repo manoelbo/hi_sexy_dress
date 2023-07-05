@@ -6,7 +6,7 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "Own 2024",
-        "text": "Unlock Your Team's Potential: Develop Your Employees' Meta Skills for Competitive Advantage!",
+        "text": "<strong>Unlock Your Team's Potential: Develop Your Employees' Meta Skills for Competitive Advantage!<\/strong>",
         "bg_color": "#E3DFD3",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/HI_Energizer_OrangeGradient_720x405_02.gif",
@@ -35,12 +35,11 @@
     },
     "b5f1f1a2-0bf1-4fe8-9bf5-70c95db1fc3c": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "A selection of recent examples of our work...",
-        "text": "",
+        "title": "<strong>What are meta skills?<\/strong>",
+        "text": "Meta Skills, also known as <strong>\"learning to learn\"<\/strong> skills, help you learn and develop other skills. They are not soft skills because soft skills are anything but soft. Likewise they are not power skills because power has rarely empowers the individual and the collective.  Meta Skills are the abilities that enable individuals to <strong>learn, adapt, and thrive<\/strong> in complex and rapidly changing environments. They are like the tools in a toolbox that help you build and create things. Meta skills include cognitive, social, and emotional skills, and they are essential for success in a variety of different areas.",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "overlay_opacity": 0,
@@ -55,15 +54,15 @@
         "pt_xl": 0,
         "pb_xl": 0,
         "mt_xl": 13,
-        "mb_xl": 13,
+        "mb_xl": 3,
         "pt_lg": 0,
         "pb_lg": 0,
         "mt_lg": 13,
-        "mb_lg": 13,
+        "mb_lg": 4,
         "pt_sm": 0,
         "pb_sm": 0,
         "mt_sm": 12,
-        "mb_sm": 12
+        "mb_sm": 7
       }
     },
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
@@ -164,11 +163,75 @@
     },
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
       "type": "content",
-      "disabled": true,
+      "blocks": {
+        "1c4fb584-c596-4f2a-a369-f9647406dc49": {
+          "type": "content",
+          "settings": {
+            "title": "50%",
+            "text": "Of work will be performed by machines",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "2f5f8f18-cdc8-47c6-be2a-2ef6f71d5f82": {
+          "type": "content",
+          "settings": {
+            "title": "40%",
+            "text": "Of workers will require reskilling",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "d1894e91-be8a-4e33-a389-a00b7de5529d": {
+          "type": "content",
+          "settings": {
+            "title": "97M",
+            "text": "New roles mayemerge",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "656d1e7f-d68e-4105-b1c7-ac7639c405ae": {
+          "type": "content",
+          "settings": {
+            "title": "80%",
+            "text": "Of us will see job replacement or wage reduction due to automation",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "684fa565-3bd4-4ed5-b200-a496aaf1e016": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "About Hyper with numbers",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "1c4fb584-c596-4f2a-a369-f9647406dc49",
+        "2f5f8f18-cdc8-47c6-be2a-2ef6f71d5f82",
+        "d1894e91-be8a-4e33-a389-a00b7de5529d",
+        "656d1e7f-d68e-4105-b1c7-ac7639c405ae",
+        "684fa565-3bd4-4ed5-b200-a496aaf1e016"
+      ],
       "settings": {
         "hidden": false,
-        "title": "Rapid Rapport Self Assessment",
-        "text": "Take this simple assessment to score how well you build rapport with yourself, with your team and with your customers   ",
+        "title": "<strong>Why you need to empower your collaborators with meta skills?<\/strong>",
+        "text": "Given the extraordinary conditions impacting our society, <strong>companies must adjust and succeed in a continually changing landscape<\/strong> to meet the needs of the future of employment and personal growth. <strong>We are witnessing the rise of new learning paradigms<\/strong>, and an increasing demand for accelerated skill building, which must be designed to keep up with the pace of change.",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -179,29 +242,29 @@
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-center",
-        "content_width": "w-lg-50",
+        "content_width": "w-lg-75",
         "c_font_color": "text-dark",
         "c_title_size": "display-4",
         "c_text_size": "fs-4",
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
-        "layout": "col-md-12",
+        "layout": "col-lg-3",
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-center",
         "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
+        "mt_xl": 12,
+        "mb_xl": 12,
         "pt_lg": 0,
         "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
+        "mt_lg": 10,
+        "mb_lg": 12,
         "pt_sm": 0,
         "pb_sm": 0,
         "mt_sm": 13,
-        "mb_sm": 13,
+        "mb_sm": 11,
         "py_lg": 0,
         "px_lg": 0,
         "my_lg": 0,
@@ -1216,6 +1279,81 @@
         "mb_sm": 13
       }
     },
+    "7ce244a3-69ec-4e72-a5a0-284e97e96803": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "",
+        "max_width": "960",
+        "text_align": "text-center",
+        "title": "Our solutions",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "56c3d046-a91a-4a6c-ad40-f3db48f9c5a2": {
+      "type": "card-fluid",
+      "blocks": {
+        "template--15534334607413__56c3d046-a91a-4a6c-ad40-f3db48f9c5a2-168856857575b09115-0": {
+          "type": "card",
+          "settings": {
+            "header": "Option 1",
+            "title": "<strong>Package of seats in our cohort-based courses<\/strong>",
+            "text": "Get discount by buying a package of x seats. Flexibility to decide which collaborator will do which course in which time of the year <em>(4 cohorts per course per year). <\/em>Good for few collaborators (< 20)",
+            "url": "",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#f3f0ed",
+            "bg_gradient": ""
+          }
+        },
+        "template--15534334607413__56c3d046-a91a-4a6c-ad40-f3db48f9c5a2-168856857575b09115-1": {
+          "type": "card",
+          "settings": {
+            "header": "OPTION 2",
+            "title": "<strong>In-company Meta Skills journey<\/strong>",
+            "text": "Adaptability of the contents to your culture \/ pain points. Flexibility to decide date and time of the sessions. Good for higher number of collaborators (>20)",
+            "url": "",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#e3dfd3",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15534334607413__56c3d046-a91a-4a6c-ad40-f3db48f9c5a2-168856857575b09115-0",
+        "template--15534334607413__56c3d046-a91a-4a6c-ad40-f3db48f9c5a2-168856857575b09115-1"
+      ],
+      "settings": {
+        "header_size": "fs-6",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "layout": "col-lg-6",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "pt_xl": 18,
+        "pb_xl": 17,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 14,
+        "pb_lg": 12,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 8,
+        "pb_sm": 8,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "33df1084-0138-4220-9e5e-642c9953b412": {
       "type": "newsletter-session",
       "blocks": {
@@ -1259,36 +1397,6 @@
         "mt_sm": 13,
         "mb_sm": 13
       }
-    },
-    "621cb551-32d6-4a61-9dc3-57e803a85962": {
-      "type": "title-section",
-      "disabled": true,
-      "settings": {
-        "title": "Discover some of our Business Transformation cases.",
-        "text": "",
-        "bg_color": "#e3dfd3",
-        "bg_gradient": "",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "layout_align": "five",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
     }
   },
   "order": [
@@ -1314,7 +1422,8 @@
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
     "ca91f808-6934-447a-aaba-35feb8712939",
     "084000c6-5184-466c-8a6c-a8f304871687",
-    "33df1084-0138-4220-9e5e-642c9953b412",
-    "621cb551-32d6-4a61-9dc3-57e803a85962"
+    "7ce244a3-69ec-4e72-a5a0-284e97e96803",
+    "56c3d046-a91a-4a6c-ad40-f3db48f9c5a2",
+    "33df1084-0138-4220-9e5e-642c9953b412"
   ]
 }
