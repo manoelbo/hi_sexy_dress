@@ -65,6 +65,15 @@
         "mb_sm": 7
       }
     },
+    "178a8d6d-affd-4c21-aa0a-e47e4e5fbd25": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0.1,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
       "type": "header",
       "disabled": true,
@@ -255,12 +264,12 @@
         "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
-        "mt_xl": 12,
-        "mb_xl": 12,
+        "mt_xl": 14,
+        "mb_xl": 14,
         "pt_lg": 0,
         "pb_lg": 0,
-        "mt_lg": 10,
-        "mb_lg": 12,
+        "mt_lg": 13,
+        "mb_lg": 13,
         "pt_sm": 0,
         "pb_sm": 0,
         "mt_sm": 13,
@@ -940,54 +949,6 @@
         "mb_sm": 13
       }
     },
-    "1da6d290-5e65-44fc-8b7a-6af03f274b37": {
-      "type": "header_half",
-      "disabled": true,
-      "blocks": {
-        "cc077866-9181-4cfc-a19a-c34794bb6e3d": {
-          "type": "button",
-          "settings": {
-            "text": "Watch a video",
-            "url": "https:\/\/www.youtube.com\/watch?v=_kC3XcQkHkE",
-            "target": true,
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "cc077866-9181-4cfc-a19a-c34794bb6e3d"
-      ],
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "Creating internal innovation and intrapreneurship programs",
-        "text": "Hyper Island runs design sprints that go from a single morning immersion in design thinking to a year long innovation programme. <strong>BASF<\/strong> invited Hyper Island to help with the continuation of their BeyondtheHashtag program - an intrapreneurship program to identify internal innovation projects with teams from across the Americas. The project is open to all employees across the region to sign up and be part of the program which this year sought to employ futures thinking and future trends to the identification of innovation opportunities when applying human centric, planet centric and future centric design principles.",
-        "bg_color": "#f3f0ed",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/1d4290d9-460c-4b5b-b47c-f2878d72b34f.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-5",
-        "container": "container-fluid",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-75",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
-      }
-    },
     "eace86db-ef7e-456c-9886-5e04ba5d0f7a": {
       "type": "html",
       "disabled": true,
@@ -1136,67 +1097,6 @@
         "mb_sm": 13
       }
     },
-    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975": {
-      "type": "button-section",
-      "disabled": true,
-      "blocks": {
-        "726717ac-617a-4f9a-8b5f-fca52b092f42": {
-          "type": "button",
-          "settings": {
-            "text": "Send an e-mail",
-            "url": "mailto:viviane.nishimura@hyperisland.com",
-            "target": false,
-            "zap": false,
-            "zap_number": "",
-            "zap_msg": "",
-            "style": "rounded-white"
-          }
-        },
-        "709e746d-79fc-4e8a-b7cd-cf6ac3f99334": {
-          "type": "button",
-          "settings": {
-            "text": "Booking a call",
-            "url": "https:\/\/meetings.hubspot.com\/gleisson",
-            "target": false,
-            "zap": false,
-            "zap_number": "",
-            "zap_msg": "",
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "726717ac-617a-4f9a-8b5f-fca52b092f42",
-        "709e746d-79fc-4e8a-b7cd-cf6ac3f99334"
-      ],
-      "settings": {
-        "title": "TALK TO TIM",
-        "text": "We want to hear from you! Schedule a conversation with Tim and learn how Hyper Island can help your company or team.",
-        "img": "shopify:\/\/shop_images\/Tim-Lucas.jpg",
-        "bg_color": "#000000",
-        "bg_gradient": "",
-        "font_color": "text-light",
-        "title_size": "display-5",
-        "text_size": "fs-4",
-        "layout_align": "five",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
     "ca91f808-6934-447a-aaba-35feb8712939": {
       "type": "header",
       "disabled": true,
@@ -1216,54 +1116,6 @@
         "align_desktop": "text-lg-center",
         "align_mobile": "text-center",
         "content_width": "w-lg-50",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
-      }
-    },
-    "084000c6-5184-466c-8a6c-a8f304871687": {
-      "type": "header_half",
-      "disabled": true,
-      "blocks": {
-        "1dc42f03-b961-4c8d-9eed-065b5fe8b714": {
-          "type": "button",
-          "settings": {
-            "text": "I want to know more",
-            "url": "https:\/\/knowledge.hyperisland.com\/trends-hack",
-            "target": true,
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "1dc42f03-b961-4c8d-9eed-065b5fe8b714"
-      ],
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "Refreshing the skills, mindset and ways of working for teams",
-        "text": "Hyper Island is consistently helping teams update their skills and ways of working. Recent examples include helping teams at <strong>Netflix <\/strong>and <strong>Etsy<\/strong> to refresh their creativity and assisting <strong>UNICEF<\/strong> and <strong>AB InBev<\/strong>'s marketing teams to upgrade their digital marketing skill sets. We also recently helped the <strong>Inter-American Development Bank<\/strong> Barbados Team with a two day in person workshop to help the whole country team to understand agile from a mindset and behaviours perspective and explore opportunities for applying an agile tools and rituals in their everyday practices.",
-        "bg_color": "#f3f0ed",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/2-Metodologia.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-5",
-        "container": "container-fluid",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-75",
         "default_spacing": true,
         "pt_xl": 0,
         "pb_xl": 0,
@@ -1354,6 +1206,19 @@
         "mb_sm": 0
       }
     },
+    "949bdeb6-7de2-4971-a1a9-53a880ab735f": {
+      "type": "external-video",
+      "settings": {
+        "external_video": "https:\/\/youtu.be\/_mLcb1Yb64g",
+        "bg_color": "",
+        "max_width": "800",
+        "video_border": "rounded",
+        "pt": 11,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "33df1084-0138-4220-9e5e-642c9953b412": {
       "type": "newsletter-session",
       "blocks": {
@@ -1402,6 +1267,7 @@
   "order": [
     "9c25f7da-b7f9-4fd3-82f1-2c1a6e41d060",
     "b5f1f1a2-0bf1-4fe8-9bf5-70c95db1fc3c",
+    "178a8d6d-affd-4c21-aa0a-e47e4e5fbd25",
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "8f9bce09-0ef7-43c7-ace8-7776a81b900e",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
@@ -1414,16 +1280,14 @@
     "08897541-1444-4312-8baa-ea342ede0dd4",
     "698bf485-1eb8-4bec-9af7-12e4b920cf69",
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
-    "1da6d290-5e65-44fc-8b7a-6af03f274b37",
     "eace86db-ef7e-456c-9886-5e04ba5d0f7a",
     "9d451ffd-26b1-4240-a942-16c40227f2c4",
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
     "3978c612-ee33-49d6-9778-a9ec4801cd75",
-    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
     "ca91f808-6934-447a-aaba-35feb8712939",
-    "084000c6-5184-466c-8a6c-a8f304871687",
     "7ce244a3-69ec-4e72-a5a0-284e97e96803",
     "56c3d046-a91a-4a6c-ad40-f3db48f9c5a2",
+    "949bdeb6-7de2-4971-a1a9-53a880ab735f",
     "33df1084-0138-4220-9e5e-642c9953b412"
   ]
 }
