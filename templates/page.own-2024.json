@@ -1,7 +1,41 @@
 {
   "sections": {
+    "9c25f7da-b7f9-4fd3-82f1-2c1a6e41d060": {
+      "type": "header",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "COCRIANDO FUTUROS",
+        "text": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis.",
+        "bg_color": "#E3DFD3",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/HI_Energizer_OrangeGradient_720x405_02.gif",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "b5f1f1a2-0bf1-4fe8-9bf5-70c95db1fc3c": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -82,6 +116,7 @@
     },
     "8f9bce09-0ef7-43c7-ace8-7776a81b900e": {
       "type": "header_half",
+      "disabled": true,
       "blocks": {
         "57a0c943-7c6a-4c7c-91de-e038c4b8accb": {
           "type": "button",
@@ -184,6 +219,20 @@
     "29ca56c4-f726-47ee-901c-29756ceaf17c": {
       "type": "header",
       "disabled": true,
+      "blocks": {
+        "9ddcf745-1e9e-4c51-ac95-7b631ccd276f": {
+          "type": "button",
+          "settings": {
+            "text": "Call to Action",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "9ddcf745-1e9e-4c51-ac95-7b631ccd276f"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -575,6 +624,7 @@
     },
     "b0665530-e062-48f4-bd01-2da5ebf8f79a": {
       "type": "header_half",
+      "disabled": true,
       "blocks": {
         "726be544-089c-4234-b630-d3ee0343a953": {
           "type": "button",
@@ -640,6 +690,7 @@
     },
     "fe79b999-4357-4e47-a1c4-6197f81fb334": {
       "type": "header_half",
+      "disabled": true,
       "blocks": {
         "68bdb991-7548-4b40-a709-ac560d480ce1": {
           "type": "button",
@@ -801,6 +852,7 @@
     },
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
       "type": "clients",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "Some more of our Clients",
@@ -827,6 +879,7 @@
     },
     "1da6d290-5e65-44fc-8b7a-6af03f274b37": {
       "type": "header_half",
+      "disabled": true,
       "blocks": {
         "cc077866-9181-4cfc-a19a-c34794bb6e3d": {
           "type": "button",
@@ -892,6 +945,7 @@
     },
     "9d451ffd-26b1-4240-a942-16c40227f2c4": {
       "type": "header_half",
+      "disabled": true,
       "blocks": {
         "d9d1601a-dc1e-48d1-b729-8371dd8eb7cd": {
           "type": "button",
@@ -1116,6 +1170,7 @@
     },
     "084000c6-5184-466c-8a6c-a8f304871687": {
       "type": "header_half",
+      "disabled": true,
       "blocks": {
         "1dc42f03-b961-4c8d-9eed-065b5fe8b714": {
           "type": "button",
@@ -1237,6 +1292,7 @@
     }
   },
   "order": [
+    "9c25f7da-b7f9-4fd3-82f1-2c1a6e41d060",
     "b5f1f1a2-0bf1-4fe8-9bf5-70c95db1fc3c",
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "8f9bce09-0ef7-43c7-ace8-7776a81b900e",
