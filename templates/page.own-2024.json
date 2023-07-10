@@ -74,7 +74,7 @@
           "settings": {
             "header": "Good for few collaborators (< 20)",
             "title": "<strong>Package of seats in our cohort-based courses<\/strong>",
-            "text": "Get discount by buying a package of x seats. Flexibility to decide which collaborator will do which course in which time of the year <em>(4 cohorts per course per year). <\/em>",
+            "text": "<strong>Get discount by buying a package of x seats. <\/strong>Flexibility to decide which collaborator will do which course in which time of the year.",
             "url": "",
             "target": false,
             "font_color": "text-dark",
@@ -87,7 +87,7 @@
           "settings": {
             "header": "Good for higher number of collaborators (>20)",
             "title": "<strong>In-company Meta Skills journey<\/strong>",
-            "text": "Adaptability of the contents to your culture \/ pain points. Flexibility to decide date and time of the sessions.",
+            "text": "<strong>Adaptability of the contents to your culture or pain points.<\/strong> Flexibility to decide date and time of the sessions.",
             "url": "",
             "target": false,
             "font_color": "text-dark",
