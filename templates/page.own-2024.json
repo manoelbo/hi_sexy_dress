@@ -949,13 +949,13 @@
     "aa8ee0f9-777b-4702-a37d-144e5a927f3d": {
       "type": "html",
       "settings": {
-        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color<\/p>\n\n\n\n\n    <title>Meu Site<\/title>\n    <style>\n        \/* Estilos do site *\/\n    <\/style>\n\n\n    <!-- Cabeçalho -->\n    <header>\n        <!-- Conteúdo do cabeçalho -->\n    <\/header>\n    \n    <!-- Outros elementos do site -->\n    <div>\n        <!-- Conteúdo dos outros elementos -->\n    <\/div>\n\n    <!-- Sessão -->\n    <section>\n        <!-- Conteúdo da sessão -->\n\n        <!-- Inserir o GIF -->\n        <img src=\"\" c: alt=\"Meu GIF\">\n\n    <\/section>\n\n    <!-- Rodapé -->\n    <footer>\n        <!-- Conteúdo do rodapé -->\n    <\/footer>",
+        "html": "<iframe width=\"936\" height=\"490\" src=\"https:\/\/www.youtube.com\/embed\/_mLcb1Yb64g?autoplay=1\" title=\"OWN 2024\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
-        "title": "HTML code",
+        "title": "",
         "title_size": "h2",
-        "description": "<p>Write something catchy for this section<\/p>",
+        "description": "",
         "description_size": "fs-6",
         "pt": 0,
         "pb": 0,
