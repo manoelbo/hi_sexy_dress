@@ -946,37 +946,21 @@
         "mb_sm": 13
       }
     },
-    "3c908e68-3eba-4b8f-8b7f-0e329d0e3203": {
-      "type": "header_half",
+    "aa8ee0f9-777b-4702-a37d-144e5a927f3d": {
+      "type": "html",
       "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "",
-        "text": "",
-        "bg_color": "#E3DFD3",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/fd328afc-a431-459f-8d1b-64cad008d72f.gif",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "container": "container-xxl",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-100",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
+        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color<\/p>\n\n\n\n\n    <title>Meu Site<\/title>\n    <style>\n        \/* Estilos do site *\/\n    <\/style>\n\n\n    <!-- Cabeçalho -->\n    <header>\n        <!-- Conteúdo do cabeçalho -->\n    <\/header>\n    \n    <!-- Outros elementos do site -->\n    <div>\n        <!-- Conteúdo dos outros elementos -->\n    <\/div>\n\n    <!-- Sessão -->\n    <section>\n        <!-- Conteúdo da sessão -->\n\n        <!-- Inserir o GIF -->\n        <img src=\"\" c: alt=\"Meu GIF\">\n\n    <\/section>\n\n    <!-- Rodapé -->\n    <footer>\n        <!-- Conteúdo do rodapé -->\n    <\/footer>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "HTML code",
+        "title_size": "h2",
+        "description": "<p>Write something catchy for this section<\/p>",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
       }
     }
   },
@@ -1005,6 +989,6 @@
     "3978c612-ee33-49d6-9778-a9ec4801cd75",
     "ca91f808-6934-447a-aaba-35feb8712939",
     "33df1084-0138-4220-9e5e-642c9953b412",
-    "3c908e68-3eba-4b8f-8b7f-0e329d0e3203"
+    "aa8ee0f9-777b-4702-a37d-144e5a927f3d"
   ]
 }
