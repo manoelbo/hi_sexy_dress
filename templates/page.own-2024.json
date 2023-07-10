@@ -36,7 +36,7 @@
     "949bdeb6-7de2-4971-a1a9-53a880ab735f": {
       "type": "external-video",
       "settings": {
-        "external_video": "https:\/\/youtu.be\/_mLcb1Yb64g",
+        "external_video": "https:\/\/youtu.be\/W-W1tJM1pUY",
         "bg_color": "",
         "max_width": "800",
         "video_border": "rounded",
@@ -945,23 +945,6 @@
         "mt_sm": 13,
         "mb_sm": 13
       }
-    },
-    "aa8ee0f9-777b-4702-a37d-144e5a927f3d": {
-      "type": "html",
-      "settings": {
-        "html": "<iframe width=\"936\" height=\"490\" src=\"https:\/\/www.youtube.com\/embed\/_mLcb1Yb64g?autoplay=1\" title=\"OWN 2024\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>",
-        "bg_color": "",
-        "container": "container",
-        "text_align": "text-center",
-        "title": "",
-        "title_size": "h2",
-        "description": "",
-        "description_size": "fs-6",
-        "pt": 0,
-        "pb": 0,
-        "mt": 0,
-        "mb": 0
-      }
     }
   },
   "order": [
@@ -988,7 +971,6 @@
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
     "3978c612-ee33-49d6-9778-a9ec4801cd75",
     "ca91f808-6934-447a-aaba-35feb8712939",
-    "33df1084-0138-4220-9e5e-642c9953b412",
-    "aa8ee0f9-777b-4702-a37d-144e5a927f3d"
+    "33df1084-0138-4220-9e5e-642c9953b412"
   ]
 }
