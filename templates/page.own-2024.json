@@ -74,8 +74,8 @@
             "header": "Good for few collaborators (< 20)",
             "title": "<strong>Package of seats in our cohort-based courses<\/strong>",
             "text": "<strong>Get discount by buying a package of x seats. <\/strong>Flexibility to decide which collaborator will do which course in which time of the year.",
-            "url": "",
-            "target": false,
+            "url": "shopify:\/\/pages\/contact",
+            "target": true,
             "font_color": "text-dark",
             "bg_color": "#f5f5f5",
             "bg_gradient": ""
@@ -87,8 +87,8 @@
             "header": "Good for higher number of collaborators (>20)",
             "title": "<strong>In-company Meta Skills journey<\/strong>",
             "text": "<strong>Adaptability of the contents to your culture or pain points.<\/strong> Flexibility to decide date and time of the sessions.",
-            "url": "",
-            "target": false,
+            "url": "shopify:\/\/pages\/contact",
+            "target": true,
             "font_color": "text-dark",
             "bg_color": "#e3dfd3",
             "bg_gradient": ""
