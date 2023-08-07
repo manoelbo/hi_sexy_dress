@@ -187,12 +187,24 @@
             "bg_color": "",
             "bg_gradient": ""
           }
+        },
+        "15167b0f-4df3-43d2-a238-543fb8ec4b85": {
+          "type": "content",
+          "settings": {
+            "title": "+20",
+            "text": "ANOS DE EXPERIÊNCIA",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
         }
       },
       "block_order": [
         "624cd2c1-885e-40a8-8a5c-111d94cdfe5f",
         "51c6c1a4-ade9-4171-915a-0725cc3ac507",
-        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7"
+        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7",
+        "15167b0f-4df3-43d2-a238-543fb8ec4b85"
       ],
       "settings": {
         "hidden": false,
@@ -215,7 +227,7 @@
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
-        "layout": "col-lg-4",
+        "layout": "col-lg-3",
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-center",
         "default_spacing": false,
@@ -1128,7 +1140,7 @@
         "desktop_only": false,
         "title": "COCRIANDO FUTUROS 2",
         "text": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis.",
-        "bg_color": "#E3DFD3",
+        "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "font_color": "text-dark",
         "title_size": "display-1",
