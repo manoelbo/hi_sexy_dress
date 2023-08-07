@@ -117,8 +117,8 @@
         "align_mobile": "text-left",
         "content_width": "w-lg-auto",
         "c_font_color": "text-dark",
-        "c_title_size": "display-5",
-        "c_text_size": "fs-4",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-6",
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
@@ -152,7 +152,100 @@
         "smb_xs": 0
       }
     },
-    "7449ce8e-0310-4166-b2b2-a39c01a9df79": {
+    "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
+      "type": "content",
+      "blocks": {
+        "624cd2c1-885e-40a8-8a5c-111d94cdfe5f": {
+          "type": "content",
+          "settings": {
+            "title": "+1870",
+            "text": "ORGANIZAÇÕES TRANSFORMADAS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "51c6c1a4-ade9-4171-915a-0725cc3ac507": {
+          "type": "content",
+          "settings": {
+            "title": "+26.000",
+            "text": "PROFISSIONAIS IMPACTADOS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7": {
+          "type": "content",
+          "settings": {
+            "title": "+280",
+            "text": "FACILITADORES E ESPECIALISTAS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "624cd2c1-885e-40a8-8a5c-111d94cdfe5f",
+        "51c6c1a4-ade9-4171-915a-0725cc3ac507",
+        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Hyper Island In-Company<\/strong>",
+        "text": "",
+        "font_color": "text-light",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#212529",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-light",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 8,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 13,
+        "mb_lg": 9,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 7,
+        "mb_sm": 5,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "c430f074-5259-4355-a6d3-9ebed4961086": {
       "type": "richtext",
       "settings": {
         "bg_color": "",
@@ -166,7 +259,7 @@
         "btn_url": "",
         "btn_color": "btn-primary",
         "btn_size": "",
-        "pt": 0,
+        "pt": 10,
         "pb": 0,
         "mt": 0,
         "mb": 0
@@ -226,133 +319,14 @@
         "pb_xl": 13,
         "mt_xl": 16,
         "mb_xl": 0,
-        "pt_lg": 17,
-        "pb_lg": 13,
+        "pt_lg": 11,
+        "pb_lg": 4,
         "mt_lg": 3,
         "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
+        "pt_sm": 5,
+        "pb_sm": 7,
         "mt_sm": 0,
         "mb_sm": 0
-      }
-    },
-    "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
-      "type": "content",
-      "blocks": {
-        "624cd2c1-885e-40a8-8a5c-111d94cdfe5f": {
-          "type": "content",
-          "settings": {
-            "title": "+1870",
-            "text": "ORGANIZAÇÕES TRANSFORMADAS",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "51c6c1a4-ade9-4171-915a-0725cc3ac507": {
-          "type": "content",
-          "settings": {
-            "title": "+26.000",
-            "text": "PROFISSIONAIS IMPACTADOS",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7": {
-          "type": "content",
-          "settings": {
-            "title": "+280",
-            "text": "FACILITADORES E ESPECIALISTAS",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "624cd2c1-885e-40a8-8a5c-111d94cdfe5f",
-        "51c6c1a4-ade9-4171-915a-0725cc3ac507",
-        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7"
-      ],
-      "settings": {
-        "hidden": false,
-        "title": "<strong>Hyper Island In-Company<\/strong>",
-        "text": "",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-5",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-50",
-        "c_font_color": "text-dark",
-        "c_title_size": "display-4",
-        "c_text_size": "fs-4",
-        "c_header_size": "fs-6",
-        "c_bg_color": "",
-        "c_bg_gradient": "",
-        "layout": "col-lg-4",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-center",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
-      }
-    },
-    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
-      "type": "clients",
-      "settings": {
-        "hidden": false,
-        "title": "Empresas que confiam na gente",
-        "text": "",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
       }
     },
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975": {
@@ -413,6 +387,26 @@
         "pb_sm": 10,
         "mt_sm": 0,
         "mb_sm": 0
+      }
+    },
+    "7449ce8e-0310-4166-b2b2-a39c01a9df79": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "",
+        "max_width": "960",
+        "text_align": "text-center",
+        "title": "Cursos disponíveis... e customizáveis!",
+        "title_size": "h1",
+        "description": "",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 12,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
       }
     },
     "27f908dd-e677-4d9b-9d8b-2cac654683b7": {
@@ -696,19 +690,105 @@
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "layout": "col-lg-3 col-md-6",
-        "default_spacing": true,
+        "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
-        "mt_xl": 16,
+        "mt_xl": 9,
         "mb_xl": 4,
         "pt_lg": 0,
         "pb_lg": 0,
-        "mt_lg": 16,
+        "mt_lg": 13,
         "mb_lg": 4,
         "pt_sm": 0,
         "pb_sm": 0,
         "mt_sm": 13,
         "mb_sm": 4
+      }
+    },
+    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
+      "type": "clients",
+      "settings": {
+        "hidden": false,
+        "title": "Empresas que confiam na gente",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 12,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
+      }
+    },
+    "6f6ab3d1-eacb-4d81-873e-61f67eb66dca": {
+      "type": "button-section",
+      "blocks": {
+        "a8bb4d50-d328-4a90-8f5d-a3a7575f5ec8": {
+          "type": "button",
+          "settings": {
+            "text": "E-mail",
+            "url": "mailto:viviane.nishimura@hyperisland.com",
+            "target": false,
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
+            "style": "rounded-white"
+          }
+        },
+        "f852d232-e984-4635-8d12-e778644f5f18": {
+          "type": "button",
+          "settings": {
+            "text": "Whatsapp",
+            "url": "",
+            "target": false,
+            "zap": true,
+            "zap_number": "5511999882445",
+            "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "a8bb4d50-d328-4a90-8f5d-a3a7575f5ec8",
+        "f852d232-e984-4635-8d12-e778644f5f18"
+      ],
+      "settings": {
+        "title": "Fale com a gente",
+        "text": "Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
+        "img": "shopify:\/\/shop_images\/1675811085451.jpg",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-5",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
       }
     },
     "b0665530-e062-48f4-bd01-2da5ebf8f79a": {
@@ -1077,12 +1157,14 @@
   "order": [
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "3b5917f9-2d09-43e0-8960-953b61bccbd2",
-    "7449ce8e-0310-4166-b2b2-a39c01a9df79",
-    "8597148a-9dc3-48b3-8217-29af39739c9a",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
-    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
+    "c430f074-5259-4355-a6d3-9ebed4961086",
+    "8597148a-9dc3-48b3-8217-29af39739c9a",
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
+    "7449ce8e-0310-4166-b2b2-a39c01a9df79",
     "27f908dd-e677-4d9b-9d8b-2cac654683b7",
+    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
+    "6f6ab3d1-eacb-4d81-873e-61f67eb66dca",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
     "fe79b999-4357-4e47-a1c4-6197f81fb334",
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce",
