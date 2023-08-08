@@ -7,8 +7,8 @@
           "type": "button",
           "settings": {
             "text": "ENTRE EM CONTATO",
-            "url": "shopify:\/\/pages\/contato",
-            "target": false,
+            "url": "mailto:viviane.nishimura@hyperisland.com",
+            "target": true,
             "style": "rounded-white"
           }
         }
@@ -20,10 +20,10 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "<strong>TREINAMENTOS CORPORATIVOS<\/strong>",
-        "text": "Que transformam organizações e indivíduos",
+        "text": "Se a sua busca é por um impacto real, somos o parceiro de referência para a região das Américas! Hyper Island cria e lidera jornadas que inspiram organizações, catalisam inovação e transformam indivíduos.",
         "bg_color": "#212529",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/hyperisland.jpg",
+        "bg_image": "shopify:\/\/shop_images\/R0009616.jpg",
         "overlay_opacity": 30,
         "font_color": "text-light",
         "title_size": "display-0",
