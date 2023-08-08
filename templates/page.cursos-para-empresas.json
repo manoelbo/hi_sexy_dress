@@ -47,14 +47,152 @@
         "mb_sm": 7
       }
     },
+    "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
+      "type": "content",
+      "blocks": {
+        "624cd2c1-885e-40a8-8a5c-111d94cdfe5f": {
+          "type": "content",
+          "settings": {
+            "title": "+1870",
+            "text": "ORGANIZAÇÕES TRANSFORMADAS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "51c6c1a4-ade9-4171-915a-0725cc3ac507": {
+          "type": "content",
+          "settings": {
+            "title": "+26.000",
+            "text": "PROFISSIONAIS IMPACTADOS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7": {
+          "type": "content",
+          "settings": {
+            "title": "+280",
+            "text": "FACILITADORES E ESPECIALISTAS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "15167b0f-4df3-43d2-a238-543fb8ec4b85": {
+          "type": "content",
+          "settings": {
+            "title": "+20",
+            "text": "ANOS DE EXPERIÊNCIA NO MERCADO",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "624cd2c1-885e-40a8-8a5c-111d94cdfe5f",
+        "51c6c1a4-ade9-4171-915a-0725cc3ac507",
+        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7",
+        "15167b0f-4df3-43d2-a238-543fb8ec4b85"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Hyper Island In-Company<\/strong>",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#fff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-3",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 8,
+        "mb_xl": 16,
+        "pt_lg": 3,
+        "pb_lg": 4,
+        "mt_lg": 13,
+        "mb_lg": 11,
+        "pt_sm": 2,
+        "pb_sm": 0,
+        "mt_sm": 7,
+        "mb_sm": 5,
+        "py_lg": 3,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 3,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 4,
+        "smb_xs": 0
+      }
+    },
+    "1da6d290-5e65-44fc-8b7a-6af03f274b37": {
+      "type": "header_half",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "<strong>Nossa Metodologia<\/strong>",
+        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.<\/strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
+        "bg_color": "#f3f0ed",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/2_Metodologia_92de7774-1a0d-4c4e-9c8b-e7fd33b385d8.jpg",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-5",
+        "container": "container-fluid",
+        "layout-align": "left",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-75",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
+      }
+    },
     "3b5917f9-2d09-43e0-8960-953b61bccbd2": {
       "type": "content",
       "blocks": {
         "a2a7010d-8931-4448-b87b-57a7446c8ae1": {
           "type": "content",
           "settings": {
-            "title": "Aprender fazendo",
-            "text": "Empoderar e desafiar as pessoas a assumirem o seu próprio aprendizado. Assim todos aprendemos melhor.",
+            "title": "Conteúdos Relevantes",
+            "text": "Inspirando os participantes através de conteúdos de ponta e cases práticos, para provocar e inspirar uma mudança de mindset.",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"><\/path>\n<\/svg>",
             "bg_color": "",
@@ -64,8 +202,8 @@
         "ba4eb60a-ec40-4812-b5eb-fa11bd7e6306": {
           "type": "content",
           "settings": {
-            "title": "Feedback & Comunicação",
-            "text": "Fornecer as técnicas de comunicação essenciais para realizar a inclusão e empatia pelos outros por meio de escuta ativa, feedback e diálogo eficaz.",
+            "title": "Aprender Fazendo",
+            "text": "Engajando os participantes em atividades lúdicas e grupos pequenos, para experimentar ferramentas e ampliar expertise.",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"><\/path>\n<\/svg>",
             "bg_color": "",
@@ -75,8 +213,8 @@
         "212db2ee-9eae-49b0-93f0-000372dcde26": {
           "type": "content",
           "settings": {
-            "title": "Time é tudo",
-            "text": "Colaboração é a chave moderna em um mundo complexo e de constantes transformações que demanda times mais ágeis e responsivos.",
+            "title": "Engajamento Pós-sessão",
+            "text": "Incentivando os participantes a aplicar na vida real o que foi aprendido na sessão, por meio de desafios individuais ou em grupos, para promover a colaboração.",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"><\/path>\n<\/svg>",
             "bg_color": "",
@@ -86,8 +224,8 @@
         "f195bfdf-0acb-4f92-8d53-b960bc28485c": {
           "type": "content",
           "settings": {
-            "title": "Time é tudo",
-            "text": "O desenvolvimento do hábito da reflexão crítica para indivíduos e equipes oferece a oportunidade de ampliar a experiência de aprendizagem e seus resultados.",
+            "title": "Praticar a Reflexão",
+            "text": "Fomentando o hábito da reflexão crítica em indivíduos e equipes, para enriquecer a experiência de aprendizagem e otimizar seus resultados na organização.",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"><\/path>\n<\/svg>",
             "bg_color": "",
@@ -103,7 +241,7 @@
       ],
       "settings": {
         "hidden": false,
-        "title": "Nossa Metodologia",
+        "title": "",
         "text": "",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -152,115 +290,10 @@
         "smb_xs": 0
       }
     },
-    "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
-      "type": "content",
-      "blocks": {
-        "624cd2c1-885e-40a8-8a5c-111d94cdfe5f": {
-          "type": "content",
-          "settings": {
-            "title": "+1870",
-            "text": "ORGANIZAÇÕES TRANSFORMADAS",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "51c6c1a4-ade9-4171-915a-0725cc3ac507": {
-          "type": "content",
-          "settings": {
-            "title": "+26.000",
-            "text": "PROFISSIONAIS IMPACTADOS",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7": {
-          "type": "content",
-          "settings": {
-            "title": "+280",
-            "text": "FACILITADORES E ESPECIALISTAS",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "15167b0f-4df3-43d2-a238-543fb8ec4b85": {
-          "type": "content",
-          "settings": {
-            "title": "+20",
-            "text": "ANOS DE EXPERIÊNCIA",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "624cd2c1-885e-40a8-8a5c-111d94cdfe5f",
-        "51c6c1a4-ade9-4171-915a-0725cc3ac507",
-        "38fc0b97-886d-47f5-b58c-ac1f8a911ce7",
-        "15167b0f-4df3-43d2-a238-543fb8ec4b85"
-      ],
-      "settings": {
-        "hidden": false,
-        "title": "<strong>Hyper Island In-Company<\/strong>",
-        "text": "",
-        "font_color": "text-light",
-        "title_size": "display-4",
-        "text_size": "fs-5",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#212529",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-50",
-        "c_font_color": "text-light",
-        "c_title_size": "display-4",
-        "c_text_size": "fs-4",
-        "c_header_size": "fs-6",
-        "c_bg_color": "",
-        "c_bg_gradient": "",
-        "layout": "col-lg-3",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-center",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 8,
-        "mb_xl": 16,
-        "pt_lg": 3,
-        "pb_lg": 4,
-        "mt_lg": 13,
-        "mb_lg": 11,
-        "pt_sm": 2,
-        "pb_sm": 0,
-        "mt_sm": 7,
-        "mb_sm": 5,
-        "py_lg": 3,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 3,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 4,
-        "smb_xs": 0
-      }
-    },
     "c430f074-5259-4355-a6d3-9ebed4961086": {
       "type": "richtext",
       "settings": {
-        "bg_color": "",
+        "bg_color": "bg-light text-dark",
         "max_width": "960",
         "text_align": "text-center",
         "title": "Nossos Formatos",
@@ -271,7 +304,7 @@
         "btn_url": "",
         "btn_color": "btn-primary",
         "btn_size": "",
-        "pt": 10,
+        "pt": 0,
         "pb": 0,
         "mt": 0,
         "mb": 0
@@ -285,7 +318,7 @@
           "settings": {
             "category_id": "",
             "title": "Online ou Presencial",
-            "text": "Você escolhe os dias e horários que melhor se adequam às necessidades dos seus times",
+            "text": "VOCÊ ESCOLHE OS DIAS E HORÁRIOS QUE MELHOR SE ADEQUAM ÀS NECESSIDADES DOS SEUS TIMES.",
             "url": "",
             "target": false
           }
@@ -294,8 +327,8 @@
           "type": "card",
           "settings": {
             "category_id": "",
-            "title": "Quer Customizar?",
-            "text": "Nossas jornadas são 100% customizáveis às necessidades da sua equipe",
+            "title": "100% Custommizáveis",
+            "text": "ADAPTAMOS AS NOSSAS JORNADAS ÀS SUAS DEMANDAS ESPECÍFICAS.",
             "url": "",
             "target": false
           }
@@ -304,8 +337,8 @@
           "type": "card",
           "settings": {
             "category_id": "",
-            "title": "Não só em Português!",
-            "text": "Nossas jornadas são disponíveis em Português, Espanhol e Inglês para você transformar sua região Américas",
+            "title": "Português, Espanhol e Inglês",
+            "text": "NOSSAS JORNADAS ESTÃO EM 3 IDIOMAS PARA TRANSFORMAR TODA SUA REGIÃO AMÉRICAS.",
             "url": "",
             "target": false
           }
@@ -323,20 +356,20 @@
         "header": "",
         "header_size": "fs-1",
         "svg": "",
-        "bg_color": "#ffffff",
+        "bg_color": "#f5f5f5",
         "bg_gradient": "",
-        "layout": "col-lg-3 col-md-6",
+        "layout": "col-lg-4",
         "default_spacing": false,
-        "pt_xl": 13,
-        "pb_xl": 13,
-        "mt_xl": 16,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
         "mb_xl": 0,
-        "pt_lg": 9,
-        "pb_lg": 6,
-        "mt_lg": 3,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
         "mb_lg": 0,
-        "pt_sm": 5,
-        "pb_sm": 9,
+        "pt_sm": 0,
+        "pb_sm": 0,
         "mt_sm": 0,
         "mb_sm": 0
       }
@@ -985,40 +1018,6 @@
         "mb": 13
       }
     },
-    "1da6d290-5e65-44fc-8b7a-6af03f274b37": {
-      "type": "header_half",
-      "disabled": true,
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "<strong>CURADORIA DE EVENTOS<\/strong>",
-        "text": "Ajudamos a sua empresa com o desenho e planejamento de eventos corporativos. Projetos que vão desde a criação do conceito, desenvolvimento das dinâmicas de aprendizagem, até a construção do time de <em>speakers<\/em>.",
-        "bg_color": "#f3f0ed",
-        "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/4-Eventos.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-5",
-        "container": "container-fluid",
-        "layout-align": "left",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-75",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
-      }
-    },
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad": {
       "type": "header_half",
       "disabled": true,
@@ -1168,8 +1167,9 @@
   },
   "order": [
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
-    "3b5917f9-2d09-43e0-8960-953b61bccbd2",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
+    "1da6d290-5e65-44fc-8b7a-6af03f274b37",
+    "3b5917f9-2d09-43e0-8960-953b61bccbd2",
     "c430f074-5259-4355-a6d3-9ebed4961086",
     "8597148a-9dc3-48b3-8217-29af39739c9a",
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
@@ -1182,7 +1182,6 @@
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce",
     "08897541-1444-4312-8baa-ea342ede0dd4",
     "698bf485-1eb8-4bec-9af7-12e4b920cf69",
-    "1da6d290-5e65-44fc-8b7a-6af03f274b37",
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
     "ca91f808-6934-447a-aaba-35feb8712939",
     "33df1084-0138-4220-9e5e-642c9953b412",
