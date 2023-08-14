@@ -19,8 +19,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "<strong>BUSINESS TRANSFORMATION<\/strong>",
-        "text": "Leve para a sua organização uma metodologia exclusiva que pode ajudar você a transformar realidades e alcançar o sucesso de forma mais eficaz.",
+        "title": "behavioural design",
+        "text": "[Corporativo]⠀⠀⠀⠀⠀⠀⠀⠀⠀ Resumo em 2 frases do que é o curso",
         "bg_color": "#212529",
         "bg_gradient": "",
         "bg_image": "shopify:\/\/shop_images\/1_Header_Para_Empresas.jpg",
@@ -31,7 +31,7 @@
         "container": "container-fluid",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-center",
-        "content_width": "w-lg-50",
+        "content_width": "w-lg-25",
         "default_spacing": true,
         "pt_xl": 15,
         "pb_xl": 12,
@@ -47,30 +47,292 @@
         "mb_sm": 7
       }
     },
-    "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
+    "5c461b20-3406-4157-9abe-c8b9f67b257a": {
       "type": "content",
+      "blocks": {
+        "683f4e59-0a96-4362-b2aa-2a822e25497f": {
+          "type": "content",
+          "settings": {
+            "title": "▸Conteúdo 1",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "17f357ff-b9cd-4d04-9e33-1f73c8022713": {
+          "type": "content",
+          "settings": {
+            "title": "▸Conteúdo 2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "4fbce1a4-ef5d-4533-b133-9fc95a4eca21": {
+          "type": "content",
+          "settings": {
+            "title": "▸ Conteúdo 3",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "cc87ed9d-6155-4bca-bab2-5aa454963f15": {
+          "type": "content",
+          "settings": {
+            "title": "▸ Conteúdo 4",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "683f4e59-0a96-4362-b2aa-2a822e25497f",
+        "17f357ff-b9cd-4d04-9e33-1f73c8022713",
+        "4fbce1a4-ef5d-4533-b133-9fc95a4eca21",
+        "cc87ed9d-6155-4bca-bab2-5aa454963f15"
+      ],
       "settings": {
         "hidden": false,
-        "title": "<strong>Hyper Island Way™<\/strong>",
-        "text": "A capacidade de reaprender é o que impulsiona as pessoas a agirem e levarem as organizações adiante. Ao longo de 26 anos, a Hyper Island criou uma metodologia que combina ferramentas e rituais exclusivos que criam o ambiente ideal para que isso aconteça. ",
+        "title": "Conteúdos do Curso",
+        "text": "",
         "font_color": "text-dark",
         "title_size": "display-4",
-        "text_size": "fs-5",
+        "text_size": "fs-4",
         "header": "",
         "header_size": "fs-6",
         "svg": "",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-50",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
         "c_font_color": "text-dark",
-        "c_title_size": "display-4",
-        "c_text_size": "fs-4",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-5",
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
         "layout": "col-md-12",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 10,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 16,
+        "pb_lg": 9,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "e573ba70-47d0-430c-a468-c31018b3e318": {
+      "type": "content",
+      "blocks": {
+        "8b49f9c9-3c2b-479a-85f3-638202f83f31": {
+          "type": "content",
+          "settings": {
+            "title": "☑ Habilidade 1",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "6776a457-d9dd-46ca-828f-8613b453dbd0": {
+          "type": "content",
+          "settings": {
+            "title": "☑ Habilidade 2",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "c43ea810-63db-421a-91b7-b5989c4b4b06": {
+          "type": "content",
+          "settings": {
+            "title": "☑ Habilidade 3",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "4ac406f6-ab27-4e5d-833d-77a59ed56a92": {
+          "type": "content",
+          "settings": {
+            "title": "☑ Habilidade 4",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "8b49f9c9-3c2b-479a-85f3-638202f83f31",
+        "6776a457-d9dd-46ca-828f-8613b453dbd0",
+        "c43ea810-63db-421a-91b7-b5989c4b4b06",
+        "4ac406f6-ab27-4e5d-833d-77a59ed56a92"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "DEPOIS DO TREINAMENTO SUAS EQUIPES SABERÃO:",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-5",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 10,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 16,
+        "pb_lg": 9,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "0f4c8639-bf22-4a2f-a677-cfcaffd4b709": {
+      "type": "content",
+      "blocks": {
+        "0e588ce3-2c23-42fc-a107-ec68199a37a0": {
+          "type": "content",
+          "settings": {
+            "title": "Conteúdos Relevantes",
+            "text": "Inspirando os participantes através de conteúdos de ponta e cases práticos, para provocar e inspirar uma mudança de mindset.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "96fdb9d0-d330-495d-b196-ee351de4fe4b": {
+          "type": "content",
+          "settings": {
+            "title": "Aprendizagem Ativa",
+            "text": "Engajando os participantes em atividades lúdicas e grupos pequenos, para experimentar ferramentas e ampliar expertise.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "f3365c6b-9fe4-46e0-b646-94e57795b809": {
+          "type": "content",
+          "settings": {
+            "title": "Desafios Pós-sessão",
+            "text": "Incentivando os participantes a aplicar na vida real o que foi aprendido na sessão, por meio de desafios individuais ou em grupos, para promover a colaboração.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "2e7788a1-d6ce-4c5f-a2ec-3494b3e26470": {
+          "type": "content",
+          "settings": {
+            "title": "Reflexão Prática",
+            "text": "Fomentando o hábito da reflexão crítica em indivíduos e equipes, para enriquecer a experiência de aprendizagem e otimizar seus resultados na organização.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "0e588ce3-2c23-42fc-a107-ec68199a37a0",
+        "96fdb9d0-d330-495d-b196-ee351de4fe4b",
+        "f3365c6b-9fe4-46e0-b646-94e57795b809",
+        "2e7788a1-d6ce-4c5f-a2ec-3494b3e26470"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Porque levar a Hyper para a sua empresa?<\/strong>",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#fff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-5",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-3",
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-center",
         "default_spacing": false,
@@ -100,8 +362,114 @@
         "smb_xs": 0
       }
     },
+    "0170ed32-b866-4ba3-a631-9f2fbd3cb411": {
+      "type": "content",
+      "blocks": {
+        "2123278f-cfc5-4796-ac82-d00ec566ba2f": {
+          "type": "content",
+          "settings": {
+            "title": "+ 1870",
+            "text": "ORGANIZAÇÕES TRANSFORMADAS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "2a2bf5b1-3805-45f1-98e4-d44ec6d4f498": {
+          "type": "content",
+          "settings": {
+            "title": "+ 26.000",
+            "text": "PROFISSIONAIS IMPACTADOS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "49974cd0-187f-4686-80c9-bd5ca83ed024": {
+          "type": "content",
+          "settings": {
+            "title": "+ 280",
+            "text": "FACILITADORES E ESPECIALISTAS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "3a99c4f7-4674-4880-a3b7-6b63d73c1165": {
+          "type": "content",
+          "settings": {
+            "title": "+ 20",
+            "text": "ANOS DE EXPERIÊNCIA NO MERCADO",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "2123278f-cfc5-4796-ac82-d00ec566ba2f",
+        "2a2bf5b1-3805-45f1-98e4-d44ec6d4f498",
+        "49974cd0-187f-4686-80c9-bd5ca83ed024",
+        "3a99c4f7-4674-4880-a3b7-6b63d73c1165"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Hyper Island In-Company<\/strong>",
+        "text": "",
+        "font_color": "text-light",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#212529",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-light",
+        "c_title_size": "display-5",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-3",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 12,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 11,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13,
+        "py_lg": 5,
+        "px_lg": 0,
+        "my_lg": 1,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 3,
+        "smb_lg": 3,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
     "b0665530-e062-48f4-bd01-2da5ebf8f79a": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -135,6 +503,7 @@
     },
     "fe79b999-4357-4e47-a1c4-6197f81fb334": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -429,6 +798,7 @@
         "053307ba-1789-4e7e-a375-2f9d4ae4c4df",
         "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0"
       ],
+      "disabled": true,
       "settings": {
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -456,6 +826,7 @@
     },
     "109d28db-848c-4d3f-85ba-4a8e64fb65ce": {
       "type": "separator",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "opacity": 0,
@@ -505,6 +876,7 @@
         "18d64b6c-c55f-4059-ba78-4e16056af366",
         "e90f85e4-e9bb-4174-9f58-b155b63dacbd"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "<strong>Sprints de Inovação<\/strong>",
@@ -568,6 +940,7 @@
     },
     "1da6d290-5e65-44fc-8b7a-6af03f274b37": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -601,6 +974,7 @@
     },
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad": {
       "type": "header_half",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -630,6 +1004,32 @@
         "pb_sm": 0,
         "mt_sm": 0,
         "mb_sm": 0
+      }
+    },
+    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
+      "type": "clients",
+      "settings": {
+        "hidden": false,
+        "title": "Nossos Clientes",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
       }
     },
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975": {
@@ -666,7 +1066,7 @@
       ],
       "settings": {
         "title": "FALE COM A VIVI",
-        "text": "Queremos te ouvir! Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
+        "text": "Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar a transformar a sua empresa.",
         "img": "shopify:\/\/shop_images\/1675811085451.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
@@ -692,34 +1092,9 @@
         "mb_sm": 0
       }
     },
-    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
-      "type": "clients",
-      "settings": {
-        "hidden": false,
-        "title": "Nossos Clientes",
-        "text": "",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
-      }
-    },
     "ca91f808-6934-447a-aaba-35feb8712939": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -767,6 +1142,7 @@
       "block_order": [
         "6224f3b1-1467-47bf-b2d2-3843e5059a2c"
       ],
+      "disabled": true,
       "settings": {
         "title": "RECEBA NOSSOS CONTEÚDOS",
         "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
@@ -798,7 +1174,10 @@
   },
   "order": [
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
-    "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
+    "5c461b20-3406-4157-9abe-c8b9f67b257a",
+    "e573ba70-47d0-430c-a468-c31018b3e318",
+    "0f4c8639-bf22-4a2f-a677-cfcaffd4b709",
+    "0170ed32-b866-4ba3-a631-9f2fbd3cb411",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
     "fe79b999-4357-4e47-a1c4-6197f81fb334",
     "27f908dd-e677-4d9b-9d8b-2cac654683b7",
@@ -807,8 +1186,8 @@
     "698bf485-1eb8-4bec-9af7-12e4b920cf69",
     "1da6d290-5e65-44fc-8b7a-6af03f274b37",
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
-    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
+    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
     "ca91f808-6934-447a-aaba-35feb8712939",
     "33df1084-0138-4220-9e5e-642c9953b412"
   ]
