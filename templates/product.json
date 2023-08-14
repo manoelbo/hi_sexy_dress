@@ -173,7 +173,6 @@
     },
     "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb": {
       "type": "content",
-      "disabled": true,
       "blocks": {
         "9418dca7-749c-44a1-85df-12190cb65c7a": {
           "type": "content",
@@ -250,6 +249,7 @@
         "a5c9b93a-6a66-4b64-a9cd-33dd8ede388b",
         "c6a17386-622e-4a05-be17-d3879e749e48"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "PROGRAMA DO CURSO",
@@ -335,7 +335,7 @@
       ],
       "settings": {
         "title": "PARA GRUPOS E EMPRESAS",
-        "text": "Quer levar esse curso para uma sessão exclusiva in-company? Converse com a Sabryna para saber como podemos te ajudo!",
+        "text": "Quer levar esse curso para uma sessão exclusiva in-company? Converse com a Sabryna para saber como podemos te ajudar!",
         "img": "shopify:\/\/shop_images\/1587057149123.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
