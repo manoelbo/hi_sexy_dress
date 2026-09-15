@@ -94,7 +94,7 @@
                         </p>
                     {% endfor %}
                     
-                    {% render 'pagination' with paginate: paginate %}
+                    {% render 'pagination' with paginate, paginate: paginate %}
                 {% endpaginate %}
             </div>
             <div 
@@ -426,4 +426,13 @@
             </div>
         </div>
     {% endfor %}
-{% endpaginate %}
+{% endpaginate %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'pagination' with paginate: paginate %}"
+  to: "{% render 'pagination' with paginate, paginate: paginate %}"
+  position: 4748..4807
+{%- endcomment -%}
