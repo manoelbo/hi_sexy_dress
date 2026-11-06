@@ -110,7 +110,7 @@
                             {% endfor %}
                         </ul>
                     {% endif %}
-                    {% render 'pagination' with paginate: paginate %}
+                    {% render 'pagination' with paginate, paginate: paginate %}
                 {% endpaginate %}
             {% endif %}
         </div>
@@ -420,4 +420,13 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'pagination' with paginate: paginate %}"
+  to: "{% render 'pagination' with paginate, paginate: paginate %}"
+  position: 6322..6381
+{%- endcomment -%}

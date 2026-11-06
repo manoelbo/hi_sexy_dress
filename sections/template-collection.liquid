@@ -143,7 +143,7 @@
                         {% render 'product-item', product: product %}
                     {% endfor %}
                 </ul>
-                {% render 'pagination' with paginate: paginate %}
+                {% render 'pagination' with paginate, paginate: paginate %}
             {% endif %}
         {% endpaginate %}
     </div>
@@ -391,4 +391,13 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'pagination' with paginate: paginate %}"
+  to: "{% render 'pagination' with paginate, paginate: paginate %}"
+  position: 7833..7892
+{%- endcomment -%}

@@ -30,7 +30,7 @@
                     {% render 'collection-item', collection: collection %}
                 {% endfor %}
             </ul>
-            {% render 'pagination' with paginate: paginate %}
+            {% render 'pagination' with paginate, paginate: paginate %}
         {% endpaginate %}
     </div>
 </div>
@@ -253,4 +253,13 @@
         }
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'pagination' with paginate: paginate %}"
+  to: "{% render 'pagination' with paginate, paginate: paginate %}"
+  position: 1675..1734
+{%- endcomment -%}
